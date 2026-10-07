@@ -1,0 +1,14 @@
+{
+  "epochs": 20,
+  "batch": 8,
+  "lr": 0.0001,
+  "device": "mps",
+  "seed": 42,
+  "image_size": 384,
+  "train_images": 300,
+  "optimizer": "AdamW",
+  "augmentation": "none (letterbox only)",
+  "selection_sha256": "ab6ac8464dea3a9aa055c296f3f345156c0c59d685c88d6aaf71d3e47c18187e",
+  "initial_weights_sha256": "4d525da3ebe44fb6e6bfe8b05ca717b777db3feb2b44b472250f8b32f4754fdb",
+  "checkpoint_selection": "last fixed epoch; no validation/test access"
+}

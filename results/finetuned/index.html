@@ -1,0 +1,128 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>US License Plates | Detection Preview</title><style>
+    *{box-sizing:border-box}body{margin:0;background:#f4f6f8;color:#172536;font:15px system-ui,sans-serif}
+    main{max-width:1000px;margin:auto;padding:24px}h1{font-size:26px;margin:0 0 12px}header p{line-height:1.7;color:#526273}
+    article{background:white;border:1px solid #dfe6ed;border-radius:12px;padding:14px;margin:16px 0}h2{font-size:15px;overflow-wrap:anywhere;margin:0}
+    article>p{color:#657588;font-size:12px;margin:8px 0}.pair{display:grid;grid-template-columns:1fr 1fr;gap:12px}figure{margin:0;min-width:0}
+    figcaption{margin-bottom:6px;font-size:12px;font-weight:600}.pair img{width:100%;height:200px;object-fit:contain;background:#edf1f5;border-radius:6px}
+    .crops{display:flex;gap:12px;flex-wrap:wrap;margin-top:10px}.crops a{display:flex;flex-direction:column;gap:4px;color:#526273;text-decoration:none}
+    .crops img{height:60px;max-width:100%;object-fit:contain;align-self:flex-start;border:1px solid #dfe6ed}.crops span{font-size:11px}
+    .controls,nav{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:16px 0}button,select{font:inherit;border:1px solid #b8c7d6;border-radius:6px;padding:8px 12px;background:white;color:#172536}
+    button{cursor:pointer}button:disabled{opacity:.4;cursor:default}button:focus-visible,select:focus-visible{outline:3px solid #2181df}label{display:flex;align-items:center;gap:8px}
+    #status{color:#526273}.pager{font-variant-numeric:tabular-nums}
+    .evaluation{overflow-x:auto}.evaluation table{border-collapse:collapse;font-size:13px;width:100%}.evaluation th,.evaluation td{text-align:left;padding:8px;border-bottom:1px solid #dfe6ed}
+    main.comparison{max-width:1440px}.comparison-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.model-stats{font-size:12px;color:#657588;margin:6px 0}.comparison-grid .crops img{height:50px}.comparison-grid .crops span{font-size:11px}
+    .crop-card{width:100%;min-width:0;border-top:1px solid #e5ebf0;padding-top:8px}.crop-card>a{align-items:flex-start}.crop-card img{width:auto;max-width:100%}
+    .ocr{margin-top:8px;background:#f6f8fa;border-radius:6px;padding:7px}.ocr p{display:flex;justify-content:space-between;gap:6px;margin:4px 0;align-items:baseline}
+    .ocr code,.reference code{font-size:13px;overflow-wrap:anywhere}.ocr code{text-align:right}.ocr .correct code{color:#14733b}.ocr .incorrect code{color:#ac3838}.reference{font-size:12px;color:#526273}
+    @media(max-width:900px){.comparison-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:700px){main{padding:12px}.pair{gap:8px}.pair img{height:140px}article{padding:10px}.crops img,.comparison-grid .crops img{height:45px}}
+    </style></head><body><main><header><h1>US License Plates</h1><p>Detection &amp; crop preview</p><p>20 images · 20 with detections · 21 plate candidates<br>yolo-v9-t-384-finetuned.pt · CPU · Confidence threshold 0.25. Click any image to view full size. Crops come from the original image. Prediction counts and confidence scores are not accuracy measurements.</p></header><div class="controls"><label>Split <select id="split"><option value="all">All images</option><option value="test">Test (20)</option></select></label>
+    <label>Images per page <select id="size"><option>5</option><option selected>10</option><option>20</option><option>50</option></select></label></div>
+    <p id="status" role="status" aria-live="polite"></p><nav aria-label="Pagination"><button type="button" class="previous">Previous</button><span class="pager"></span><button type="button" class="next">Next</button><label>Page <select class="page-number" aria-label="Go to page"></select></label></nav><section id="gallery" aria-label="Image comparisons"></section><nav aria-label="Pagination"><button type="button" class="previous">Previous</button><span class="pager"></span><button type="button" class="next">Next</button><label>Page <select class="page-number" aria-label="Go to page"></select></label></nav><template data-split="test"><article><h2>us_test_001.jpg</h2>
+          <p>Test · 1 detections · 46.4 ms</p>
+          <div class="pair"><figure><figcaption>Original image</figcaption><a href="../../data/images/test/us_test_001.jpg" target="_blank"><img loading="lazy" src="../../data/images/test/us_test_001.jpg" alt="Original image"></a></figure>
+          <figure><figcaption>YOLO detections</figcaption><a href="annotated/test__us_test_001.jpg.jpg" target="_blank"><img loading="lazy" src="annotated/test__us_test_001.jpg.jpg" alt="Image with predicted bounding boxes"></a></figure></div>
+          <div class="crops"><div class="crop-card"><a href="crops/test__us_test_001.jpg__plate_01.png" target="_blank"><img loading="lazy" src="crops/test__us_test_001.jpg__plate_01.png" alt="Plate plate crop"><span>#1 · 0.937</span></a></div></div></article></template><template data-split="test"><article><h2>us_test_002.jpg</h2>
+          <p>Test · 1 detections · 55.9 ms</p>
+          <div class="pair"><figure><figcaption>Original image</figcaption><a href="../../data/images/test/us_test_002.jpg" target="_blank"><img loading="lazy" src="../../data/images/test/us_test_002.jpg" alt="Original image"></a></figure>
+          <figure><figcaption>YOLO detections</figcaption><a href="annotated/test__us_test_002.jpg.jpg" target="_blank"><img loading="lazy" src="annotated/test__us_test_002.jpg.jpg" alt="Image with predicted bounding boxes"></a></figure></div>
+          <div class="crops"><div class="crop-card"><a href="crops/test__us_test_002.jpg__plate_01.png" target="_blank"><img loading="lazy" src="crops/test__us_test_002.jpg__plate_01.png" alt="Plate plate crop"><span>#1 · 0.868</span></a></div></div></article></template><template data-split="test"><article><h2>us_test_003.jpg</h2>
+          <p>Test · 1 detections · 39.6 ms</p>
+          <div class="pair"><figure><figcaption>Original image</figcaption><a href="../../data/images/test/us_test_003.jpg" target="_blank"><img loading="lazy" src="../../data/images/test/us_test_003.jpg" alt="Original image"></a></figure>
+          <figure><figcaption>YOLO detections</figcaption><a href="annotated/test__us_test_003.jpg.jpg" target="_blank"><img loading="lazy" src="annotated/test__us_test_003.jpg.jpg" alt="Image with predicted bounding boxes"></a></figure></div>
+          <div class="crops"><div class="crop-card"><a href="crops/test__us_test_003.jpg__plate_01.png" target="_blank"><img loading="lazy" src="crops/test__us_test_003.jpg__plate_01.png" alt="Plate plate crop"><span>#1 · 0.919</span></a></div></div></article></template><template data-split="test"><article><h2>us_test_004.jpg</h2>
+          <p>Test · 1 detections · 43.4 ms</p>
+          <div class="pair"><figure><figcaption>Original image</figcaption><a href="../../data/images/test/us_test_004.jpg" target="_blank"><img loading="lazy" src="../../data/images/test/us_test_004.jpg" alt="Original image"></a></figure>
+          <figure><figcaption>YOLO detections</figcaption><a href="annotated/test__us_test_004.jpg.jpg" target="_blank"><img loading="lazy" src="annotated/test__us_test_004.jpg.jpg" alt="Image with predicted bounding boxes"></a></figure></div>
+          <div class="crops"><div class="crop-card"><a href="crops/test__us_test_004.jpg__plate_01.png" target="_blank"><img loading="lazy" src="crops/test__us_test_004.jpg__plate_01.png" alt="Plate plate crop"><span>#1 · 0.940</span></a></div></div></article></template><template data-split="test"><article><h2>us_test_005.jpg</h2>
+          <p>Test · 1 detections · 45.1 ms</p>
+          <div class="pair"><figure><figcaption>Original image</figcaption><a href="../../data/images/test/us_test_005.jpg" target="_blank"><img loading="lazy" src="../../data/images/test/us_test_005.jpg" alt="Original image"></a></figure>
+          <figure><figcaption>YOLO detections</figcaption><a href="annotated/test__us_test_005.jpg.jpg" target="_blank"><img loading="lazy" src="annotated/test__us_test_005.jpg.jpg" alt="Image with predicted bounding boxes"></a></figure></div>
+          <div class="crops"><div class="crop-card"><a href="crops/test__us_test_005.jpg__plate_01.png" target="_blank"><img loading="lazy" src="crops/test__us_test_005.jpg__plate_01.png" alt="Plate plate crop"><span>#1 · 0.921</span></a></div></div></article></template><template data-split="test"><article><h2>us_test_006.jpg</h2>
+          <p>Test · 1 detections · 70.9 ms</p>
+          <div class="pair"><figure><figcaption>Original image</figcaption><a href="../../data/images/test/us_test_006.jpg" target="_blank"><img loading="lazy" src="../../data/images/test/us_test_006.jpg" alt="Original image"></a></figure>
+          <figure><figcaption>YOLO detections</figcaption><a href="annotated/test__us_test_006.jpg.jpg" target="_blank"><img loading="lazy" src="annotated/test__us_test_006.jpg.jpg" alt="Image with predicted bounding boxes"></a></figure></div>
+          <div class="crops"><div class="crop-card"><a href="crops/test__us_test_006.jpg__plate_01.png" target="_blank"><img loading="lazy" src="crops/test__us_test_006.jpg__plate_01.png" alt="Plate plate crop"><span>#1 · 0.933</span></a></div></div></article></template><template data-split="test"><article><h2>us_test_007.jpg</h2>
+          <p>Test · 1 detections · 45.1 ms</p>
+          <div class="pair"><figure><figcaption>Original image</figcaption><a href="../../data/images/test/us_test_007.jpg" target="_blank"><img loading="lazy" src="../../data/images/test/us_test_007.jpg" alt="Original image"></a></figure>
+          <figure><figcaption>YOLO detections</figcaption><a href="annotated/test__us_test_007.jpg.jpg" target="_blank"><img loading="lazy" src="annotated/test__us_test_007.jpg.jpg" alt="Image with predicted bounding boxes"></a></figure></div>
+          <div class="crops"><div class="crop-card"><a href="crops/test__us_test_007.jpg__plate_01.png" target="_blank"><img loading="lazy" src="crops/test__us_test_007.jpg__plate_01.png" alt="Plate plate crop"><span>#1 · 0.917</span></a></div></div></article></template><template data-split="test"><article><h2>us_test_008.jpg</h2>
+          <p>Test · 1 detections · 44.1 ms</p>
+          <div class="pair"><figure><figcaption>Original image</figcaption><a href="../../data/images/test/us_test_008.jpg" target="_blank"><img loading="lazy" src="../../data/images/test/us_test_008.jpg" alt="Original image"></a></figure>
+          <figure><figcaption>YOLO detections</figcaption><a href="annotated/test__us_test_008.jpg.jpg" target="_blank"><img loading="lazy" src="annotated/test__us_test_008.jpg.jpg" alt="Image with predicted bounding boxes"></a></figure></div>
+          <div class="crops"><div class="crop-card"><a href="crops/test__us_test_008.jpg__plate_01.png" target="_blank"><img loading="lazy" src="crops/test__us_test_008.jpg__plate_01.png" alt="Plate plate crop"><span>#1 · 0.988</span></a></div></div></article></template><template data-split="test"><article><h2>us_test_009.jpg</h2>
+          <p>Test · 1 detections · 43.4 ms</p>
+          <div class="pair"><figure><figcaption>Original image</figcaption><a href="../../data/images/test/us_test_009.jpg" target="_blank"><img loading="lazy" src="../../data/images/test/us_test_009.jpg" alt="Original image"></a></figure>
+          <figure><figcaption>YOLO detections</figcaption><a href="annotated/test__us_test_009.jpg.jpg" target="_blank"><img loading="lazy" src="annotated/test__us_test_009.jpg.jpg" alt="Image with predicted bounding boxes"></a></figure></div>
+          <div class="crops"><div class="crop-card"><a href="crops/test__us_test_009.jpg__plate_01.png" target="_blank"><img loading="lazy" src="crops/test__us_test_009.jpg__plate_01.png" alt="Plate plate crop"><span>#1 · 0.915</span></a></div></div></article></template><template data-split="test"><article><h2>us_test_010.jpg</h2>
+          <p>Test · 1 detections · 41.5 ms</p>
+          <div class="pair"><figure><figcaption>Original image</figcaption><a href="../../data/images/test/us_test_010.jpg" target="_blank"><img loading="lazy" src="../../data/images/test/us_test_010.jpg" alt="Original image"></a></figure>
+          <figure><figcaption>YOLO detections</figcaption><a href="annotated/test__us_test_010.jpg.jpg" target="_blank"><img loading="lazy" src="annotated/test__us_test_010.jpg.jpg" alt="Image with predicted bounding boxes"></a></figure></div>
+          <div class="crops"><div class="crop-card"><a href="crops/test__us_test_010.jpg__plate_01.png" target="_blank"><img loading="lazy" src="crops/test__us_test_010.jpg__plate_01.png" alt="Plate plate crop"><span>#1 · 0.918</span></a></div></div></article></template><template data-split="test"><article><h2>us_test_011.jpg</h2>
+          <p>Test · 1 detections · 41.0 ms</p>
+          <div class="pair"><figure><figcaption>Original image</figcaption><a href="../../data/images/test/us_test_011.jpg" target="_blank"><img loading="lazy" src="../../data/images/test/us_test_011.jpg" alt="Original image"></a></figure>
+          <figure><figcaption>YOLO detections</figcaption><a href="annotated/test__us_test_011.jpg.jpg" target="_blank"><img loading="lazy" src="annotated/test__us_test_011.jpg.jpg" alt="Image with predicted bounding boxes"></a></figure></div>
+          <div class="crops"><div class="crop-card"><a href="crops/test__us_test_011.jpg__plate_01.png" target="_blank"><img loading="lazy" src="crops/test__us_test_011.jpg__plate_01.png" alt="Plate plate crop"><span>#1 · 0.932</span></a></div></div></article></template><template data-split="test"><article><h2>us_test_012.jpg</h2>
+          <p>Test · 1 detections · 40.6 ms</p>
+          <div class="pair"><figure><figcaption>Original image</figcaption><a href="../../data/images/test/us_test_012.jpg" target="_blank"><img loading="lazy" src="../../data/images/test/us_test_012.jpg" alt="Original image"></a></figure>
+          <figure><figcaption>YOLO detections</figcaption><a href="annotated/test__us_test_012.jpg.jpg" target="_blank"><img loading="lazy" src="annotated/test__us_test_012.jpg.jpg" alt="Image with predicted bounding boxes"></a></figure></div>
+          <div class="crops"><div class="crop-card"><a href="crops/test__us_test_012.jpg__plate_01.png" target="_blank"><img loading="lazy" src="crops/test__us_test_012.jpg__plate_01.png" alt="Plate plate crop"><span>#1 · 0.913</span></a></div></div></article></template><template data-split="test"><article><h2>us_test_013.jpg</h2>
+          <p>Test · 1 detections · 41.7 ms</p>
+          <div class="pair"><figure><figcaption>Original image</figcaption><a href="../../data/images/test/us_test_013.jpg" target="_blank"><img loading="lazy" src="../../data/images/test/us_test_013.jpg" alt="Original image"></a></figure>
+          <figure><figcaption>YOLO detections</figcaption><a href="annotated/test__us_test_013.jpg.jpg" target="_blank"><img loading="lazy" src="annotated/test__us_test_013.jpg.jpg" alt="Image with predicted bounding boxes"></a></figure></div>
+          <div class="crops"><div class="crop-card"><a href="crops/test__us_test_013.jpg__plate_01.png" target="_blank"><img loading="lazy" src="crops/test__us_test_013.jpg__plate_01.png" alt="Plate plate crop"><span>#1 · 0.687</span></a></div></div></article></template><template data-split="test"><article><h2>us_test_014.jpg</h2>
+          <p>Test · 1 detections · 43.6 ms</p>
+          <div class="pair"><figure><figcaption>Original image</figcaption><a href="../../data/images/test/us_test_014.jpg" target="_blank"><img loading="lazy" src="../../data/images/test/us_test_014.jpg" alt="Original image"></a></figure>
+          <figure><figcaption>YOLO detections</figcaption><a href="annotated/test__us_test_014.jpg.jpg" target="_blank"><img loading="lazy" src="annotated/test__us_test_014.jpg.jpg" alt="Image with predicted bounding boxes"></a></figure></div>
+          <div class="crops"><div class="crop-card"><a href="crops/test__us_test_014.jpg__plate_01.png" target="_blank"><img loading="lazy" src="crops/test__us_test_014.jpg__plate_01.png" alt="Plate plate crop"><span>#1 · 0.890</span></a></div></div></article></template><template data-split="test"><article><h2>us_test_015.jpg</h2>
+          <p>Test · 1 detections · 43.7 ms</p>
+          <div class="pair"><figure><figcaption>Original image</figcaption><a href="../../data/images/test/us_test_015.jpg" target="_blank"><img loading="lazy" src="../../data/images/test/us_test_015.jpg" alt="Original image"></a></figure>
+          <figure><figcaption>YOLO detections</figcaption><a href="annotated/test__us_test_015.jpg.jpg" target="_blank"><img loading="lazy" src="annotated/test__us_test_015.jpg.jpg" alt="Image with predicted bounding boxes"></a></figure></div>
+          <div class="crops"><div class="crop-card"><a href="crops/test__us_test_015.jpg__plate_01.png" target="_blank"><img loading="lazy" src="crops/test__us_test_015.jpg__plate_01.png" alt="Plate plate crop"><span>#1 · 0.899</span></a></div></div></article></template><template data-split="test"><article><h2>us_test_016.jpg</h2>
+          <p>Test · 1 detections · 42.0 ms</p>
+          <div class="pair"><figure><figcaption>Original image</figcaption><a href="../../data/images/test/us_test_016.jpg" target="_blank"><img loading="lazy" src="../../data/images/test/us_test_016.jpg" alt="Original image"></a></figure>
+          <figure><figcaption>YOLO detections</figcaption><a href="annotated/test__us_test_016.jpg.jpg" target="_blank"><img loading="lazy" src="annotated/test__us_test_016.jpg.jpg" alt="Image with predicted bounding boxes"></a></figure></div>
+          <div class="crops"><div class="crop-card"><a href="crops/test__us_test_016.jpg__plate_01.png" target="_blank"><img loading="lazy" src="crops/test__us_test_016.jpg__plate_01.png" alt="Plate plate crop"><span>#1 · 0.919</span></a></div></div></article></template><template data-split="test"><article><h2>us_test_017.jpg</h2>
+          <p>Test · 1 detections · 42.5 ms</p>
+          <div class="pair"><figure><figcaption>Original image</figcaption><a href="../../data/images/test/us_test_017.jpg" target="_blank"><img loading="lazy" src="../../data/images/test/us_test_017.jpg" alt="Original image"></a></figure>
+          <figure><figcaption>YOLO detections</figcaption><a href="annotated/test__us_test_017.jpg.jpg" target="_blank"><img loading="lazy" src="annotated/test__us_test_017.jpg.jpg" alt="Image with predicted bounding boxes"></a></figure></div>
+          <div class="crops"><div class="crop-card"><a href="crops/test__us_test_017.jpg__plate_01.png" target="_blank"><img loading="lazy" src="crops/test__us_test_017.jpg__plate_01.png" alt="Plate plate crop"><span>#1 · 0.899</span></a></div></div></article></template><template data-split="test"><article><h2>us_test_018.jpg</h2>
+          <p>Test · 1 detections · 50.5 ms</p>
+          <div class="pair"><figure><figcaption>Original image</figcaption><a href="../../data/images/test/us_test_018.jpg" target="_blank"><img loading="lazy" src="../../data/images/test/us_test_018.jpg" alt="Original image"></a></figure>
+          <figure><figcaption>YOLO detections</figcaption><a href="annotated/test__us_test_018.jpg.jpg" target="_blank"><img loading="lazy" src="annotated/test__us_test_018.jpg.jpg" alt="Image with predicted bounding boxes"></a></figure></div>
+          <div class="crops"><div class="crop-card"><a href="crops/test__us_test_018.jpg__plate_01.png" target="_blank"><img loading="lazy" src="crops/test__us_test_018.jpg__plate_01.png" alt="Plate plate crop"><span>#1 · 0.928</span></a></div></div></article></template><template data-split="test"><article><h2>us_test_019.jpg</h2>
+          <p>Test · 1 detections · 51.1 ms</p>
+          <div class="pair"><figure><figcaption>Original image</figcaption><a href="../../data/images/test/us_test_019.jpg" target="_blank"><img loading="lazy" src="../../data/images/test/us_test_019.jpg" alt="Original image"></a></figure>
+          <figure><figcaption>YOLO detections</figcaption><a href="annotated/test__us_test_019.jpg.jpg" target="_blank"><img loading="lazy" src="annotated/test__us_test_019.jpg.jpg" alt="Image with predicted bounding boxes"></a></figure></div>
+          <div class="crops"><div class="crop-card"><a href="crops/test__us_test_019.jpg__plate_01.png" target="_blank"><img loading="lazy" src="crops/test__us_test_019.jpg__plate_01.png" alt="Plate plate crop"><span>#1 · 0.905</span></a></div></div></article></template><template data-split="test"><article><h2>us_test_020.jpg</h2>
+          <p>Test · 2 detections · 50.6 ms</p>
+          <div class="pair"><figure><figcaption>Original image</figcaption><a href="../../data/images/test/us_test_020.jpg" target="_blank"><img loading="lazy" src="../../data/images/test/us_test_020.jpg" alt="Original image"></a></figure>
+          <figure><figcaption>YOLO detections</figcaption><a href="annotated/test__us_test_020.jpg.jpg" target="_blank"><img loading="lazy" src="annotated/test__us_test_020.jpg.jpg" alt="Image with predicted bounding boxes"></a></figure></div>
+          <div class="crops"><div class="crop-card"><a href="crops/test__us_test_020.jpg__plate_01.png" target="_blank"><img loading="lazy" src="crops/test__us_test_020.jpg__plate_01.png" alt="Plate plate crop"><span>#1 · 0.897</span></a></div><div class="crop-card"><a href="crops/test__us_test_020.jpg__plate_02.png" target="_blank"><img loading="lazy" src="crops/test__us_test_020.jpg__plate_02.png" alt="Plate plate crop"><span>#2 · 0.332</span></a></div></div></article></template><noscript>Please enable JavaScript to browse this paginated gallery.</noscript></main>
+    <script>
+    const templates = [...document.querySelectorAll('template[data-split]')];
+    const split = document.getElementById('split'), size = document.getElementById('size');
+    let page = 1;
+    function render(scroll = false) {
+      const selected = templates.filter(t => split.value === 'all' || t.dataset.split === split.value);
+      const perPage = Number(size.value), pages = Math.max(1, Math.ceil(selected.length / perPage));
+      page = Math.max(1, Math.min(page, pages));
+      const start = (page - 1) * perPage;
+      document.getElementById('gallery').replaceChildren(...selected.slice(start, start + perPage).map(t => t.content.cloneNode(true)));
+      document.getElementById('status').textContent = selected.length ? `Showing ${start + 1}–${Math.min(start + perPage, selected.length)} of ${selected.length} images` : 'No images in this split.';
+      document.querySelectorAll('.pager').forEach(el => el.textContent = `Page ${page} of ${pages}`);
+      document.querySelectorAll('.previous').forEach(el => el.disabled = page === 1);
+      document.querySelectorAll('.next').forEach(el => el.disabled = page === pages);
+      document.querySelectorAll('.page-number').forEach(el => {
+        el.replaceChildren(...Array.from({length: pages}, (_, i) => new Option(String(i + 1), String(i + 1))));
+        el.value = String(page);
+      });
+      if (scroll) window.scrollTo({top: 0, behavior: 'instant'});
+    }
+    document.querySelectorAll('.previous').forEach(el => el.addEventListener('click', () => {page--; render(true);}));
+    document.querySelectorAll('.next').forEach(el => el.addEventListener('click', () => {page++; render(true);}));
+    document.querySelectorAll('.page-number').forEach(el => el.addEventListener('change', () => {page = Number(el.value); render(true);}));
+    [split, size].forEach(el => el.addEventListener('change', () => {page = 1; render();}));
+    render();
+    </script></body></html>

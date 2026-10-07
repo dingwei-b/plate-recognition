@@ -1,0 +1,5491 @@
+{
+  "purpose": "Simple random static-image workflow subset",
+  "seed": 42,
+  "candidate_count": 430,
+  "split_counts": {
+    "train": 300,
+    "test": 20
+  },
+  "method": "random.Random(42).sample(pool,320), then shuffle; first 300 train, remaining 20 test. Exact file duplicates removed from candidate pool. No vehicle-level or near-duplicate exclusion guarantee. No extra validation split.",
+  "model_training_overlap": "Not verified. Some OpenALPR images may have been used by the pretrained model. Other web-image collections may also overlap. This is a workflow test, not an independent benchmark.",
+  "sources": {
+    "roboflow_rxg4e": {
+      "url": "https://universe.roboflow.com/roboflow-universe-projects/license-plate-recognition-rxg4e",
+      "download": "https://www.kaggle.com/api/v1/datasets/download/adilshamim8/license-plate-recognition",
+      "version": 1,
+      "archive_sha256": "2ea7963bd6bbc1140d6c9e5c7d432ebbf32657e3d2472b8e34952cdaef229f1c",
+      "labels": "Independent upstream CSV bounding boxes, converted to single-class YOLO; not model predictions"
+    },
+    "openalpr_us": {
+      "url": "https://github.com/openalpr/benchmarks/tree/9790ed20d475be1e940a7e2a3f492a97c2ebed9b/endtoend/us",
+      "revision": "9790ed20d475be1e940a7e2a3f492a97c2ebed9b",
+      "labels": "Independent upstream x,y,width,height labels, converted to single-class YOLO"
+    }
+  },
+  "images": [
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000173.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          651,
+          234,
+          734,
+          275
+        ]
+      ],
+      "sha256": "7b3324d6fdf86bb34695bb5bcaa5f5b4c4b3247511f74bdc57d7d6d43501b234",
+      "split": "train",
+      "name": "us_train_001.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000067.jpg",
+      "width": 1024,
+      "height": 640,
+      "boxes_xyxy": [
+        [
+          258,
+          239,
+          321,
+          270
+        ]
+      ],
+      "sha256": "23f21279bf634f5df242502c688a7780b9bc24b1fd49758439545edafac2c17e",
+      "split": "train",
+      "name": "us_train_002.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "test/test/2016_Nevada_license_plate_28front29_jpg.rf.f47e9374cce671a2602651643b8e4ff7.jpg",
+      "width": 2092,
+      "height": 1104,
+      "boxes_xyxy": [
+        [
+          86,
+          80,
+          2032,
+          1030
+        ]
+      ],
+      "sha256": "0281eac10032b12d30f960e493a54a67544fe24a08e85c3c575f071109e82fb7",
+      "split": "train",
+      "name": "us_train_003.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "a03ced3f-5a97-4e75-8106-fabfd2b8b76e.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          891,
+          73,
+          951,
+          103
+        ]
+      ],
+      "sha256": "62db0589ea3dd41cc3a00c84ed902eff8332370c8c4cf1c1025529f42564147c",
+      "split": "train",
+      "name": "us_train_004.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "car1.jpg",
+      "width": 600,
+      "height": 600,
+      "boxes_xyxy": [
+        [
+          243,
+          356,
+          358,
+          413
+        ]
+      ],
+      "sha256": "82bb991250ed5105c694700d53412a04c3984fa8c01737892d90f5f1f6e5a1b0",
+      "split": "train",
+      "name": "us_train_005.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000018.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          315,
+          328,
+          407,
+          374
+        ]
+      ],
+      "sha256": "88b9661bce601fb247e8ad2c5436dd57407f31a9ab054ff8ad2645805b6593d2",
+      "split": "train",
+      "name": "us_train_006.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_327_jpg.rf.2b32dcdbd0ed5e840b484e2cfde73147.jpg",
+      "width": 3264,
+      "height": 2448,
+      "boxes_xyxy": [
+        [
+          1198,
+          1013,
+          1937,
+          1486
+        ]
+      ],
+      "sha256": "a6677e05096ea34ae58814118d3718f57c9c7e1822feb54a26294c064eaa9d1f",
+      "split": "train",
+      "name": "us_train_007.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "us2.jpg",
+      "width": 640,
+      "height": 480,
+      "boxes_xyxy": [
+        [
+          305,
+          232,
+          417,
+          288
+        ]
+      ],
+      "sha256": "5762758d4f3774345d9ce367b820e8e0dc535b5530e2fea0f2d77ba992a20343",
+      "split": "train",
+      "name": "us_train_008.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000157.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          594,
+          294,
+          679,
+          336
+        ]
+      ],
+      "sha256": "87679deda691e01cc8f39d3cbc039773e6835dd78adc4c5c86b410e2a970c13d",
+      "split": "train",
+      "name": "us_train_009.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/Cars298_png_jpg.rf.48f1ec1e2aa065913a7d2da30cadcdc2.jpg",
+      "width": 400,
+      "height": 268,
+      "boxes_xyxy": [
+        [
+          165,
+          147,
+          232,
+          183
+        ]
+      ],
+      "sha256": "6062651246bc25d56654a1bfcd1341d4d59e0c505dda79f54d79736cd3661577",
+      "split": "train",
+      "name": "us_train_010.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000134.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          629,
+          278,
+          719,
+          323
+        ]
+      ],
+      "sha256": "26a36a314d643e97e77906a09fbc34112fb021bb1d7e57a8dfccde31b714ea1f",
+      "split": "train",
+      "name": "us_train_011.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000028.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          355,
+          427,
+          504,
+          501
+        ]
+      ],
+      "sha256": "a6f70e4c36f3853d46ca70d29eb31fc53b5212f25008b626f7ae5296dd695d00",
+      "split": "train",
+      "name": "us_train_012.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000100.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          252,
+          517,
+          347,
+          564
+        ]
+      ],
+      "sha256": "a4e2aa0d1dfe6db2825b35761d9f0fbe7e635b8b62d2297cffd123c83924878e",
+      "split": "train",
+      "name": "us_train_013.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "valid/valid/pic_497_jpg.rf.6dd8f0b5d38f46869f52faf097c69966.jpg",
+      "width": 799,
+      "height": 597,
+      "boxes_xyxy": [
+        [
+          278,
+          359,
+          417,
+          441
+        ]
+      ],
+      "sha256": "d7619e7b6985a43a6b0a0f03ec08cf3ce0c958053841a3b3c781ed4edcde3695",
+      "split": "train",
+      "name": "us_train_014.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000132.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          785,
+          131,
+          865,
+          171
+        ]
+      ],
+      "sha256": "6e20381763900111982207467a8f5f5bb1a846c8f07857166cd85c0e7f202ced",
+      "split": "train",
+      "name": "us_train_015.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/21cb6bea-4a79-438e-a368-05aaa0ee94ac-Corvette_with_digital_plate_jpg.rf.7a374db07548577b88789a232d8a92d5.jpg",
+      "width": 2104,
+      "height": 1596,
+      "boxes_xyxy": [
+        [
+          712,
+          1075,
+          1470,
+          1465
+        ]
+      ],
+      "sha256": "3758686b08a49fcd536d055f88fa31d9bd4fa73f778465c75adb6ec74c371861",
+      "split": "train",
+      "name": "us_train_016.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/LNXGEEK_jpg.rf.23f9715ad97109e977e826a289114c58.jpg",
+      "width": 416,
+      "height": 416,
+      "boxes_xyxy": [
+        [
+          174,
+          201,
+          244,
+          248
+        ]
+      ],
+      "sha256": "9aefb21649ae27a4cf5820abab67298a7199e1c7596f9cfca57944faeb257c58",
+      "split": "train",
+      "name": "us_train_017.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000146.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          783,
+          201,
+          860,
+          239
+        ]
+      ],
+      "sha256": "809c5b5aacc4671614f9c07e2adeeeb34864fd9f71587272ab8c56c55536272a",
+      "split": "train",
+      "name": "us_train_018.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_373_jpg.rf.646c8f6827d1c6981a804c8662671011.jpg",
+      "width": 1952,
+      "height": 3264,
+      "boxes_xyxy": [
+        [
+          1062,
+          1940,
+          1456,
+          2235
+        ]
+      ],
+      "sha256": "fde7da3b43479ef9350c5de8ebd75716794627f4bd595df09bf4091b542100a9",
+      "split": "train",
+      "name": "us_train_019.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000071.jpg",
+      "width": 1024,
+      "height": 640,
+      "boxes_xyxy": [
+        [
+          337,
+          536,
+          397,
+          566
+        ]
+      ],
+      "sha256": "f7681483f395814f5cfa1cf378a26a735fdd33dc61db19c9c58b8c00d2ab278b",
+      "split": "train",
+      "name": "us_train_020.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/e5acmg4xmaazlkm5290382797_t800_hddcfb46386d84d7bc1fafdfd581242369bd45de3_jpg.rf.0765fad5170b0a885821f1e30487ba7e.jpg",
+      "width": 800,
+      "height": 349,
+      "boxes_xyxy": [
+        [
+          273,
+          23,
+          467,
+          124
+        ]
+      ],
+      "sha256": "829dc4d365be513011bdd77a16db7def680ab628484a4af3d94c3bf784d9b71e",
+      "split": "train",
+      "name": "us_train_021.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "valid/valid/pic_520_jpeg_jpg.rf.9721ffb06849806d328780ba7139b6aa.jpg",
+      "width": 280,
+      "height": 155,
+      "boxes_xyxy": [
+        [
+          112,
+          75,
+          178,
+          114
+        ]
+      ],
+      "sha256": "ebd6072419c2a7701b2608a176013fd5bd514503d839e85e3247e5768e8030d3",
+      "split": "train",
+      "name": "us_train_022.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "valid/valid/pic_382_jpg.rf.5c2cf46dcebe5a07870747ba76ae1bf0.jpg",
+      "width": 640,
+      "height": 853,
+      "boxes_xyxy": [
+        [
+          99,
+          393,
+          350,
+          528
+        ]
+      ],
+      "sha256": "120dd7227defb885e2f5f6d43fd11159af1adcf54b5365ecb071516be6be0cb4",
+      "split": "train",
+      "name": "us_train_023.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "valid/valid/pic_168_jpg.rf.a8175ce3d070e454a98a289a45883752.jpg",
+      "width": 5312,
+      "height": 2988,
+      "boxes_xyxy": [
+        [
+          2362,
+          1195,
+          2926,
+          1495
+        ]
+      ],
+      "sha256": "087cb9effdb1b6b06e78e88a7d1cd9733db81bac882eabdd56e83749d8618f98",
+      "split": "train",
+      "name": "us_train_024.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000079.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          1180,
+          8,
+          1275,
+          55
+        ]
+      ],
+      "sha256": "b290591dacfeea4e68513c6e6e6607cd6ce29d3c09078b10116dd692e3668fc4",
+      "split": "train",
+      "name": "us_train_025.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/How-20to-20Feng-20Shui-20Your-20Car_s-20Plate-20Numbers-20fo-20-1-_jpg.rf.b28836710e3299891068702a64e69fb0.jpg",
+      "width": 340,
+      "height": 227,
+      "boxes_xyxy": [
+        [
+          126,
+          62,
+          225,
+          149
+        ]
+      ],
+      "sha256": "c5cc2bb234343ea56997818765a688873efd63145ec27b7c7a3b7da2d0713900",
+      "split": "train",
+      "name": "us_train_026.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000192.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          573,
+          300,
+          657,
+          342
+        ]
+      ],
+      "sha256": "cbc21ff7e1e97125dd92a33977733fb16f1c0b90f53f5023c6a5f586242598b8",
+      "split": "train",
+      "name": "us_train_027.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/Cars280_png_jpg.rf.c7fe4c915cdc1e13f0ed03c3423ade93.jpg",
+      "width": 400,
+      "height": 267,
+      "boxes_xyxy": [
+        [
+          190,
+          184,
+          212,
+          194
+        ]
+      ],
+      "sha256": "ac25be34f8742abc8b14904ef0df4d8db23836e819f69d9ff83f240939335ad6",
+      "split": "train",
+      "name": "us_train_028.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_164_jpg.rf.252bf56672a4c67cb6aab4fef68cd750.jpg",
+      "width": 1200,
+      "height": 630,
+      "boxes_xyxy": [
+        [
+          511,
+          260,
+          713,
+          367
+        ]
+      ],
+      "sha256": "9d2bb3bfa90902cc4f8ccba26d721288c78306930d4fa2db3fffebb7bd0c2abe",
+      "split": "train",
+      "name": "us_train_029.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000163.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          731,
+          90,
+          834,
+          141
+        ]
+      ],
+      "sha256": "40949bffa18227c2320240a505389961f20c2ddb3763b24930b78f041cc088f5",
+      "split": "train",
+      "name": "us_train_030.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000091.jpg",
+      "width": 1024,
+      "height": 640,
+      "boxes_xyxy": [
+        [
+          604,
+          124,
+          668,
+          156
+        ]
+      ],
+      "sha256": "4392b9dbea47c390e6b72b51dcbfb79cc94c6a5c1445c55493903c9c4f46fc77",
+      "split": "train",
+      "name": "us_train_031.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000065.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          268,
+          408,
+          378,
+          463
+        ]
+      ],
+      "sha256": "e1e0e6081b9f1c545a0f8339f827c7bdfe3b386bd4b70201f8de99d9ef6ffe58",
+      "split": "train",
+      "name": "us_train_032.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/ELVISV_jpg.rf.6146fc2762639a51169631f63f430c7c.jpg",
+      "width": 416,
+      "height": 416,
+      "boxes_xyxy": [
+        [
+          188,
+          247,
+          237,
+          279
+        ]
+      ],
+      "sha256": "155b1fb9067a57557c3203e4c3005acfdaa7f74c7811b91269d1217fcfdcfff6",
+      "split": "train",
+      "name": "us_train_033.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_239_jpg.rf.ed69719ca37534a6fe0fcbd58970e8c1.jpg",
+      "width": 827,
+      "height": 402,
+      "boxes_xyxy": [
+        [
+          475,
+          303,
+          584,
+          365
+        ]
+      ],
+      "sha256": "79222f9203c8fea5cd8369ae8ea0c673f18c6c1af6c98111bbaa6ebecdbabb60",
+      "split": "train",
+      "name": "us_train_034.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000151.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          526,
+          97,
+          605,
+          136
+        ]
+      ],
+      "sha256": "d9c4e8635f2a299627369ce7116ad5ae0fd0d00c88905f98f57e152b5b6d31d4",
+      "split": "train",
+      "name": "us_train_035.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/Cars214_png_jpg.rf.442416c3989315e610fd4401b75f40ba.jpg",
+      "width": 400,
+      "height": 243,
+      "boxes_xyxy": [
+        [
+          187,
+          120,
+          213,
+          133
+        ]
+      ],
+      "sha256": "0ff79641de805066afe7fb89318e2a38ad691e6136b77a5a56eb9987477227a5",
+      "split": "train",
+      "name": "us_train_036.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/images18_jpg.rf.f44f3377d05187e31b7fd135a4f50a7a.jpg",
+      "width": 265,
+      "height": 190,
+      "boxes_xyxy": [
+        [
+          14,
+          108,
+          143,
+          165
+        ]
+      ],
+      "sha256": "419aa75653decef78c090eb56318e8b0740627a5889393a72f6f192582583a1d",
+      "split": "train",
+      "name": "us_train_037.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/Cars45_png_jpg.rf.749f8ec9da7456f9f71ed95f79fe90ef.jpg",
+      "width": 400,
+      "height": 251,
+      "boxes_xyxy": [
+        [
+          203,
+          102,
+          279,
+          174
+        ]
+      ],
+      "sha256": "77d758fd4b3018154f9bb372fd7bf66f6b74e2c507c5fd137757eb2c3f8596fc",
+      "split": "train",
+      "name": "us_train_038.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "valid/valid/pic_286_jpg.rf.b861eb39ff243dbd45620e369a3f24a7.jpg",
+      "width": 3648,
+      "height": 2736,
+      "boxes_xyxy": [
+        [
+          752,
+          695,
+          3131,
+          2000
+        ]
+      ],
+      "sha256": "f1eebdfa54ee445ff83c54bd1c3a6194b5d2220f6cf51520e0bb556ebc32d3eb",
+      "split": "train",
+      "name": "us_train_039.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000122.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          669,
+          225,
+          755,
+          268
+        ]
+      ],
+      "sha256": "35f3674f85bbadd1d4100f7ea1b1c1dc7b51bc98735315e69cc3e7abd963282e",
+      "split": "train",
+      "name": "us_train_040.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000141.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          428,
+          184,
+          511,
+          225
+        ]
+      ],
+      "sha256": "c2b6fcfd823c3955e4d8b378d5de34362c5ccffb5c63170ad877019d252e08e0",
+      "split": "train",
+      "name": "us_train_041.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000176.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          844,
+          395,
+          989,
+          467
+        ]
+      ],
+      "sha256": "8055e6625d20ead1bf449b07fc8fb29db476f90280a47306719ade48a4c4989b",
+      "split": "train",
+      "name": "us_train_042.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "car6.jpg",
+      "width": 640,
+      "height": 480,
+      "boxes_xyxy": [
+        [
+          285,
+          124,
+          366,
+          164
+        ]
+      ],
+      "sha256": "f3348abdb4db7c7fd16aca8d98edb810d09c6a2ef3b533f9bfb1b7a5a5f86d58",
+      "split": "train",
+      "name": "us_train_043.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "car19.jpg",
+      "width": 900,
+      "height": 600,
+      "boxes_xyxy": [
+        [
+          255,
+          216,
+          550,
+          363
+        ]
+      ],
+      "sha256": "66d7b0b6e0e237d867c8f8bf5d90762374f6c6d64d5c340d120cc2cfbaf54e37",
+      "split": "train",
+      "name": "us_train_044.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/Best-20Electric-20Car-20License-20Plates-20-2-_jpg.rf.3ffd5d7ae4a5bda9cc8f70d061d70ba8.jpg",
+      "width": 603,
+      "height": 300,
+      "boxes_xyxy": [
+        [
+          154,
+          131,
+          215,
+          177
+        ]
+      ],
+      "sha256": "0afffcb7912d99693290b303f640c51bb4bad5c0ba5dafd3b75caaf16522544c",
+      "split": "train",
+      "name": "us_train_045.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "valid/valid/PWF666_jpg.rf.5ba6205dc7a3c51c5d1ef3563e685457.jpg",
+      "width": 416,
+      "height": 416,
+      "boxes_xyxy": [
+        [
+          238,
+          220,
+          289,
+          261
+        ]
+      ],
+      "sha256": "88fd8e1047203805917faa1afe6661f9a9fd09a1724fa65f2f4e36c5e1ccb6e9",
+      "split": "train",
+      "name": "us_train_046.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000078.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          544,
+          376,
+          636,
+          422
+        ]
+      ],
+      "sha256": "5b151f4716355f27574791350cff6e41dd62ee85cf7f864acee9c1391aa80944",
+      "split": "train",
+      "name": "us_train_047.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000068.jpg",
+      "width": 800,
+      "height": 500,
+      "boxes_xyxy": [
+        [
+          566,
+          452,
+          625,
+          481
+        ]
+      ],
+      "sha256": "a78aca0623548d9473ebb070850915d8b31f3e0f011be178cdc95329f1d11745",
+      "split": "train",
+      "name": "us_train_048.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/image23_jpeg_jpg.rf.761e7a030898f03003d494a3c2c189dd.jpg",
+      "width": 276,
+      "height": 183,
+      "boxes_xyxy": [
+        [
+          44,
+          42,
+          198,
+          116
+        ]
+      ],
+      "sha256": "fecc533504fe34af39d4ca6921ec252f3e76793b1fa68ab429d176999aa5a854",
+      "split": "train",
+      "name": "us_train_049.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "valid/valid/pic_561_jpg.rf.bb764e0372dde018ccf0cfe935c04a0d.jpg",
+      "width": 500,
+      "height": 375,
+      "boxes_xyxy": [
+        [
+          212,
+          147,
+          321,
+          204
+        ]
+      ],
+      "sha256": "f84a81827c850eb85abac5ac251400582ae99f32d6c05e18f097d1a2cbea1389",
+      "split": "train",
+      "name": "us_train_050.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000051.jpg",
+      "width": 1280,
+      "height": 800,
+      "boxes_xyxy": [
+        [
+          756,
+          505,
+          854,
+          554
+        ]
+      ],
+      "sha256": "5f6c7d14800407cbed505044f3a02accb5fe25cf9cfc40279acf1d61f1f80806",
+      "split": "train",
+      "name": "us_train_051.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "316b64c0-55bf-4079-a1c0-d93f461a576f.jpg",
+      "width": 1920,
+      "height": 1080,
+      "boxes_xyxy": [
+        [
+          80,
+          811,
+          259,
+          900
+        ]
+      ],
+      "sha256": "adc814e098350e89f54a04e792862f6b5086fa5b91064bca75e2c9498690d69b",
+      "split": "train",
+      "name": "us_train_052.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_119_jpg.rf.3f6d1d191b29bb2098849b37c48e98d9.jpg",
+      "width": 600,
+      "height": 450,
+      "boxes_xyxy": [
+        [
+          259,
+          187,
+          343,
+          228
+        ]
+      ],
+      "sha256": "c40fde154ea753e91206c5cd6b7a274c1810e45d016a6784038e5a712c31ab05",
+      "split": "train",
+      "name": "us_train_053.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/Here_s-20Why-20You-20Should-20Remove-20Your-20Car_s-20Plates_yyth_jpg.rf.81e5c84ee0136aa90f1779c33016795d.jpg",
+      "width": 521,
+      "height": 347,
+      "boxes_xyxy": [
+        [
+          223,
+          210,
+          326,
+          259
+        ]
+      ],
+      "sha256": "031828e580eb6f897b9fbaac9905a92554142c10d8cfba5d6bd696cbac30cd6d",
+      "split": "train",
+      "name": "us_train_054.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000048.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          488,
+          593,
+          562,
+          630
+        ]
+      ],
+      "sha256": "42a5c59b29e1f79577c9916a6897204d5aa7ecd7af73836e6970bc00ae1f57c8",
+      "split": "train",
+      "name": "us_train_055.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "car9-7.jpg",
+      "width": 918,
+      "height": 1632,
+      "boxes_xyxy": [
+        [
+          96,
+          500,
+          233,
+          568
+        ]
+      ],
+      "sha256": "6b85521b6a5e115af5e0a137d3cf8fb3fd3dd735034213bf3c990a8a215f698d",
+      "split": "train",
+      "name": "us_train_056.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "f0a3b8c0-198a-471b-9ca9-345c3dd28073.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          270,
+          291,
+          337,
+          324
+        ]
+      ],
+      "sha256": "eb51ef8bf1a205672ce2f3f702e4b5adc45bcd193def3b64a0ca72e73551998d",
+      "split": "train",
+      "name": "us_train_057.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_723_jpg.rf.a41173fa33bec560cc215ce3a20be353.jpg",
+      "width": 602,
+      "height": 452,
+      "boxes_xyxy": [
+        [
+          293,
+          214,
+          378,
+          264
+        ]
+      ],
+      "sha256": "c309bd3e9693657844d920fbb7620d7f8dc218b9141c779e7f9bbe73bf4ba71f",
+      "split": "train",
+      "name": "us_train_058.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_772_jpg.rf.58437c3aef93063918d10c30f43c98b6.jpg",
+      "width": 660,
+      "height": 495,
+      "boxes_xyxy": [
+        [
+          240,
+          273,
+          436,
+          381
+        ]
+      ],
+      "sha256": "cbfe37f55e28a80aa49c77c687d545678c25613984a6d75a3909814d6f5609a3",
+      "split": "train",
+      "name": "us_train_059.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/Cars157_png_jpg.rf.31170bca887e41b65c6b857e9457a65a.jpg",
+      "width": 400,
+      "height": 267,
+      "boxes_xyxy": [
+        [
+          329,
+          151,
+          365,
+          178
+        ]
+      ],
+      "sha256": "6d8d1d9af2221b3ed5f781c22c926e128f103a33f754a42d6d2d4bf0edf4bf31",
+      "split": "train",
+      "name": "us_train_060.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "car9-1.jpg",
+      "width": 918,
+      "height": 1632,
+      "boxes_xyxy": [
+        [
+          642,
+          461,
+          829,
+          554
+        ]
+      ],
+      "sha256": "f454bade188db59a98e4fd3d6bfc79fc96eb87afb87ee5cffd0b58c140ae1df2",
+      "split": "train",
+      "name": "us_train_061.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "3850ba91-3c64-4c64-acba-0c46b61ec0da.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          326,
+          128,
+          383,
+          156
+        ]
+      ],
+      "sha256": "d0d1b032dfb67eb1ff685222758cec0af9947259174adb2df24aa62605478a3a",
+      "split": "train",
+      "name": "us_train_062.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000117.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          713,
+          498,
+          811,
+          547
+        ]
+      ],
+      "sha256": "0e36a0a9b3b9d48a912f61670b421027a83963fe5d5f7ef41a58d3016bdf128f",
+      "split": "train",
+      "name": "us_train_063.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_427_jpg.rf.3e5e4d365557d4cefeb1741da489b8fa.jpg",
+      "width": 4032,
+      "height": 3024,
+      "boxes_xyxy": [
+        [
+          1667,
+          1215,
+          2641,
+          1745
+        ]
+      ],
+      "sha256": "81432234591fcf6d05c0aa5e8b66ebf89706db886549ec28e7f87d2ca5f16519",
+      "split": "train",
+      "name": "us_train_064.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "valid/valid/pic_224_jpg.rf.ab2dcb41346fdce5dc6b4f6eb0210055.jpg",
+      "width": 660,
+      "height": 465,
+      "boxes_xyxy": [
+        [
+          284,
+          189,
+          384,
+          242
+        ]
+      ],
+      "sha256": "fa0b4279edd459553e4a8405677ae0df0fb7e30439f480fe2bdf5bbc2b641885",
+      "split": "train",
+      "name": "us_train_065.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "1e241dc8-8f18-4955-8988-03a0ab49f813.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          569,
+          318,
+          632,
+          349
+        ]
+      ],
+      "sha256": "bbc09742e7c3aeda7ab22524790ec04e199a215a7a15095e98bdc22e3db45d63",
+      "split": "train",
+      "name": "us_train_066.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000070.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          627,
+          496,
+          737,
+          551
+        ]
+      ],
+      "sha256": "23b6ae6ab382527dbb99cd7b5c274e671cbe57b71f2472da2d00373ce61026aa",
+      "split": "train",
+      "name": "us_train_067.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_721_jpg.rf.4c7a07ea0707664cd78af5858040ffec.jpg",
+      "width": 1300,
+      "height": 956,
+      "boxes_xyxy": [
+        [
+          465,
+          510,
+          888,
+          741
+        ]
+      ],
+      "sha256": "11e0a9f6635d9d0fa08513d496acb8aaddf35dda588209a9e158bd5ab1718f40",
+      "split": "train",
+      "name": "us_train_068.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000197.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          703,
+          10,
+          776,
+          46
+        ]
+      ],
+      "sha256": "9afebe9b822afef82ecea21bdd7eef82fa81367ef3d356e7d2a17bc79b0d67a0",
+      "split": "train",
+      "name": "us_train_069.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "test/test/pic_773_jpg.rf.e2f413e8368c6c4e78bab2e6928dca53.jpg",
+      "width": 4000,
+      "height": 3000,
+      "boxes_xyxy": [
+        [
+          1302,
+          1180,
+          3136,
+          2180
+        ]
+      ],
+      "sha256": "91b55fac708d0cf5ba8da13abd00e75e2d25b290c709020a2cb5ed643359d8e9",
+      "split": "train",
+      "name": "us_train_070.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000129.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          975,
+          408,
+          1118,
+          479
+        ]
+      ],
+      "sha256": "003423425c328593787b59f95f3c6b0c546875eb1e409206a0440b3a0f115a22",
+      "split": "train",
+      "name": "us_train_071.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_307_jpg.rf.12938af782d288628f94d613d0d8cab7.jpg",
+      "width": 3024,
+      "height": 3024,
+      "boxes_xyxy": [
+        [
+          1282,
+          2280,
+          1941,
+          2650
+        ]
+      ],
+      "sha256": "33136555ea02fda9ed1815e932bf89ec73dcc87f1488535cccc11f27b834c013",
+      "split": "train",
+      "name": "us_train_072.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000143.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          386,
+          319,
+          475,
+          363
+        ]
+      ],
+      "sha256": "cad95632d9e6dc1652fa7e86bb48880400d1da363cace83f44a7ea27076df46b",
+      "split": "train",
+      "name": "us_train_073.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/Cars173_png_jpg.rf.5c10da098c6705ecff02f8c805a34163.jpg",
+      "width": 400,
+      "height": 226,
+      "boxes_xyxy": [
+        [
+          169,
+          117,
+          251,
+          162
+        ]
+      ],
+      "sha256": "0f28a82552887f0b0ac01e92026a60403a1a8e1b75cd3c3fcbdc6677b677208b",
+      "split": "train",
+      "name": "us_train_074.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/image21_jpeg_jpg.rf.656efe5409ddcf08d68f2ecdeb69768d.jpg",
+      "width": 277,
+      "height": 182,
+      "boxes_xyxy": [
+        [
+          29,
+          33,
+          247,
+          135
+        ]
+      ],
+      "sha256": "1af3b653a9f117d2371e7b2e287eae5cf4435cdc4f8cacaa084e9087b7dd78e4",
+      "split": "train",
+      "name": "us_train_075.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "car5.jpg",
+      "width": 600,
+      "height": 400,
+      "boxes_xyxy": [
+        [
+          260,
+          248,
+          347,
+          291
+        ]
+      ],
+      "sha256": "004703d563acbeadc44781a5287911edfb09a82eba047e8a923fe4f575c66c78",
+      "split": "train",
+      "name": "us_train_076.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "valid/valid/poster_afb082d8bc884d62bd45504c18ee5717_jpg.rf.ca2d4f94f96f43c384b201111fc1fa23.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          307,
+          160,
+          933,
+          533
+        ]
+      ],
+      "sha256": "a46715fd3c865ea78308a807c7fabd416c2cb81a4dbc38cf6417898af7a0143b",
+      "split": "train",
+      "name": "us_train_077.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "33fa5185-0286-4e8f-b775-46162eba39d4.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          666,
+          125,
+          724,
+          154
+        ]
+      ],
+      "sha256": "0b890fb1b737e5ef879f4763a8418f5b03b0b9a5989d684d59d68359bc43fb3c",
+      "split": "train",
+      "name": "us_train_078.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000057.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          385,
+          195,
+          493,
+          249
+        ]
+      ],
+      "sha256": "632cecdce554dc0875978453c9388dde95375757b1049cf1e8cad4b5a7e0886a",
+      "split": "train",
+      "name": "us_train_079.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/HTTPME_jpg.rf.93b7928c64070c0044f4251a01efc427.jpg",
+      "width": 416,
+      "height": 416,
+      "boxes_xyxy": [
+        [
+          158,
+          158,
+          242,
+          215
+        ]
+      ],
+      "sha256": "d25984beeecc979c603161279396eeb226591c506e1d5770675c8d67d372067e",
+      "split": "train",
+      "name": "us_train_080.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_685_jpg.rf.61508608794a4b21a5dcb74f3c50470c.jpg",
+      "width": 600,
+      "height": 520,
+      "boxes_xyxy": [
+        [
+          257,
+          233,
+          365,
+          296
+        ]
+      ],
+      "sha256": "a3b6dfb05e34ec87fef8e2698a015f4bb1bab9e1706e4f215668d732791e4ac9",
+      "split": "train",
+      "name": "us_train_081.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/Cars174_png_jpg.rf.ace41c855ad8d1c9ef4d085e8717387c.jpg",
+      "width": 400,
+      "height": 225,
+      "boxes_xyxy": [
+        [
+          282,
+          158,
+          305,
+          167
+        ],
+        [
+          102,
+          149,
+          121,
+          157
+        ]
+      ],
+      "sha256": "0838238eb58631cdc1478118d01fb3410ea69cb13de4eca4f2f34b28a4645731",
+      "split": "train",
+      "name": "us_train_082.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000034.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          1047,
+          316,
+          1108,
+          346
+        ]
+      ],
+      "sha256": "11faf43cd09b150771719a75287ee85fbec96d3308e9ba5b9a8a43cf61aa97b4",
+      "split": "train",
+      "name": "us_train_083.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "valid/valid/pic_242_jpg.rf.0fd549111c4220a034d49dc64f00e4c1.jpg",
+      "width": 799,
+      "height": 599,
+      "boxes_xyxy": [
+        [
+          332,
+          304,
+          482,
+          387
+        ]
+      ],
+      "sha256": "e88a87ea03f996da4579e8278909373b68919ad82798592380fe71bfc6f98d47",
+      "split": "train",
+      "name": "us_train_084.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_469_jpg.rf.57d0463522517f15cf73ce670b51e6f5.jpg",
+      "width": 1440,
+      "height": 1440,
+      "boxes_xyxy": [
+        [
+          523,
+          704,
+          839,
+          902
+        ]
+      ],
+      "sha256": "da1fd39ab8c8199bf263e102b3fbb4806f5d766e9ebc1951389aae357651afb7",
+      "split": "train",
+      "name": "us_train_085.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "us4.jpg",
+      "width": 300,
+      "height": 199,
+      "boxes_xyxy": [
+        [
+          65,
+          54,
+          221,
+          132
+        ]
+      ],
+      "sha256": "00b899d35c645c1d3d6932b70cbe6f6d5c0798b644fc295bbf8a5edac3241768",
+      "split": "train",
+      "name": "us_train_086.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000128.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          697,
+          275,
+          780,
+          316
+        ]
+      ],
+      "sha256": "d375f48af5dbcc8f19c0f9b702582b8625c828cea11c3fcce588722dd2360483",
+      "split": "train",
+      "name": "us_train_087.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/89-08_jpg.rf.2a6506329b3f5fff6b86267d3a2b0a2b.jpg",
+      "width": 720,
+      "height": 537,
+      "boxes_xyxy": [
+        [
+          248,
+          178,
+          422,
+          273
+        ]
+      ],
+      "sha256": "7a668272d8372719b163ddf465b9e2b7b371e8d1000e837b5b74dee8194dfe16",
+      "split": "train",
+      "name": "us_train_088.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000139.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          803,
+          100,
+          876,
+          136
+        ]
+      ],
+      "sha256": "503eded8519260fe5675d62b3160968aa8844f322c1b1c3bddee5ba78abae86a",
+      "split": "train",
+      "name": "us_train_089.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000027.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          887,
+          205,
+          1021,
+          272
+        ]
+      ],
+      "sha256": "f609e39b60847e8edd84717dfd495e7a3e97e9d8662e50808bf94ff1e6697931",
+      "split": "train",
+      "name": "us_train_090.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000167.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          474,
+          451,
+          569,
+          498
+        ]
+      ],
+      "sha256": "acf3c673f796b35d39746d1ba5c67f62caba317e7914e91c1b4d70fb64889549",
+      "split": "train",
+      "name": "us_train_091.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_599_jpg.rf.b21ad59cec732c96fc196b61938058d6.jpg",
+      "width": 3186,
+      "height": 2432,
+      "boxes_xyxy": [
+        [
+          1361,
+          937,
+          1970,
+          1280
+        ]
+      ],
+      "sha256": "765b8665a4b0400c2392089fa1e28aeff93d3911a2a70e273fead28f102830ef",
+      "split": "train",
+      "name": "us_train_092.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_252_jpg.rf.1cf1298c8aa45215fd1ffb59bfad8310.jpg",
+      "width": 960,
+      "height": 640,
+      "boxes_xyxy": [
+        [
+          412,
+          269,
+          555,
+          347
+        ]
+      ],
+      "sha256": "acaa5b7f4f14cda1edfa877907db3b70f22bac47d8761b77c6e16a08584dd6b3",
+      "split": "train",
+      "name": "us_train_093.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_309_jpg.rf.97328dd3173338dcd1a0c6c5b750d117.jpg",
+      "width": 172,
+      "height": 173,
+      "boxes_xyxy": [
+        [
+          58,
+          66,
+          110,
+          99
+        ]
+      ],
+      "sha256": "1355f68a15081f35d5dd0a865b8ea1e5957d3c7f5f40b3c904e4228741fe9418",
+      "split": "train",
+      "name": "us_train_094.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "valid/valid/Cars218_png_jpg.rf.31e83973f833798c579811952733a37a.jpg",
+      "width": 400,
+      "height": 253,
+      "boxes_xyxy": [
+        [
+          0,
+          165,
+          26,
+          187
+        ]
+      ],
+      "sha256": "0d2811726a85f6d384cbc0de9335d81578d7f809034f5e69493c08740054d6b1",
+      "split": "train",
+      "name": "us_train_095.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000158.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          790,
+          319,
+          928,
+          388
+        ]
+      ],
+      "sha256": "9aab161e9ac93d18d4aff191dab436d30519c3c6b62e351b86d0a1fe4f6ac7b9",
+      "split": "train",
+      "name": "us_train_096.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000174.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          442,
+          281,
+          533,
+          326
+        ]
+      ],
+      "sha256": "040925ee5e928202effdc071d997c4811e7158455ac118da9abf4f810424a703",
+      "split": "train",
+      "name": "us_train_097.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "car22.jpg",
+      "width": 1280,
+      "height": 960,
+      "boxes_xyxy": [
+        [
+          485,
+          370,
+          540,
+          397
+        ]
+      ],
+      "sha256": "f9e334dada5ccf07a1c2d14c2a657ecc330bf514f849c8c5f350f38a7af176f0",
+      "split": "train",
+      "name": "us_train_098.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000062.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          662,
+          520,
+          744,
+          561
+        ]
+      ],
+      "sha256": "9a3c75a253591a8ae601d995c5ce057ad16bb79164158abe4c448c7e95473e10",
+      "split": "train",
+      "name": "us_train_099.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000152.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          717,
+          163,
+          797,
+          203
+        ]
+      ],
+      "sha256": "aa50e65503f216619f085ce6604ad96c8ea5884f11350d8619aa7491dbacfff4",
+      "split": "train",
+      "name": "us_train_100.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000194.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          859,
+          8,
+          942,
+          49
+        ]
+      ],
+      "sha256": "1664089603fe9e0af5cd3bb7062743983801545ca73524baf96190f100a2055e",
+      "split": "train",
+      "name": "us_train_101.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "valid/valid/pic_510_jpg.rf.262b3ad5bb44592e272029be155d1d2f.jpg",
+      "width": 1440,
+      "height": 1440,
+      "boxes_xyxy": [
+        [
+          653,
+          780,
+          973,
+          968
+        ]
+      ],
+      "sha256": "26db2f707ec41716dac8ddc705fddabc3b84d32ee4d970c7daaa11bc6d96fc10",
+      "split": "train",
+      "name": "us_train_102.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "test/test/All-2050-20U-S-20license-20plates_-20ranked-20from-20best_yythkg_jpg.rf.0739fd04805f523051ea967f58aa11c6.jpg",
+      "width": 1130,
+      "height": 636,
+      "boxes_xyxy": [
+        [
+          479,
+          189,
+          653,
+          278
+        ]
+      ],
+      "sha256": "131cfa9ebb03da573351364ccf52cf48d93fc9428f8be5c13d1e42fd3d61fa01",
+      "split": "train",
+      "name": "us_train_103.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000191.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          758,
+          457,
+          896,
+          526
+        ]
+      ],
+      "sha256": "ed82796d80985f17028a2a0f93697c120b3cbdd9b3fbda4c32cd2c93a7473785",
+      "split": "train",
+      "name": "us_train_104.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "7fbfbe28-aecb-45be-bd05-7cf26acb3c5c.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          448,
+          273,
+          509,
+          303
+        ]
+      ],
+      "sha256": "c142d6a397e369f06336c430bb29be4c57c8acc02610acca6afcf1e98c228571",
+      "split": "train",
+      "name": "us_train_105.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_482_jpg.rf.5998472ffe9baaa9963115d677e8898f.jpg",
+      "width": 1300,
+      "height": 956,
+      "boxes_xyxy": [
+        [
+          541,
+          503,
+          791,
+          647
+        ]
+      ],
+      "sha256": "c1ec63c3d24a2f8810c85aec1acd15ebf1d46fd8adc43703c6c3ed8938776775",
+      "split": "train",
+      "name": "us_train_106.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "d4f79480-366a-40b6-ab2c-328bcba705b2.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          478,
+          336,
+          549,
+          371
+        ]
+      ],
+      "sha256": "cffdd4b8010c5d7d26fc003b08216c2576bb1f0433eeaa5816c7391ab02f90f3",
+      "split": "train",
+      "name": "us_train_107.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000058.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          709,
+          193,
+          761,
+          219
+        ]
+      ],
+      "sha256": "7d63b7cd52b1833eb730b61ea715c0bc74fe2c7dcb85c49af00addbefd65b046",
+      "split": "train",
+      "name": "us_train_108.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000038.jpg",
+      "width": 1024,
+      "height": 640,
+      "boxes_xyxy": [
+        [
+          215,
+          479,
+          289,
+          516
+        ]
+      ],
+      "sha256": "3dbc6467ff29f270fcece6b56b441588e14338c93212918a2598af7bc14206f4",
+      "split": "train",
+      "name": "us_train_109.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_365_jpg.rf.f95867959993fc9c5b8ca863dd4e4e65.jpg",
+      "width": 400,
+      "height": 320,
+      "boxes_xyxy": [
+        [
+          124,
+          97,
+          302,
+          200
+        ]
+      ],
+      "sha256": "566c31b088e2823935ab2aa46fa26452736920083d78f855e5009c322f786093",
+      "split": "train",
+      "name": "us_train_110.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/EXCUSEM3_jpg.rf.2f8838d5da327629adba0010ae787690.jpg",
+      "width": 416,
+      "height": 416,
+      "boxes_xyxy": [
+        [
+          182,
+          313,
+          249,
+          345
+        ]
+      ],
+      "sha256": "51ae39aa405124dca81845ece42471c828af66a77d1b21e77c87655b3c883893",
+      "split": "train",
+      "name": "us_train_111.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000024.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          645,
+          93,
+          762,
+          151
+        ]
+      ],
+      "sha256": "4f4e6e68f60cd9d9e007f33143f02552d12257157091fc591bc47118bd67ded7",
+      "split": "train",
+      "name": "us_train_112.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000017.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          505,
+          403,
+          641,
+          471
+        ]
+      ],
+      "sha256": "f3a1759e254de5a3041d8cc1833bf84c535b5a35330a836a4d0a6eb675b42240",
+      "split": "train",
+      "name": "us_train_113.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000036.jpg",
+      "width": 1024,
+      "height": 640,
+      "boxes_xyxy": [
+        [
+          621,
+          313,
+          684,
+          344
+        ]
+      ],
+      "sha256": "082a63ac89b3b730a0134eed4d437d9fbb837c02d69f4c938e2c101923df6a7f",
+      "split": "train",
+      "name": "us_train_114.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "test/test/images29_jpg.rf.8e881fc5953b2c86504e6700d13451ec.jpg",
+      "width": 327,
+      "height": 154,
+      "boxes_xyxy": [
+        [
+          115,
+          69,
+          214,
+          119
+        ]
+      ],
+      "sha256": "e0d918870a9d24264752c9582bf028fb63f2c247f2e1057e652d139d95edf089",
+      "split": "train",
+      "name": "us_train_115.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_199_jpg.rf.e32d1b610e06b1763d7beac1b611d4fb.jpg",
+      "width": 500,
+      "height": 277,
+      "boxes_xyxy": [
+        [
+          196,
+          64,
+          311,
+          123
+        ]
+      ],
+      "sha256": "04a606056bb26d5a01b26596f08a2bddef1ce34fd73960240f97d1761bb729e5",
+      "split": "train",
+      "name": "us_train_116.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_767_jpg.rf.69ba7259cb32ca307bc293be08854e3d.jpg",
+      "width": 600,
+      "height": 500,
+      "boxes_xyxy": [
+        [
+          207,
+          212,
+          373,
+          330
+        ]
+      ],
+      "sha256": "54a96270396d690c60ae1f2a7e41e5e28f0123277f5a049df200c17ca68b3565",
+      "split": "train",
+      "name": "us_train_117.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "us5.jpg",
+      "width": 1748,
+      "height": 1329,
+      "boxes_xyxy": [
+        [
+          841,
+          666,
+          1068,
+          779
+        ]
+      ],
+      "sha256": "d95aa7cd5a1edcbe5f27847e628913fcd22e26cee1e5223268b327ef560a460b",
+      "split": "train",
+      "name": "us_train_118.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000181.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          606,
+          417,
+          723,
+          475
+        ]
+      ],
+      "sha256": "1db3a30e6b9fe7841a5c2a3912aa139571fc6427903ef0b6fe4c00911e73ac40",
+      "split": "train",
+      "name": "us_train_119.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "valid/valid/pic_392_jpg.rf.079ea8b5a42e8cf1e22a41736c5ff244.jpg",
+      "width": 351,
+      "height": 235,
+      "boxes_xyxy": [
+        [
+          138,
+          92,
+          206,
+          130
+        ]
+      ],
+      "sha256": "b9c46e845b3482117e910cfe5ce77461708d5e0dabc78e300d31dc6ae304c803",
+      "split": "train",
+      "name": "us_train_120.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_117_jpg.rf.2dbb939ab5e0f4de8186a8aa3f8a3f82.jpg",
+      "width": 640,
+      "height": 448,
+      "boxes_xyxy": [
+        [
+          209,
+          274,
+          342,
+          362
+        ]
+      ],
+      "sha256": "167a5e5fcee3961d4235a76fd85778d8e42fe9397fb35690fb688db10c67420e",
+      "split": "train",
+      "name": "us_train_121.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000045.jpg",
+      "width": 1024,
+      "height": 640,
+      "boxes_xyxy": [
+        [
+          273,
+          318,
+          352,
+          357
+        ]
+      ],
+      "sha256": "a1148f2a9ab3c6b3d24a6b239d7c1360fdefd5bbe2236e1ba883511e3d8bc2d0",
+      "split": "train",
+      "name": "us_train_122.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "car8.jpg",
+      "width": 405,
+      "height": 540,
+      "boxes_xyxy": [
+        [
+          145,
+          326,
+          213,
+          360
+        ]
+      ],
+      "sha256": "adf45440b87ee86c1ce9bcab704433eba23542c9ba60d678513dff5b55aff72a",
+      "split": "train",
+      "name": "us_train_123.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000131.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          687,
+          239,
+          769,
+          280
+        ]
+      ],
+      "sha256": "6f6c24de16ccbee102b4bec7456006f0002dcaf22b9e6ed91f9774b60f135983",
+      "split": "train",
+      "name": "us_train_124.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/695183907_jpg.rf.90c90f3cba7a652cc788cd653506b7fd.jpg",
+      "width": 2400,
+      "height": 1743,
+      "boxes_xyxy": [
+        [
+          147,
+          820,
+          746,
+          1064
+        ]
+      ],
+      "sha256": "5abcce6921b9a81b7813426311c13f1fd77d234d988d5fde727266037df2a3a1",
+      "split": "train",
+      "name": "us_train_125.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "car21.jpg",
+      "width": 1280,
+      "height": 960,
+      "boxes_xyxy": [
+        [
+          288,
+          334,
+          351,
+          365
+        ]
+      ],
+      "sha256": "f39426f856b9a7a0b4ba4479ffef05cc94513a3ecfef9e5a881b744f0c5c1d18",
+      "split": "train",
+      "name": "us_train_126.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000022.jpg",
+      "width": 1024,
+      "height": 640,
+      "boxes_xyxy": [
+        [
+          545,
+          243,
+          612,
+          276
+        ]
+      ],
+      "sha256": "c8e86eed5fa1d6d6f1d16faf2040c17b9df4be2f3930b468a27ac571cad0bd09",
+      "split": "train",
+      "name": "us_train_127.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_196_jpg.rf.b1e3dd87bca9b6300ef17ee7300c6b6a.jpg",
+      "width": 600,
+      "height": 400,
+      "boxes_xyxy": [
+        [
+          261,
+          301,
+          356,
+          350
+        ]
+      ],
+      "sha256": "82d5714ecf818e4889ae6e69686853055cae784f9870b1d85eeb78e65e81dbfe",
+      "split": "train",
+      "name": "us_train_128.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000150.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          495,
+          309,
+          584,
+          353
+        ]
+      ],
+      "sha256": "ab7e89d35030ee4e338b0b482164a4e03bbcd59984e89c2981269fd478440fb1",
+      "split": "train",
+      "name": "us_train_129.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "test/test/41-1200px-Washington_License_Plate_2019_jpg.rf.67e1ce942dcdd9efef50708b46cda042.jpg",
+      "width": 1200,
+      "height": 620,
+      "boxes_xyxy": [
+        [
+          20,
+          27,
+          1172,
+          585
+        ]
+      ],
+      "sha256": "980ac222c96f705e251555a292464c76af85a1fdee437fbbebedf9de5cf51df8",
+      "split": "train",
+      "name": "us_train_130.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000196.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          672,
+          433,
+          808,
+          501
+        ]
+      ],
+      "sha256": "a863be636db91a93d3e378405327bcab3dc910c5306b020a2ba790254edfa514",
+      "split": "train",
+      "name": "us_train_131.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_071_jpg.rf.c6267a1eff18823cb5e3cea21185ba3d.jpg",
+      "width": 800,
+      "height": 600,
+      "boxes_xyxy": [
+        [
+          131,
+          352,
+          197,
+          417
+        ]
+      ],
+      "sha256": "0d4a30b951dbd6771eebdd5307c4cdd80531aab7150be050a6de948e3a27f7f3",
+      "split": "train",
+      "name": "us_train_132.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000187.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          463,
+          220,
+          550,
+          263
+        ]
+      ],
+      "sha256": "034a392bb8c73264e9f55c9197f0545b53e72ea03c4b5a27d36d904403587f92",
+      "split": "train",
+      "name": "us_train_133.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "valid/valid/200309-expired-license-plate-slidell-police-department-ew-154p_jpg.rf.d621649cab4315b318966a981679ceb9.jpg",
+      "width": 1536,
+      "height": 1164,
+      "boxes_xyxy": [
+        [
+          8,
+          110,
+          1536,
+          956
+        ]
+      ],
+      "sha256": "0ef6c177afd7a4cc11519ae7f42bb0493e3203946639c59d3291b404e995ca1d",
+      "split": "train",
+      "name": "us_train_134.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "valid/valid/images16_jpg.rf.6166fb35d76b5fd2bf8c61d0b1336530.jpg",
+      "width": 100,
+      "height": 100,
+      "boxes_xyxy": [
+        [
+          6,
+          45,
+          90,
+          85
+        ]
+      ],
+      "sha256": "03a398ede3ae1a2b6649a9892dfdcc24b8821bd173cca250df4e4fdd933ba1ba",
+      "split": "train",
+      "name": "us_train_135.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000162.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          761,
+          347,
+          902,
+          417
+        ]
+      ],
+      "sha256": "97963c2dbf8319639c5d9708726bc313c9ef471e2dd6def887dc47bdd3178435",
+      "split": "train",
+      "name": "us_train_136.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/Car-20License-20Plate-20designs_-20themes_-20templates-20and-20do_png_jpg.rf.84cadc7d05fad206c1ffe74cc2d61a16.jpg",
+      "width": 400,
+      "height": 300,
+      "boxes_xyxy": [
+        [
+          102,
+          98,
+          301,
+          202
+        ]
+      ],
+      "sha256": "b947be07a84db88e7f867ab7032edfd487a26bec6126c3aa8aea9c6094660541",
+      "split": "train",
+      "name": "us_train_137.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "test/test/Best-20Electric-20Car-20License-20Plates_jpg.rf.760f3e87aec25089cf210d1f7bb71bf9.jpg",
+      "width": 603,
+      "height": 300,
+      "boxes_xyxy": [
+        [
+          232,
+          95,
+          381,
+          172
+        ]
+      ],
+      "sha256": "0afea7af0067128aa5b267c54468e5193e6bd331a0d21b1633c9760f4518df72",
+      "split": "train",
+      "name": "us_train_138.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000044.jpg",
+      "width": 1024,
+      "height": 640,
+      "boxes_xyxy": [
+        [
+          337,
+          548,
+          411,
+          585
+        ]
+      ],
+      "sha256": "c4365bdefe46d79253a607e602a0269958bbd9109ba83670e53d35388be9ae92",
+      "split": "train",
+      "name": "us_train_139.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/Cars176_png_jpg.rf.e7b6cb4b4761b842900578549ad433f9.jpg",
+      "width": 400,
+      "height": 250,
+      "boxes_xyxy": [
+        [
+          71,
+          66,
+          307,
+          184
+        ]
+      ],
+      "sha256": "f4e3dfa1bdd31f9ea399f96117bceb083dee669018039e8887dafa1b3c11584e",
+      "split": "train",
+      "name": "us_train_140.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000199.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          243,
+          170,
+          321,
+          209
+        ]
+      ],
+      "sha256": "e9d525fb6ef71fb8493a5935a532a1f2f32f6e57807f87d500aa5c625c666e7a",
+      "split": "train",
+      "name": "us_train_141.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/256721_jpg.rf.687e105eb4c9a7638543b3727324185c.jpg",
+      "width": 1024,
+      "height": 683,
+      "boxes_xyxy": [
+        [
+          494,
+          367,
+          618,
+          420
+        ]
+      ],
+      "sha256": "812c296bdae1a4f56698e1c99ce8a7ac2f5bd4e08c3acb3cba0c169597907bb4",
+      "split": "train",
+      "name": "us_train_142.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_295_png_jpg.rf.998004158b359c75220a266327a93c77.jpg",
+      "width": 646,
+      "height": 536,
+      "boxes_xyxy": [
+        [
+          283,
+          255,
+          410,
+          330
+        ]
+      ],
+      "sha256": "9a988342b09ca74c429c0878173aa22157c77d66612e456f9b0bf7aa4c85e692",
+      "split": "train",
+      "name": "us_train_143.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/Cars309_png_jpg.rf.daf7b0441374e97acb0d81d7d4b3e70e.jpg",
+      "width": 400,
+      "height": 225,
+      "boxes_xyxy": [
+        [
+          151,
+          121,
+          251,
+          206
+        ]
+      ],
+      "sha256": "f2694a1d3f273b523054b1870674f1c79c21477e299ccc7a65728564b28f0ad2",
+      "split": "train",
+      "name": "us_train_144.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "valid/valid/080616-cc-12-litte-known-facts-about-license-plates-3_jpg.rf.99dedd6c3e8bf296dd11e5972bad234d.jpg",
+      "width": 1000,
+      "height": 697,
+      "boxes_xyxy": [
+        [
+          62,
+          113,
+          926,
+          537
+        ]
+      ],
+      "sha256": "bf2bb8bcfa2bc4606d8874b406b6066237b501ddf73bedd68160c33dc93f8766",
+      "split": "train",
+      "name": "us_train_145.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/Best-20Electric-20Car-20License-20Plates-20-1-_jpg.rf.2e074f29020b9cbd1bbc497f50d9c3e2.jpg",
+      "width": 603,
+      "height": 300,
+      "boxes_xyxy": [
+        [
+          298,
+          143,
+          429,
+          286
+        ]
+      ],
+      "sha256": "597556b1e3a3a8d544e23312eb5d17999f7ae80da46dd85d478e5e9f3324abee",
+      "split": "train",
+      "name": "us_train_146.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000074.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          914,
+          314,
+          1034,
+          374
+        ]
+      ],
+      "sha256": "88c537d50f4dfe5cf7c23160b607de6cd677e9e66c0cceac379df9f82f823ad5",
+      "split": "train",
+      "name": "us_train_147.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "car12.jpg",
+      "width": 1296,
+      "height": 972,
+      "boxes_xyxy": [
+        [
+          337,
+          576,
+          491,
+          653
+        ]
+      ],
+      "sha256": "6e30712d606eb6a3a550a9fa654be40658983ac441b5fc42be2c88bf02f9fdff",
+      "split": "train",
+      "name": "us_train_148.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000172.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          546,
+          363,
+          629,
+          404
+        ]
+      ],
+      "sha256": "abfee9e78bb08ad8dff5fe2b91e32d9fa6989d34debf94140d20654cbe3cf30b",
+      "split": "train",
+      "name": "us_train_149.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "test/test/pic_335_jpg.rf.7ebf70621797afdb9d318c8994c06082.jpg",
+      "width": 3024,
+      "height": 4032,
+      "boxes_xyxy": [
+        [
+          862,
+          1830,
+          1931,
+          2445
+        ]
+      ],
+      "sha256": "210828aaf62c4353b8f36baf6647e4b726ae99b2a940ae715b1836d822f6cd0f",
+      "split": "train",
+      "name": "us_train_150.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000097.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          617,
+          553,
+          707,
+          598
+        ]
+      ],
+      "sha256": "1923080b19ff962e94c487bbe7c139951ed0a768fb292e859d831e6909f63b31",
+      "split": "train",
+      "name": "us_train_151.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "0b86cecf-67d1-4fc0-87c9-b36b0ee228bb.jpg",
+      "width": 1920,
+      "height": 1080,
+      "boxes_xyxy": [
+        [
+          935,
+          362,
+          1034,
+          411
+        ]
+      ],
+      "sha256": "257d81fd4728316bae45fac0d3f0130e87ba546ccb5946bb0e91d14a3441578b",
+      "split": "train",
+      "name": "us_train_152.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/image2_jpeg_jpg.rf.500bc3edc60252d266cceccbe176bcf9.jpg",
+      "width": 100,
+      "height": 100,
+      "boxes_xyxy": [
+        [
+          0,
+          13,
+          100,
+          79
+        ]
+      ],
+      "sha256": "17b0abbaf541514868f335e91a9cc05f1fe1ab39b351f3d5e76aba94a457ee87",
+      "split": "train",
+      "name": "us_train_153.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000073.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          1010,
+          337,
+          1104,
+          384
+        ]
+      ],
+      "sha256": "12b19eeaf38e0f5b2174fcc41d323cec49af183874c88a3cccab7e1138f93e7d",
+      "split": "train",
+      "name": "us_train_154.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/Cars75_png_jpg.rf.3df45d39a268a89c3b9b3e921c4b598f.jpg",
+      "width": 400,
+      "height": 248,
+      "boxes_xyxy": [
+        [
+          208,
+          195,
+          217,
+          200
+        ]
+      ],
+      "sha256": "f43be285fa42e21f16b50bf3c225ae2c7d0a5610eaaca39557da6e4dd444c811",
+      "split": "train",
+      "name": "us_train_155.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000188.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          359,
+          182,
+          444,
+          224
+        ]
+      ],
+      "sha256": "c4908e0ada04712529b63659c173c8594511a825928d724baed5c973e7781133",
+      "split": "train",
+      "name": "us_train_156.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000155.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          795,
+          291,
+          924,
+          355
+        ]
+      ],
+      "sha256": "c93f432e6c44db03b78611181ba65bdb8f9701fc3941c2891cfeff6ef0d98074",
+      "split": "train",
+      "name": "us_train_157.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000043.jpg",
+      "width": 1280,
+      "height": 800,
+      "boxes_xyxy": [
+        [
+          682,
+          433,
+          772,
+          478
+        ]
+      ],
+      "sha256": "ea44812815eda1b406f83aedc32bef02609d7eb0ff45787369b8e793c777d4e3",
+      "split": "train",
+      "name": "us_train_158.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "us6.jpg",
+      "width": 1009,
+      "height": 814,
+      "boxes_xyxy": [
+        [
+          383,
+          568,
+          599,
+          676
+        ]
+      ],
+      "sha256": "5990776f5faffba834071b19e109b4155add22d5a0629783717a006e0919334a",
+      "split": "train",
+      "name": "us_train_159.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000177.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          422,
+          430,
+          521,
+          479
+        ]
+      ],
+      "sha256": "9d3b42d6f145584017ed21a4d735499b5a3dd8f3ed207aa359f5dbd83a7f6739",
+      "split": "train",
+      "name": "us_train_160.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/Cars330_png_jpg.rf.28fe326e0adad8874b0c59f109b34c80.jpg",
+      "width": 400,
+      "height": 300,
+      "boxes_xyxy": [
+        [
+          28,
+          191,
+          56,
+          202
+        ],
+        [
+          167,
+          201,
+          197,
+          213
+        ],
+        [
+          312,
+          179,
+          332,
+          190
+        ],
+        [
+          384,
+          171,
+          398,
+          180
+        ]
+      ],
+      "sha256": "6213fc3461a4166470f0e8e43945619afa6edcdcfd18e00271dd1d77108454f5",
+      "split": "train",
+      "name": "us_train_161.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "test/test/image19_jpeg_jpg.rf.664449993a66fb9e810b76dd9bd2a2c1.jpg",
+      "width": 300,
+      "height": 168,
+      "boxes_xyxy": [
+        [
+          85,
+          62,
+          222,
+          124
+        ]
+      ],
+      "sha256": "d21d9f6eaa1e7db71413703de2d9633a57731e21b8256de5ce4b9879435168a7",
+      "split": "train",
+      "name": "us_train_162.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_237_jpg.rf.aa0f9618ae4e34589d2e549e5861878e.jpg",
+      "width": 403,
+      "height": 340,
+      "boxes_xyxy": [
+        [
+          111,
+          183,
+          200,
+          241
+        ]
+      ],
+      "sha256": "d2ec596f19da1627b0bf143a23e6ffb60c74c9bbb815c3cfef9f5a78745d9252",
+      "split": "train",
+      "name": "us_train_163.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_132_jpg.rf.5aecb40ea6e5aa50862a7d8cda8821da.jpg",
+      "width": 500,
+      "height": 375,
+      "boxes_xyxy": [
+        [
+          252,
+          203,
+          432,
+          314
+        ]
+      ],
+      "sha256": "f7e09c6a60471e4bab67ff7be5772f3fb3a2c628e01292e6d061dd03fbf6a4a0",
+      "split": "train",
+      "name": "us_train_164.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/5-20Ways-20To-20Upgrade-20Your-20Car-20License-20Plate-20-_y_jpg.rf.7e78e8eba55abc85c4c21b07135d2cb6.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          510,
+          202,
+          764,
+          371
+        ]
+      ],
+      "sha256": "c9f69d7cdb1664528a0d801a3bce30a49dfbe453316a572a1724a4d4bd9fbf02",
+      "split": "train",
+      "name": "us_train_165.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "valid/valid/Cars286_png_jpg.rf.d1a16f00767c5abce909c47cf7afe024.jpg",
+      "width": 500,
+      "height": 375,
+      "boxes_xyxy": [
+        [
+          200,
+          190,
+          287,
+          229
+        ]
+      ],
+      "sha256": "ea357acfcc0bb1ed0d5ccd0a698e06749466428f8c6449d045c4aeacdaa10575",
+      "split": "train",
+      "name": "us_train_166.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "test/test/pic_125_jpg.rf.34d3611cde15570f47c66a31cbc38ba0.jpg",
+      "width": 600,
+      "height": 315,
+      "boxes_xyxy": [
+        [
+          266,
+          120,
+          375,
+          180
+        ]
+      ],
+      "sha256": "025ab8c0621739951c2bbc8a88df04243fd61326d8d094562954ed7d1a5c3993",
+      "split": "train",
+      "name": "us_train_167.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/Cars404_png_jpg.rf.f71c5743f29b2193ad8f2ea9c2f8d255.jpg",
+      "width": 370,
+      "height": 400,
+      "boxes_xyxy": [
+        [
+          161,
+          207,
+          234,
+          243
+        ]
+      ],
+      "sha256": "38e4e2cb25e19951d33b611efa2c5b30854c57e4d6d9cd072dc3b4531eda5445",
+      "split": "train",
+      "name": "us_train_168.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "valid/valid/pic_247_jpg.rf.bf7edb0f1b81afd5a93b5b6017c77639.jpg",
+      "width": 1024,
+      "height": 612,
+      "boxes_xyxy": [
+        [
+          439,
+          414,
+          587,
+          489
+        ]
+      ],
+      "sha256": "37f290027763a6ac417533d8eec2e3ff33adc25d53acb6f845e84d8c1e8f3aef",
+      "split": "train",
+      "name": "us_train_169.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000118.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          827,
+          208,
+          908,
+          248
+        ]
+      ],
+      "sha256": "7708ec01add8b5e9e96143010a88a97e41ef28a8f69294e84aa70dc0ee8eed09",
+      "split": "train",
+      "name": "us_train_170.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000061.jpg",
+      "width": 1280,
+      "height": 800,
+      "boxes_xyxy": [
+        [
+          307,
+          155,
+          380,
+          191
+        ]
+      ],
+      "sha256": "5ef5feff71e559b9d76b104baa325ebd3f8bf112f72f708b297b7db7cdc7f2d6",
+      "split": "train",
+      "name": "us_train_171.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000190.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          379,
+          429,
+          478,
+          478
+        ]
+      ],
+      "sha256": "392a3844132fa7a9e418b4758cac1d24f4df52b59079d06eb1d1a8cd5c813b00",
+      "split": "train",
+      "name": "us_train_172.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "test/test/pic_494_jpg.rf.8afaa4ea9a2f7aa72d06d26fd37794d1.jpg",
+      "width": 2344,
+      "height": 1402,
+      "boxes_xyxy": [
+        [
+          1045,
+          816,
+          1437,
+          1032
+        ]
+      ],
+      "sha256": "3c515c4dd0e1d80fa98e2396127f7243af70882f185ad8865e58a72680b6235a",
+      "split": "train",
+      "name": "us_train_173.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000023.jpg",
+      "width": 1024,
+      "height": 640,
+      "boxes_xyxy": [
+        [
+          880,
+          151,
+          971,
+          196
+        ]
+      ],
+      "sha256": "7fb3c6f81922eb347c65bf4e8adc0f8166514e9febe342f3ef7487b9bbe3272e",
+      "split": "train",
+      "name": "us_train_174.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_009_jpg.rf.74f7d192296cb211afe3f94777d5e34c.jpg",
+      "width": 640,
+      "height": 640,
+      "boxes_xyxy": [
+        [
+          139,
+          196,
+          425,
+          361
+        ]
+      ],
+      "sha256": "2a2a6bfb16513b42aa83930f8cace84cbeaaa94002506c3cd484be2307566c4c",
+      "split": "train",
+      "name": "us_train_175.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_350_jpg.rf.e0f5d5791b69f9c0193c91564c0a2c71.jpg",
+      "width": 3264,
+      "height": 2448,
+      "boxes_xyxy": [
+        [
+          1261,
+          1153,
+          1824,
+          1486
+        ]
+      ],
+      "sha256": "ef3ddcc26b0b257a06d2ca589c8d8ae17a89e191ffcc8ec9bc9d4f9042923fe5",
+      "split": "train",
+      "name": "us_train_176.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_394_jpg.rf.f104eb0b45f73880893e361b75ae526f.jpg",
+      "width": 640,
+      "height": 640,
+      "boxes_xyxy": [
+        [
+          245,
+          239,
+          438,
+          345
+        ]
+      ],
+      "sha256": "2ed952c2692957aebec44c096138806d98c61812b332ee5c1a274be98d1e3271",
+      "split": "train",
+      "name": "us_train_177.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000083.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          630,
+          634,
+          712,
+          675
+        ]
+      ],
+      "sha256": "fdcecced20b44b6f243965783df710cb35ebb3fd96e8cd976a70b866fc734d25",
+      "split": "train",
+      "name": "us_train_178.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/the-license-plate-on-the-first-2013-cadillac-ats-available-news-photo-1599402276_jpg.rf.117cb93e602853b19825ee553c806f56.jpg",
+      "width": 3000,
+      "height": 2067,
+      "boxes_xyxy": [
+        [
+          862,
+          780,
+          2265,
+          1425
+        ]
+      ],
+      "sha256": "d9ae7ef06b946cbf4da59972e747d697506c9012dad6e3f3593cdb28397aa4fa",
+      "split": "train",
+      "name": "us_train_179.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_732_jpg.rf.ce9470efba4eebd3ea90632ebce93f37.jpg",
+      "width": 800,
+      "height": 526,
+      "boxes_xyxy": [
+        [
+          355,
+          218,
+          486,
+          296
+        ]
+      ],
+      "sha256": "3a7dd71e71344cb8f710ade5924565088d6fb145702d10b611bdf4dba8298b46",
+      "split": "train",
+      "name": "us_train_180.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_573_jpg.rf.6dcc0780680736700d189e9580c0e65c.jpg",
+      "width": 634,
+      "height": 602,
+      "boxes_xyxy": [
+        [
+          184,
+          345,
+          455,
+          498
+        ]
+      ],
+      "sha256": "dabe398df799a93d7cfd0645ef2644b63633c7c88a2c37eee50fd970732b0960",
+      "split": "train",
+      "name": "us_train_181.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000165.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          842,
+          282,
+          983,
+          352
+        ]
+      ],
+      "sha256": "eba187dbf0f1b3ccb03bfa59d6435f38f1a732e6f924a74ad5b1b179274918c3",
+      "split": "train",
+      "name": "us_train_182.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000084.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          435,
+          416,
+          533,
+          465
+        ]
+      ],
+      "sha256": "5800579139063030337078df7a3a7375f5f35e2c36b8623aa02a59d0e645e0d9",
+      "split": "train",
+      "name": "us_train_183.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "car16.jpg",
+      "width": 720,
+      "height": 480,
+      "boxes_xyxy": [
+        [
+          350,
+          360,
+          437,
+          403
+        ]
+      ],
+      "sha256": "be0c2fe2248c7b4d330714284c857309982268a0d4a36e65f440df55854a0ab4",
+      "split": "train",
+      "name": "us_train_184.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000030.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          478,
+          411,
+          549,
+          446
+        ]
+      ],
+      "sha256": "1d62a4474be747766fc9c4bbc9ac38907031b4e52873c497f6bdeacc28c5d432",
+      "split": "train",
+      "name": "us_train_185.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_200_jpg.rf.4ada76924df88948067ff35ccaeb8998.jpg",
+      "width": 1300,
+      "height": 956,
+      "boxes_xyxy": [
+        [
+          599,
+          313,
+          1066,
+          549
+        ]
+      ],
+      "sha256": "5a0c890c08194743a85915c556fa4e4ff743bf08fbc4286925a6f78fc7096a72",
+      "split": "train",
+      "name": "us_train_186.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_648_jpg.rf.9b9d8f1e8cac90e43813063cf2409c6f.jpg",
+      "width": 800,
+      "height": 600,
+      "boxes_xyxy": [
+        [
+          333,
+          262,
+          471,
+          440
+        ]
+      ],
+      "sha256": "c546bbf7cee8ab8502c790a86db0b38cc9b57c70d6d74739a81a38990472acae",
+      "split": "train",
+      "name": "us_train_187.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000189.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          935,
+          181,
+          1011,
+          219
+        ]
+      ],
+      "sha256": "4c223cc8273c33d7029a38c733e73a1130b0531c8ccb8cfb08dc8ace88730a6d",
+      "split": "train",
+      "name": "us_train_188.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000133.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          611,
+          238,
+          695,
+          280
+        ]
+      ],
+      "sha256": "fc3c34dcac0e557fbce3d4d3cde834ca9fcbb2803c1ee96ba6d0a697d2422ff6",
+      "split": "train",
+      "name": "us_train_189.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000031.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          653,
+          437,
+          748,
+          484
+        ]
+      ],
+      "sha256": "9b94e083683e68da0a6db73c1b6d83e930598db940605681e255175ed0604778",
+      "split": "train",
+      "name": "us_train_190.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000179.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          638,
+          162,
+          715,
+          200
+        ]
+      ],
+      "sha256": "5e337fedfb8adedda030108dd2f21f6a16473241af7a3edf55cdc91e05679dba",
+      "split": "train",
+      "name": "us_train_191.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_744_jpg.rf.339ba24c9d3cc1a4e041fca0fa51b75b.jpg",
+      "width": 640,
+      "height": 360,
+      "boxes_xyxy": [
+        [
+          239,
+          104,
+          396,
+          194
+        ]
+      ],
+      "sha256": "5535006b9c4b44f6d454267a1637fb8bd660b48ac71a7e0dc890a841dff6f7d8",
+      "split": "train",
+      "name": "us_train_192.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/TY27924_jpg.rf.89bb9d562464a88288981bff878379cf.jpg",
+      "width": 416,
+      "height": 416,
+      "boxes_xyxy": [
+        [
+          182,
+          296,
+          235,
+          330
+        ]
+      ],
+      "sha256": "ecb5d801b1433f8a18ecf8f63329cb94f9cf536d3d23b0c30fb33caa6d7f6b9a",
+      "split": "train",
+      "name": "us_train_193.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000063.jpg",
+      "width": 800,
+      "height": 600,
+      "boxes_xyxy": [
+        [
+          253,
+          412,
+          334,
+          452
+        ]
+      ],
+      "sha256": "cf675da16671866320c8142f07f9c18993f1141cc4c744e227e2e8af05ec45a3",
+      "split": "train",
+      "name": "us_train_194.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000033.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          629,
+          341,
+          711,
+          382
+        ]
+      ],
+      "sha256": "c1db7dfebc41db79d5a42b1787e4794d1f27d66dd6ed33fb9c0445d8edc64d46",
+      "split": "train",
+      "name": "us_train_195.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000106.jpg",
+      "width": 1024,
+      "height": 640,
+      "boxes_xyxy": [
+        [
+          322,
+          296,
+          394,
+          332
+        ]
+      ],
+      "sha256": "6d72aedc4c3336e6ec7f5c47c40bfdb49240fc51811544716628e56d284e28a7",
+      "split": "train",
+      "name": "us_train_196.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000130.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          620,
+          272,
+          705,
+          314
+        ]
+      ],
+      "sha256": "051a441d7c1b9f3cb2a10aa2089f237d9d00e024cb0019dff4385468dcb79866",
+      "split": "train",
+      "name": "us_train_197.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "test/test/Can-20Someone-20Really-20Steal-20Your-20Info-20From-20Your_yythkg_jpg.rf.4ce97351c72e07b89b7ea7fa3f0e4af4.jpg",
+      "width": 1024,
+      "height": 725,
+      "boxes_xyxy": [
+        [
+          423,
+          465,
+          603,
+          552
+        ]
+      ],
+      "sha256": "6bc87bf3fecd250cf2b393f0f1e91abea34cd4cb847786f12671eed526c5499a",
+      "split": "train",
+      "name": "us_train_198.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000066.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          653,
+          637,
+          750,
+          685
+        ]
+      ],
+      "sha256": "4487e18febd690607e6dad8baaf65951d57f153d8f5de27b7ecdbe72a61acd61",
+      "split": "train",
+      "name": "us_train_199.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_298_jpg.rf.5cc8099312e5d9137c155e3a956edca0.jpg",
+      "width": 5312,
+      "height": 2988,
+      "boxes_xyxy": [
+        [
+          2417,
+          1080,
+          3406,
+          1650
+        ]
+      ],
+      "sha256": "565959367de8c3dd5f13807675c23e9d31de84f707195eecf39c496d55501f08",
+      "split": "train",
+      "name": "us_train_200.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "valid/valid/38-800px-County_of_Maui-2C_Hawaii_vehicle_CofM_license_plate_jpg.rf.c7cc0436cf04ff0dea1b7692bba67e07.jpg",
+      "width": 800,
+      "height": 600,
+      "boxes_xyxy": [
+        [
+          275,
+          253,
+          494,
+          363
+        ]
+      ],
+      "sha256": "a1faa271637226106091f04866ea73e6bee714383f4d08580230e3506dee4ef9",
+      "split": "train",
+      "name": "us_train_201.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/License-Plates-Laws_jpg.rf.38afa0e0071c67c63515ec38381b8958.jpg",
+      "width": 1024,
+      "height": 768,
+      "boxes_xyxy": [
+        [
+          153,
+          150,
+          898,
+          516
+        ]
+      ],
+      "sha256": "9084a71f439a92963b08c6eab9adf0ef58f39f7e7c4a5cd4033dda157f142da0",
+      "split": "train",
+      "name": "us_train_202.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/NTHGLFT_jpg.rf.b43285c1e92e4aa6387250df08a5ea33.jpg",
+      "width": 416,
+      "height": 416,
+      "boxes_xyxy": [
+        [
+          192,
+          193,
+          307,
+          255
+        ]
+      ],
+      "sha256": "0791ca077b225ca23a38d2ab0f71c81330aac6c7162a29e9e90e5212acd0d933",
+      "split": "train",
+      "name": "us_train_203.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000102.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          658,
+          494,
+          735,
+          532
+        ]
+      ],
+      "sha256": "fcefbaca7915bbc0c004ba5f2881747b1a0815ea65ea9be8f5b08da9e084ab33",
+      "split": "train",
+      "name": "us_train_204.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000193.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          495,
+          424,
+          639,
+          496
+        ]
+      ],
+      "sha256": "dd80bcb5dfb71c346ec4dd6e3c338041f65f3c1d048b63718a1dde5bee72be09",
+      "split": "train",
+      "name": "us_train_205.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "car2.jpg",
+      "width": 1024,
+      "height": 768,
+      "boxes_xyxy": [
+        [
+          209,
+          626,
+          295,
+          669
+        ]
+      ],
+      "sha256": "6533af1f948b2ede6be4e9e9b23f69267bf1f193f689e50b27a3751751c441e5",
+      "split": "train",
+      "name": "us_train_206.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000099.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          327,
+          284,
+          410,
+          325
+        ]
+      ],
+      "sha256": "bd4f290219a7e3b8c6ab789c55bfeb15b44e817a98d9f402fb2648aab7d10881",
+      "split": "train",
+      "name": "us_train_207.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "car17.jpg",
+      "width": 720,
+      "height": 480,
+      "boxes_xyxy": [
+        [
+          25,
+          174,
+          93,
+          208
+        ]
+      ],
+      "sha256": "26e01e81737350707ccb5bc2747e879ebca89b0c7eea7009bae7d3b747c89048",
+      "split": "train",
+      "name": "us_train_208.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000039.jpg",
+      "width": 800,
+      "height": 600,
+      "boxes_xyxy": [
+        [
+          205,
+          316,
+          268,
+          347
+        ]
+      ],
+      "sha256": "9dd4107d5baf1c1f8c5c538cad10c208aebebb1d62723b18a759d056b6e7c142",
+      "split": "train",
+      "name": "us_train_209.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "valid/valid/pic_504_jpg.rf.f11cfcf9c2081ab1d657ee130497bcbd.jpg",
+      "width": 1024,
+      "height": 768,
+      "boxes_xyxy": [
+        [
+          223,
+          283,
+          646,
+          636
+        ]
+      ],
+      "sha256": "a5971140d06ec02437d6fec8dfe619a994f3e1e0bf97e9d84264f45a7cf71cc5",
+      "split": "train",
+      "name": "us_train_210.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000080.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          393,
+          270,
+          504,
+          325
+        ]
+      ],
+      "sha256": "558f3155a2ecf4a9500164b08b64c07bb403b0070afe6f6245e83bd52bfa0b4f",
+      "split": "train",
+      "name": "us_train_211.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000154.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          246,
+          305,
+          341,
+          352
+        ]
+      ],
+      "sha256": "074274dc2e6108bd916d3221e70dbe228d85024809a6e7a481b4dbdc389b6f01",
+      "split": "train",
+      "name": "us_train_212.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000101.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          1059,
+          378,
+          1154,
+          425
+        ]
+      ],
+      "sha256": "7a34c2d7070adadb9474a4673dc00946e955386dbcce7e942d750108223ea546",
+      "split": "train",
+      "name": "us_train_213.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/Cars23_png_jpg.rf.9a23a416e563cf132da20d31e973665d.jpg",
+      "width": 400,
+      "height": 299,
+      "boxes_xyxy": [
+        [
+          142,
+          171,
+          212,
+          210
+        ]
+      ],
+      "sha256": "93ed90ad14d343610ef5e1802f0cee88f5619d2c5ecabb06af7eb4e83ee0b01d",
+      "split": "train",
+      "name": "us_train_214.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/OUTSTDN_jpg.rf.1cebd92cf2bc099989078c8c1a2a1063.jpg",
+      "width": 416,
+      "height": 416,
+      "boxes_xyxy": [
+        [
+          145,
+          228,
+          268,
+          307
+        ]
+      ],
+      "sha256": "3d1e0927e276725113e1ce598672a785c9177780a6167cdc6ba71972a2f65726",
+      "split": "train",
+      "name": "us_train_215.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000121.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          880,
+          92,
+          956,
+          130
+        ]
+      ],
+      "sha256": "d6f84464fcb6874da078ad0f78251fe288b68973a543712f291e9d08340a5d3e",
+      "split": "train",
+      "name": "us_train_216.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/Cars343_png_jpg.rf.5e814d3da0d28ca61b69c4ae04d16b8f.jpg",
+      "width": 400,
+      "height": 300,
+      "boxes_xyxy": [
+        [
+          109,
+          185,
+          161,
+          208
+        ]
+      ],
+      "sha256": "167f0b3d5c2c452c44d5a03d10b183be0ab053b827227256e40b5ed9e523552d",
+      "split": "train",
+      "name": "us_train_217.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_195_png_jpg.rf.ba4bdc6c791128fd521583282153026c.jpg",
+      "width": 3264,
+      "height": 1993,
+      "boxes_xyxy": [
+        [
+          1001,
+          820,
+          2044,
+          1373
+        ]
+      ],
+      "sha256": "a96255f9ef88938d743707464ecbbfb3aa533d1d11f1164435e051f2c75cc33e",
+      "split": "train",
+      "name": "us_train_218.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000123.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          638,
+          293,
+          724,
+          336
+        ]
+      ],
+      "sha256": "9424a2444d2a48e8b6a36ad86ae39b0af5534f86081dc90b1d82abd4defeda5c",
+      "split": "train",
+      "name": "us_train_219.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "test/test/GS4HE_jpg.rf.8e12dc059a6d3cc2ec67b9ccb199f6f8.jpg",
+      "width": 416,
+      "height": 416,
+      "boxes_xyxy": [
+        [
+          192,
+          237,
+          253,
+          277
+        ]
+      ],
+      "sha256": "5e5b64e3f8c4e01fc47cc6a174301c46fa161da05e51efbcdff2dde0ea66d935",
+      "split": "train",
+      "name": "us_train_220.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_320_jpg.rf.390dc32dce5d74496e0882e36e414ef1.jpg",
+      "width": 600,
+      "height": 400,
+      "boxes_xyxy": [
+        [
+          256,
+          234,
+          389,
+          309
+        ]
+      ],
+      "sha256": "b6e135a310ab46bf3ed992f0bd379973f3ec561f1ceb4df61f64b3d66f6e802a",
+      "split": "train",
+      "name": "us_train_221.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000011.jpg",
+      "width": 1024,
+      "height": 640,
+      "boxes_xyxy": [
+        [
+          212,
+          192,
+          326,
+          249
+        ]
+      ],
+      "sha256": "a160ed3223f68ccfc29fc92f0191ab037c5f15800c9d952a0604088586f5a035",
+      "split": "train",
+      "name": "us_train_222.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "test/test/pic_636_jpg.rf.1a90dd9596dcda1018483e6a2561c703.jpg",
+      "width": 1300,
+      "height": 1122,
+      "boxes_xyxy": [
+        [
+          364,
+          332,
+          955,
+          652
+        ]
+      ],
+      "sha256": "b32befae0ee3e8a97f10bb8505395d3671b84d8f3c293126bb40a069cde08cf2",
+      "split": "train",
+      "name": "us_train_223.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "car7.jpg",
+      "width": 1280,
+      "height": 850,
+      "boxes_xyxy": [
+        [
+          546,
+          323,
+          740,
+          420
+        ]
+      ],
+      "sha256": "096b50bff0211984cf3632c6f078fa6c03956c4b7fe2f41b53202ab33eac7fc7",
+      "split": "train",
+      "name": "us_train_224.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "us10.jpg",
+      "width": 800,
+      "height": 600,
+      "boxes_xyxy": [
+        [
+          261,
+          291,
+          512,
+          416
+        ]
+      ],
+      "sha256": "1a748a6e1d29596122a2441b13b2d62a160d880851fdc8bc3531a282c10c424a",
+      "split": "train",
+      "name": "us_train_225.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000145.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          654,
+          270,
+          735,
+          310
+        ]
+      ],
+      "sha256": "fde622d07ca0a9a3c66a5d9609f0b12ae29781998bb58fea772b466fb04811ea",
+      "split": "train",
+      "name": "us_train_226.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "us8.jpg",
+      "width": 900,
+      "height": 675,
+      "boxes_xyxy": [
+        [
+          310,
+          273,
+          639,
+          437
+        ]
+      ],
+      "sha256": "78bafea80fc0c3533272c6ca5016a707695b7677d86c22b684705526ec784419",
+      "split": "train",
+      "name": "us_train_227.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_473_jpg.rf.4f1d5a2d5d479aee2acc03d1be799c4f.jpg",
+      "width": 400,
+      "height": 300,
+      "boxes_xyxy": [
+        [
+          161,
+          124,
+          248,
+          170
+        ]
+      ],
+      "sha256": "13002326f3f3af86ea7ed9291b20736d862e219dd4cf3a974a22305b8ec9ef95",
+      "split": "train",
+      "name": "us_train_228.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000169.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          610,
+          340,
+          700,
+          385
+        ]
+      ],
+      "sha256": "5a423a523d169bc4ce8b198e4b65fe72c57de44e721ce6608cbde4a6dbfa72c8",
+      "split": "train",
+      "name": "us_train_229.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000050.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          561,
+          584,
+          628,
+          617
+        ]
+      ],
+      "sha256": "cce76551a6bbbde27fff8815b6c7a7b35076c573cbb1288a7d44916cb8280bd5",
+      "split": "train",
+      "name": "us_train_230.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "car11.jpg",
+      "width": 1280,
+      "height": 960,
+      "boxes_xyxy": [
+        [
+          99,
+          336,
+          181,
+          377
+        ]
+      ],
+      "sha256": "d5b733a5065752001d92a5a3deef64d8a485c4339b76b4f0662722412d2915d9",
+      "split": "train",
+      "name": "us_train_231.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000096.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          237,
+          238,
+          317,
+          278
+        ]
+      ],
+      "sha256": "2f38e95e2840328dc1bc3f6507372dfebd255f31818d78d1a780e186e0746274",
+      "split": "train",
+      "name": "us_train_232.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000077.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          512,
+          362,
+          619,
+          415
+        ]
+      ],
+      "sha256": "dc13670a444afbb2f5ad6b94a58bf882bcfc8929d0385956ba6f43b31375d28a",
+      "split": "train",
+      "name": "us_train_233.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000195.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          624,
+          367,
+          710,
+          410
+        ]
+      ],
+      "sha256": "c9444f599d51910f5143fa369400d0cd429ba2c879bd3bf454554a46b61a30f5",
+      "split": "train",
+      "name": "us_train_234.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000089.jpg",
+      "width": 1024,
+      "height": 640,
+      "boxes_xyxy": [
+        [
+          443,
+          321,
+          493,
+          346
+        ]
+      ],
+      "sha256": "370cb302387fb80bf9a63ba8959579fa6b625f12422a52d1ad583ced74a62af3",
+      "split": "train",
+      "name": "us_train_235.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000161.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          507,
+          422,
+          608,
+          472
+        ]
+      ],
+      "sha256": "b3779c73a265b7d8dc1a285fd94e3116104d33c6898a5aa31902cd3638a325df",
+      "split": "train",
+      "name": "us_train_236.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/8T8A8881-web-900x600_jpg.rf.9aee55a5728b446828cedb84e4e312d4.jpg",
+      "width": 900,
+      "height": 600,
+      "boxes_xyxy": [
+        [
+          206,
+          184,
+          657,
+          399
+        ]
+      ],
+      "sha256": "baba3c71d495ea9ebf5e80c2f6ab3e40283a98dd6ec59b91aa992644c23b0447",
+      "split": "train",
+      "name": "us_train_237.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/Cars356_png_jpg.rf.cc06c22b25ce82cbcd6e1f7dcf731602.jpg",
+      "width": 550,
+      "height": 367,
+      "boxes_xyxy": [
+        [
+          240,
+          215,
+          363,
+          274
+        ]
+      ],
+      "sha256": "16d75889bf07c692a47413fe7fd37751a72bc32ef69cd53b1f84a6aa7468b33e",
+      "split": "train",
+      "name": "us_train_238.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "test/test/image14_jpeg_jpg.rf.7e9bb47cbe81e7671bb4fab70758c076.jpg",
+      "width": 287,
+      "height": 175,
+      "boxes_xyxy": [
+        [
+          17,
+          16,
+          272,
+          145
+        ]
+      ],
+      "sha256": "30c1196ebebff899de4f89423639fe49f005ac873f5e65a575eb9c90fd654ef0",
+      "split": "train",
+      "name": "us_train_239.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/Cars113_png_jpg.rf.0654d2aa8b484c5ef6c28f4ac5fa9d74.jpg",
+      "width": 400,
+      "height": 300,
+      "boxes_xyxy": [
+        [
+          150,
+          112,
+          305,
+          179
+        ]
+      ],
+      "sha256": "5d35e2e5d30fa7650bb646d86e5ff97adc5ade3906b88ce287429a30979c4dd1",
+      "split": "train",
+      "name": "us_train_240.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000136.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          730,
+          332,
+          870,
+          402
+        ]
+      ],
+      "sha256": "d0d7e9742eb6a515fdc93a568ffeaa3fcf7ab24dd4e8f58dc7aa508800d30c09",
+      "split": "train",
+      "name": "us_train_241.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "car9-4.jpg",
+      "width": 918,
+      "height": 1632,
+      "boxes_xyxy": [
+        [
+          625,
+          497,
+          736,
+          552
+        ]
+      ],
+      "sha256": "20d629d6a5557f7c6a76e92c1c60e5ca3091be2211ae8a78218bf5bf9d26d42d",
+      "split": "train",
+      "name": "us_train_242.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "valid/valid/pic_759_jpg.rf.f18662e4927806b0ef3061f414c20dfb.jpg",
+      "width": 1000,
+      "height": 747,
+      "boxes_xyxy": [
+        [
+          232,
+          230,
+          747,
+          526
+        ]
+      ],
+      "sha256": "928b319df612153afe785825202a0e2a0f2601850c96a7ca717c10ba05a1f161",
+      "split": "train",
+      "name": "us_train_243.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "valid/valid/Cars414_png_jpg.rf.bd3f29ef7e0034a265a08f5fbef96027.jpg",
+      "width": 400,
+      "height": 267,
+      "boxes_xyxy": [
+        [
+          268,
+          205,
+          308,
+          227
+        ]
+      ],
+      "sha256": "0cd5459dc675c610aadd9e3e4fab754e90fa18e7ea4f02ab6927d0d3a00af5f7",
+      "split": "train",
+      "name": "us_train_244.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "valid/valid/A69985T_jpg.rf.acf20c5c9468f490b2e5dbafbc982494.jpg",
+      "width": 416,
+      "height": 416,
+      "boxes_xyxy": [
+        [
+          9,
+          196,
+          102,
+          260
+        ]
+      ],
+      "sha256": "815865e2e9bb2741cf66cf79a02dad6ede162084999f19d3cdcc7868fbe16b47",
+      "split": "train",
+      "name": "us_train_245.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/Cars70_png_jpg.rf.f389c26344dcd9517580e9bb2f01c5da.jpg",
+      "width": 400,
+      "height": 226,
+      "boxes_xyxy": [
+        [
+          178,
+          114,
+          212,
+          132
+        ]
+      ],
+      "sha256": "882f97eadebb906ffd9e6866eb835d72402ea763fe96d500558c8eedffd2f444",
+      "split": "train",
+      "name": "us_train_246.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000125.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          703,
+          250,
+          782,
+          289
+        ]
+      ],
+      "sha256": "eb2e389d27261c1a95b8547d343642f46aff633d0d092c6998e042ff21af37e4",
+      "split": "train",
+      "name": "us_train_247.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000090.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          219,
+          191,
+          310,
+          236
+        ]
+      ],
+      "sha256": "9267a3f2db4c392170d1632a1fe60f3f2eac6f96df922c52855032ac4dc9e2a7",
+      "split": "train",
+      "name": "us_train_248.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000142.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          260,
+          436,
+          357,
+          484
+        ]
+      ],
+      "sha256": "ad21226cc1e9da4a376c0d3fcf1cabae8de78bc1a0f4e5d052c4b677d435a542",
+      "split": "train",
+      "name": "us_train_249.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "test/test/image17_jpeg_jpg.rf.57e3373b9a0e4015c124858dda641987.jpg",
+      "width": 259,
+      "height": 194,
+      "boxes_xyxy": [
+        [
+          1,
+          15,
+          259,
+          194
+        ]
+      ],
+      "sha256": "09ec16d44463035236d0fb8200e927d14e8cc8aded16ec22dce0bffaf8b1ece2",
+      "split": "train",
+      "name": "us_train_250.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_362_jpg.rf.6d51883d47030ee8206b2c1efc3f150a.jpg",
+      "width": 620,
+      "height": 324,
+      "boxes_xyxy": [
+        [
+          261,
+          149,
+          363,
+          207
+        ]
+      ],
+      "sha256": "bd0e16d548a16f6972de08ef45cf1eff364eb4e934a180d3554949f9ce5308de",
+      "split": "train",
+      "name": "us_train_251.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000082.jpg",
+      "width": 1024,
+      "height": 768,
+      "boxes_xyxy": [
+        [
+          156,
+          224,
+          241,
+          266
+        ]
+      ],
+      "sha256": "639c620bf2b99f469328014d2464044681423d03e6a4bdd6c61d2da42863aec5",
+      "split": "train",
+      "name": "us_train_252.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_302_jpg.rf.c3ad1fa2e5f445115676814131c686f4.jpg",
+      "width": 792,
+      "height": 445,
+      "boxes_xyxy": [
+        [
+          122,
+          293,
+          309,
+          391
+        ]
+      ],
+      "sha256": "c2c1febaec6a4da8fb97bffd5504aa7895b918c57f43bad97b43171f24dafc9b",
+      "split": "train",
+      "name": "us_train_253.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "us7.jpg",
+      "width": 900,
+      "height": 600,
+      "boxes_xyxy": [
+        [
+          344,
+          210,
+          637,
+          356
+        ]
+      ],
+      "sha256": "7786d9284d8be0731426138d3bcacdfbe3a9ca06c1fc293ffcda84d6db59088e",
+      "split": "train",
+      "name": "us_train_254.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_101_jpg.rf.fa8583ddd6e1d8b5abf76c90763eb95f.jpg",
+      "width": 600,
+      "height": 330,
+      "boxes_xyxy": [
+        [
+          208,
+          138,
+          370,
+          216
+        ]
+      ],
+      "sha256": "a72a89d9bb64bd110d0c500e802dd66abf64e14abd3d27e04ce9cae1ef4e1eb8",
+      "split": "train",
+      "name": "us_train_255.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000032.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          225,
+          337,
+          305,
+          377
+        ]
+      ],
+      "sha256": "9ee6a20878ab71344c2a9cc42ef3dc602610cc0c051b5db048aa7817a53ae884",
+      "split": "train",
+      "name": "us_train_256.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "valid/valid/pic_456_jpg.rf.8e271480ee22df87d0260df066184a47.jpg",
+      "width": 900,
+      "height": 675,
+      "boxes_xyxy": [
+        [
+          354,
+          364,
+          538,
+          474
+        ]
+      ],
+      "sha256": "963418bb0cecf4ee97b917dd7e2adfa5bf25252e37f0ffe0838ae851e20e69a6",
+      "split": "train",
+      "name": "us_train_257.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000075.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          800,
+          401,
+          895,
+          448
+        ]
+      ],
+      "sha256": "ae2e5f33f71259c732bbc12709703b3a7d5554de6df0d9ea863cc76b7265a47f",
+      "split": "train",
+      "name": "us_train_258.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000137.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          659,
+          322,
+          799,
+          392
+        ]
+      ],
+      "sha256": "fb8f70be49e0b0d88b2d44205e42286d195e79f2881ef31b5e25f5c469b5b3cd",
+      "split": "train",
+      "name": "us_train_259.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/Can-20Someone-20Really-20Steal-20Your-20Info-20From-20Your_yythkg-20-2-_jpg.rf.743540a10318d6746acaf2a75f568453.jpg",
+      "width": 1024,
+      "height": 683,
+      "boxes_xyxy": [
+        [
+          412,
+          132,
+          609,
+          231
+        ]
+      ],
+      "sha256": "5cdfc2c3ac85023bc71a0e377ff2f8f55184c2301635e02ffe10bbef276d981b",
+      "split": "train",
+      "name": "us_train_260.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000149.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          602,
+          247,
+          688,
+          290
+        ]
+      ],
+      "sha256": "65848f2f57bbbc15bc888dd47d347aa856c59cccf505b4b8beaee2f72fe28781",
+      "split": "train",
+      "name": "us_train_261.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/AI-20License-20Plate-20Readers-20Are-20Cheaper-E2-80-94So-20Drive-20Caref_jpg.rf.482dca087423363b91e411872e7f784f.jpg",
+      "width": 1994,
+      "height": 1499,
+      "boxes_xyxy": [
+        [
+          568,
+          455,
+          1338,
+          1017
+        ]
+      ],
+      "sha256": "fe5b5afa181d3d8ebbf81a64afaeac67a56abcc6c533043c8d24858dcf64b2ca",
+      "split": "train",
+      "name": "us_train_262.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/1241-blog-post-image-20201231142655_jpg.rf.ce54478e6e09eecc217af0d8e401d60a.jpg",
+      "width": 711,
+      "height": 400,
+      "boxes_xyxy": [
+        [
+          258,
+          28,
+          427,
+          100
+        ]
+      ],
+      "sha256": "91e21c1b31ef4aec1a3348fe0762ca5b73b99133495ec2ccdcda99cd6a3f5f55",
+      "split": "train",
+      "name": "us_train_263.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000159.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          482,
+          303,
+          587,
+          355
+        ]
+      ],
+      "sha256": "f1207ea1b0c523bf3aa071deee7a5f76a8582f9a5a371bb1466bc1ce71f0fec2",
+      "split": "train",
+      "name": "us_train_264.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000085.jpg",
+      "width": 1024,
+      "height": 640,
+      "boxes_xyxy": [
+        [
+          532,
+          507,
+          612,
+          547
+        ]
+      ],
+      "sha256": "deaa8559707d0e78b0b8465fb5f9b295035342cbeb2761e3dd3719b926af6099",
+      "split": "train",
+      "name": "us_train_265.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000113.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          469,
+          351,
+          583,
+          408
+        ]
+      ],
+      "sha256": "a9fa10803494777e149e0c0eaaa5ded39714a04565f6a6d758ba8511a346b613",
+      "split": "train",
+      "name": "us_train_266.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "car9-5.jpg",
+      "width": 918,
+      "height": 1632,
+      "boxes_xyxy": [
+        [
+          473,
+          425,
+          605,
+          491
+        ]
+      ],
+      "sha256": "0201b0af0085c281fb32a1622aeac29c1f4eee49d49ae7b21f78055cf86a5ae5",
+      "split": "train",
+      "name": "us_train_267.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "car13.jpg",
+      "width": 1600,
+      "height": 1200,
+      "boxes_xyxy": [
+        [
+          692,
+          470,
+          948,
+          598
+        ]
+      ],
+      "sha256": "3f707f59262b6bb10893ca6a94d1b94ca0b371cca61e9e37c6323c450efe80dd",
+      "split": "train",
+      "name": "us_train_268.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "test/test/83-640px-1957-8-9_Hawaii_license_plate_jpg.rf.62326ecc28f8099a174648ecad0694e4.jpg",
+      "width": 640,
+      "height": 327,
+      "boxes_xyxy": [
+        [
+          11,
+          12,
+          629,
+          313
+        ]
+      ],
+      "sha256": "f953bb0a5879c219ce658da6a74f53939a376b20fcaa0dd3f505767872d19792",
+      "split": "train",
+      "name": "us_train_269.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000040.jpg",
+      "width": 1024,
+      "height": 640,
+      "boxes_xyxy": [
+        [
+          348,
+          207,
+          436,
+          251
+        ]
+      ],
+      "sha256": "db2b9844476fbea8c568f3a2151ffdd8b0dac5b451c3d09c0251e7c0dd3eaa95",
+      "split": "train",
+      "name": "us_train_270.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000047.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          573,
+          238,
+          629,
+          266
+        ]
+      ],
+      "sha256": "041d9238f0f6063908f7abffdcd1d033043fa01cc775d52ea365af26b40a394e",
+      "split": "train",
+      "name": "us_train_271.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_533_jpg.rf.1e4779b4ceb9bb17682f0b53567e1600.jpg",
+      "width": 3264,
+      "height": 2448,
+      "boxes_xyxy": [
+        [
+          2111,
+          1497,
+          2837,
+          1917
+        ]
+      ],
+      "sha256": "ca795a5f6bf86da9a0b95c891781a18e4d55f5ea05e7be8ed0501af5ed10d2fa",
+      "split": "train",
+      "name": "us_train_272.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_447_jpg.rf.cb03a7f125e3ecf89d077983e7f89044.jpg",
+      "width": 1024,
+      "height": 768,
+      "boxes_xyxy": [
+        [
+          409,
+          454,
+          603,
+          556
+        ]
+      ],
+      "sha256": "f223aeb11ab37222ce3ef35f1968a2967923c9ece94fa3637121fc01867284c0",
+      "split": "train",
+      "name": "us_train_273.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000126.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          778,
+          1,
+          849,
+          36
+        ]
+      ],
+      "sha256": "8fe8c2d39cdd9cb50ca51b543f236218b8cc1075afb04d06b919e685552b92c1",
+      "split": "train",
+      "name": "us_train_274.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000138.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          874,
+          349,
+          991,
+          407
+        ]
+      ],
+      "sha256": "c1c526f98ffb84bcd0f0e587827a7ac45f382bdc74677d5f92f340c5914c12ca",
+      "split": "train",
+      "name": "us_train_275.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000119.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          674,
+          204,
+          757,
+          245
+        ]
+      ],
+      "sha256": "0dd449472273fb4b3cea6b0ce08c4ce3585510f2cb922f0f81b9b6a67fdda62e",
+      "split": "train",
+      "name": "us_train_276.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_137_jpg.rf.29136564f02d425a45e2a16d1b0fa96f.jpg",
+      "width": 1300,
+      "height": 956,
+      "boxes_xyxy": [
+        [
+          515,
+          273,
+          798,
+          420
+        ]
+      ],
+      "sha256": "bf39b528034e235ca14c0206a7716dc68640ea1febd569fb5ddeabe9f356b049",
+      "split": "train",
+      "name": "us_train_277.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000046.jpg",
+      "width": 1280,
+      "height": 960,
+      "boxes_xyxy": [
+        [
+          473,
+          164,
+          549,
+          202
+        ]
+      ],
+      "sha256": "258ced507591e89d7e3a9b635ecdea793dce553a6e9d56ba64c7dcd3e3d60053",
+      "split": "train",
+      "name": "us_train_278.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000055.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          296,
+          539,
+          395,
+          588
+        ]
+      ],
+      "sha256": "0c955c6faf876deb4fe4de92a82e3e7e3356a4d0aae32b235a861f68a36b4b2b",
+      "split": "train",
+      "name": "us_train_279.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000059.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          136,
+          431,
+          230,
+          478
+        ]
+      ],
+      "sha256": "957832282f0580cafc061982b7b8c089ec6f2958d3e4f11cf1f7b944c21953b6",
+      "split": "train",
+      "name": "us_train_280.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "car9-9.jpg",
+      "width": 918,
+      "height": 1632,
+      "boxes_xyxy": [
+        [
+          411,
+          493,
+          502,
+          538
+        ]
+      ],
+      "sha256": "15c07485bbfb0e32d8475023c18f2be3db8e397c156cfaa1eb95c483fac2e433",
+      "split": "train",
+      "name": "us_train_281.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_399_jpg.rf.af03c4d4a448f5eca21ec8156e0aef78.jpg",
+      "width": 600,
+      "height": 500,
+      "boxes_xyxy": [
+        [
+          240,
+          241,
+          359,
+          309
+        ]
+      ],
+      "sha256": "a1739c75387f6a31d136c6a74520ce5edf21c7e6f28373462e7ce0a8b2bcd6b8",
+      "split": "train",
+      "name": "us_train_282.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/Here_s-20Why-20You-20Should-20Remove-20Your-20Car_s-20Plates_yyth-20-1-_jpg.rf.fb9958bb7ccc92e1ab9ad0d5dd8ea523.jpg",
+      "width": 2500,
+      "height": 1667,
+      "boxes_xyxy": [
+        [
+          580,
+          293,
+          2108,
+          1667
+        ]
+      ],
+      "sha256": "464118f7e5cea182c96a6b00a1d10ff66c51cac59af747a7fb0142b8544f201e",
+      "split": "train",
+      "name": "us_train_283.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "c9368c55-210d-456c-a5ef-c310e60039ec.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          788,
+          124,
+          848,
+          154
+        ]
+      ],
+      "sha256": "8f5aa200d80d7c67ec44b13695083fb53309e9c8c0ae4bde2e67527e7a76bf6b",
+      "split": "train",
+      "name": "us_train_284.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/How-20to-20Transfer-20Your-20License-20Plate-20Number-20From_yyth_jpg.rf.3547d559f1c926519aa8a9b125a10e95.jpg",
+      "width": 1000,
+      "height": 667,
+      "boxes_xyxy": [
+        [
+          37,
+          69,
+          974,
+          555
+        ]
+      ],
+      "sha256": "a28b31d15b365c0c73fbd43de05436584142d61db7cf3d82807604eb3475ba57",
+      "split": "train",
+      "name": "us_train_285.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/Here-20Are-20the-20Cars-20With-20the-20Vanity-20License-20Pl_jpg.rf.397bc81a049ae3d2e2d644c010b17573.jpg",
+      "width": 1024,
+      "height": 683,
+      "boxes_xyxy": [
+        [
+          411,
+          327,
+          608,
+          424
+        ]
+      ],
+      "sha256": "f458da45e937fdb6ed9d7d8678020d71b1c77f6b495aa336f960287ef1083311",
+      "split": "train",
+      "name": "us_train_286.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000124.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          811,
+          143,
+          890,
+          182
+        ]
+      ],
+      "sha256": "6907c1f4dd7d6d9762407d60d455ac6ee0306dde9cfa647e6c609018f7e40375",
+      "split": "train",
+      "name": "us_train_287.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000135.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          477,
+          422,
+          611,
+          489
+        ]
+      ],
+      "sha256": "bd619c88c3e6d731e600c5f117a66f5be8a23fb17f9d8dbafa690fcfd94f4ed7",
+      "split": "train",
+      "name": "us_train_288.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/HAMSTUR_jpg.rf.3a0ea914c1c30e6ec00892fa5bfc1395.jpg",
+      "width": 416,
+      "height": 416,
+      "boxes_xyxy": [
+        [
+          120,
+          197,
+          221,
+          248
+        ]
+      ],
+      "sha256": "1c104d4b18dc1474b8aa861f05f6f6b18b5a3edd82761d58858bed9642885ae1",
+      "split": "train",
+      "name": "us_train_289.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_354_jpg.rf.d88061a70e1ad76267ca936f98d07553.jpg",
+      "width": 605,
+      "height": 604,
+      "boxes_xyxy": [
+        [
+          234,
+          273,
+          371,
+          350
+        ]
+      ],
+      "sha256": "c975f19dab5ce9dc692479836f6bac4d9d1081ca3de45a9b34e0a5cb534fb9f3",
+      "split": "train",
+      "name": "us_train_290.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000021.jpg",
+      "width": 1024,
+      "height": 640,
+      "boxes_xyxy": [
+        [
+          551,
+          289,
+          623,
+          325
+        ]
+      ],
+      "sha256": "9c3499f71fc043884bc741c0283fbb8527503fe43ec0973d54d246861140035f",
+      "split": "train",
+      "name": "us_train_291.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000178.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          636,
+          188,
+          715,
+          227
+        ]
+      ],
+      "sha256": "9c15a953d77c9a88d3c6731cc20eb5bb9aa0490205c21c45132bd9bdeb0d07ac",
+      "split": "train",
+      "name": "us_train_292.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/255767_jpg.rf.8ea6e2b31b29034eccb9a2cf55f70266.jpg",
+      "width": 1024,
+      "height": 683,
+      "boxes_xyxy": [
+        [
+          381,
+          292,
+          627,
+          412
+        ]
+      ],
+      "sha256": "48736a1070c059d104f51042b5844d5430c86f5e585430b71f4815fced0c67ce",
+      "split": "train",
+      "name": "us_train_293.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_509_jpg.rf.01e9672c5b2b84c6fc19290e33d54a02.jpg",
+      "width": 1065,
+      "height": 800,
+      "boxes_xyxy": [
+        [
+          414,
+          354,
+          588,
+          464
+        ]
+      ],
+      "sha256": "f586a419875fdeb9c35eb3e77c9016d5d377d413517e550c4879818fd2869b6a",
+      "split": "train",
+      "name": "us_train_294.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/36-License-Plate-IL-NDXVI_jpg.rf.97c91ed4fe160dcd5319e631fcc83954.jpg",
+      "width": 650,
+      "height": 355,
+      "boxes_xyxy": [
+        [
+          17,
+          12,
+          624,
+          336
+        ]
+      ],
+      "sha256": "d673150222d7fc4411455d4ddcbcdeaab5e112155bbeb3f01b170b6bc336bf46",
+      "split": "train",
+      "name": "us_train_295.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "valid/valid/Ask-20Trooper-20Steve_-20Can-20you-20remove-20a-20second-20l_jpg.rf.b380f678887fd49b28a3a9f301c4b682.jpg",
+      "width": 1920,
+      "height": 1080,
+      "boxes_xyxy": [
+        [
+          884,
+          431,
+          1416,
+          737
+        ]
+      ],
+      "sha256": "e7f8690aff0566ab830fe82a69426c4969d38ccf7aa5585348365c2cc5e2c33b",
+      "split": "train",
+      "name": "us_train_296.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_212_jpg.rf.331b9394de5b88c48c68c990a497c431.jpg",
+      "width": 776,
+      "height": 526,
+      "boxes_xyxy": [
+        [
+          88,
+          397,
+          175,
+          465
+        ]
+      ],
+      "sha256": "1c14587867b8649f56a2f4d6aaa809971acbda60f750bb44281f0b8fcb5b95d1",
+      "split": "train",
+      "name": "us_train_297.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000020.jpg",
+      "width": 1024,
+      "height": 640,
+      "boxes_xyxy": [
+        [
+          372,
+          178,
+          508,
+          246
+        ]
+      ],
+      "sha256": "f985720287e8a497a5db37b6e8278cac00d4ab1387cf5353a503d9956174bd08",
+      "split": "train",
+      "name": "us_train_298.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_266_jpg.rf.ef8cfd744f3d5c141e5075c1e27364ea.jpg",
+      "width": 340,
+      "height": 191,
+      "boxes_xyxy": [
+        [
+          158,
+          113,
+          196,
+          136
+        ]
+      ],
+      "sha256": "4e4c206b170219540f8b24f17e1e4164d915a6a014a1ee5828e886f5d6da392b",
+      "split": "train",
+      "name": "us_train_299.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/image26_jpeg_jpg.rf.1606a12e874004c9f73ac6b654eb8b5d.jpg",
+      "width": 259,
+      "height": 194,
+      "boxes_xyxy": [
+        [
+          48,
+          56,
+          200,
+          133
+        ]
+      ],
+      "sha256": "622ada2b5bc3da61bd50d6be3072f78d644a036d86f342da465e8856137bd4fe",
+      "split": "train",
+      "name": "us_train_300.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "valid/valid/pic_560_jpg.rf.db10eaf878b1adb1d54326a49a2e1251.jpg",
+      "width": 728,
+      "height": 546,
+      "boxes_xyxy": [
+        [
+          302,
+          295,
+          423,
+          364
+        ]
+      ],
+      "sha256": "d40519293003ba92ce4dae0952b3ec9f1ea7de371c93666443d3e31be598cc94",
+      "split": "test",
+      "name": "us_test_001.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_299_jpg.rf.07419caecd25d8be5c9501f9188517a8.jpg",
+      "width": 3264,
+      "height": 2448,
+      "boxes_xyxy": [
+        [
+          1205,
+          843,
+          1804,
+          1180
+        ]
+      ],
+      "sha256": "706f6490a12e1804a255b0b27e8cd2f9a46bf1122e778a74008cfaabf7bd27a2",
+      "split": "test",
+      "name": "us_test_002.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_500_jpg.rf.4c4cd4d469664a03c0935c1b16895a5e.jpg",
+      "width": 640,
+      "height": 362,
+      "boxes_xyxy": [
+        [
+          402,
+          165,
+          523,
+          266
+        ]
+      ],
+      "sha256": "c5a5213523bae3c9b75ab504cc12158e78b0719dfb34c9b1d51d7417b8f5c3d0",
+      "split": "test",
+      "name": "us_test_003.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "valid/valid/Cars220_png_jpg.rf.400344ccac8139ef1e111d45b490e244.jpg",
+      "width": 400,
+      "height": 265,
+      "boxes_xyxy": [
+        [
+          141,
+          167,
+          187,
+          181
+        ]
+      ],
+      "sha256": "67862044a2d1d38df3c7758526c9cc724c88078e98e307d6e4c061c32d3633b8",
+      "split": "test",
+      "name": "us_test_004.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000170.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          457,
+          347,
+          548,
+          392
+        ]
+      ],
+      "sha256": "0e2597c8444f07ef60c6367173eadfb9867e485de03572566cfc16f54aeb4f36",
+      "split": "test",
+      "name": "us_test_005.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_432_jpg.rf.45020472115dfab09976f1d4e9a08334.jpg",
+      "width": 800,
+      "height": 600,
+      "boxes_xyxy": [
+        [
+          344,
+          287,
+          472,
+          354
+        ]
+      ],
+      "sha256": "ea5c99b22e67715dcd419f19f813b5d5fc8bc64d6cde16c1c2d431e98741ee0b",
+      "split": "test",
+      "name": "us_test_006.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000168.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          317,
+          521,
+          480,
+          602
+        ]
+      ],
+      "sha256": "40138e93ffff65896f3418db5c74b7739b20d5a34ef2038ecc47c4719181c7e1",
+      "split": "test",
+      "name": "us_test_007.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "test/test/52-1024px-NJ_commercial_license_plate_XCJ-S77_jpg.rf.a2d995413cd540ffeba6e0b01b3e8108.jpg",
+      "width": 1024,
+      "height": 529,
+      "boxes_xyxy": [
+        [
+          18,
+          14,
+          1012,
+          508
+        ]
+      ],
+      "sha256": "00670c2d563a1797dd2151c1f1a287aca7c042a106f1282812c5358e7b521bb4",
+      "split": "test",
+      "name": "us_test_008.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "car3.jpg",
+      "width": 904,
+      "height": 768,
+      "boxes_xyxy": [
+        [
+          395,
+          535,
+          516,
+          595
+        ]
+      ],
+      "sha256": "6144311615590b895b1851e07cb86677be23a711b83acab87ace693afc9e77e3",
+      "split": "test",
+      "name": "us_test_009.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000160.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          455,
+          316,
+          543,
+          360
+        ]
+      ],
+      "sha256": "1b975f381fddd31c52e32a26e25ef11319809b9e7bb10c3f4abaf85bcb02a14c",
+      "split": "test",
+      "name": "us_test_010.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000171.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          690,
+          248,
+          825,
+          315
+        ]
+      ],
+      "sha256": "df3f287c1607d76c90def076d81747a84c636c18d910c6b06ee095d6411dd9bc",
+      "split": "test",
+      "name": "us_test_011.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/Cars62_png_jpg.rf.bf8327acd985bc4173ece3f36df3d47f.jpg",
+      "width": 400,
+      "height": 300,
+      "boxes_xyxy": [
+        [
+          155,
+          109,
+          242,
+          158
+        ]
+      ],
+      "sha256": "22f2ab49ac8bd7622f3e14289c190ccc935a560799ddffeedd1fd980e68be09e",
+      "split": "test",
+      "name": "us_test_012.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "valid/valid/EV-20license-20plate-20-20AMPITUP-20_-20Add-20your-20EV_yyt_jpg.rf.20a3b2f99689df42c9a10e8169a415bd.jpg",
+      "width": 1024,
+      "height": 737,
+      "boxes_xyxy": [
+        [
+          300,
+          407,
+          669,
+          619
+        ]
+      ],
+      "sha256": "f9974b605b03c9c12a75d270ae3565273d842764897efc27e98108ef275a4a03",
+      "split": "test",
+      "name": "us_test_013.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000072.jpg",
+      "width": 1024,
+      "height": 640,
+      "boxes_xyxy": [
+        [
+          940,
+          506,
+          999,
+          535
+        ]
+      ],
+      "sha256": "59b9476aa129e5dca869221e4b56873eb529a2311828e9ea72fe4dc713a14855",
+      "split": "test",
+      "name": "us_test_014.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "car18.jpg",
+      "width": 720,
+      "height": 480,
+      "boxes_xyxy": [
+        [
+          80,
+          189,
+          158,
+          228
+        ]
+      ],
+      "sha256": "ff8eb48bc837a1898fb3bcbad5c9ebd953f2d06b7d93a58e3a6bdb08e7d1510b",
+      "split": "test",
+      "name": "us_test_015.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "us3.jpg",
+      "width": 500,
+      "height": 375,
+      "boxes_xyxy": [
+        [
+          210,
+          207,
+          302,
+          253
+        ]
+      ],
+      "sha256": "d0b4a613955de7af2a9c78aebe17d3209f4f8c89c83e3306c4f0661251c44601",
+      "split": "test",
+      "name": "us_test_016.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000064.jpg",
+      "width": 1280,
+      "height": 800,
+      "boxes_xyxy": [
+        [
+          442,
+          424,
+          538,
+          472
+        ]
+      ],
+      "sha256": "2db171c36e00aa939eba9d04ba0fdcd35b7cca531e12eb1184be0f6c3b3ad6d8",
+      "split": "test",
+      "name": "us_test_017.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/pic_048_jpg.rf.c2ec789aeb3bf34bacc991384e1a1b2e.jpg",
+      "width": 604,
+      "height": 454,
+      "boxes_xyxy": [
+        [
+          240,
+          176,
+          375,
+          244
+        ]
+      ],
+      "sha256": "fb95935696c9cd3038afaa8934371ed5f9df6539cf5019f6f081bbb435d74925",
+      "split": "test",
+      "name": "us_test_018.jpg"
+    },
+    {
+      "source": "openalpr_us",
+      "source_path": "wts-lg-000186.jpg",
+      "width": 1280,
+      "height": 720,
+      "boxes_xyxy": [
+        [
+          52,
+          284,
+          145,
+          330
+        ]
+      ],
+      "sha256": "89605ccf46e011d7da5ca6aaf86dfc973635d3af77ec6df4ce2debcda6ba5626",
+      "split": "test",
+      "name": "us_test_019.jpg"
+    },
+    {
+      "source": "roboflow_rxg4e",
+      "source_path": "train/train/Cars269_png_jpg.rf.41306d288451864bb7dd735470ab08c9.jpg",
+      "width": 400,
+      "height": 300,
+      "boxes_xyxy": [
+        [
+          109,
+          198,
+          146,
+          216
+        ]
+      ],
+      "sha256": "46645d34fbe7d592af49ea567dd953efadd24a5ee41c6ad595e20f8f7a4b6a58",
+      "split": "test",
+      "name": "us_test_020.jpg"
+    }
+  ]
+}

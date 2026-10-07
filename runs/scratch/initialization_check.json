@@ -1,0 +1,7 @@
+{
+  "same_architecture_and_parameter_shapes": true,
+  "parameters": 1913443,
+  "convolution_weight_tensors": 227,
+  "convolution_weight_tensors_different_from_pretrained": 227,
+  "initial_checkpoint_sha256": "4863911e56def116dd81fc621a80962a5c1a4ac36b52d48d6800c59314126270"
+}

@@ -1,0 +1,448 @@
+{
+  "summary": {
+    "model": "yolo-v9-t-384-finetuned.pt",
+    "provider": [
+      "PyTorch CPU"
+    ],
+    "threshold": 0.25,
+    "image_count": 20,
+    "images_with_detections": 20,
+    "plate_count": 21,
+    "mean_detection_ms": 46.13,
+    "timing": "After one warmup; preprocessing + inference + coordinate conversion; excludes file IO",
+    "coordinate_format": "xyxy in original-image pixels, x2/y2 exclusive",
+    "note": "Detection count is not accuracy; no OCR performed. See evaluation for ground-truth metrics."
+  },
+  "images": [
+    {
+      "name": "us_test_001.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_001.jpg",
+      "annotated": "annotated/test__us_test_001.jpg.jpg",
+      "width": 728,
+      "height": 546,
+      "elapsed_ms": 46.4,
+      "detections": [
+        {
+          "xyxy": [
+            310,
+            302,
+            418,
+            358
+          ],
+          "confidence": 0.93739,
+          "crop": "crops/test__us_test_001.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_002.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_002.jpg",
+      "annotated": "annotated/test__us_test_002.jpg.jpg",
+      "width": 3264,
+      "height": 2448,
+      "elapsed_ms": 55.88,
+      "detections": [
+        {
+          "xyxy": [
+            1220,
+            855,
+            1779,
+            1134
+          ],
+          "confidence": 0.86827,
+          "crop": "crops/test__us_test_002.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_003.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_003.jpg",
+      "annotated": "annotated/test__us_test_003.jpg.jpg",
+      "width": 640,
+      "height": 362,
+      "elapsed_ms": 39.61,
+      "detections": [
+        {
+          "xyxy": [
+            403,
+            169,
+            514,
+            257
+          ],
+          "confidence": 0.91903,
+          "crop": "crops/test__us_test_003.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_004.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_004.jpg",
+      "annotated": "annotated/test__us_test_004.jpg.jpg",
+      "width": 400,
+      "height": 265,
+      "elapsed_ms": 43.4,
+      "detections": [
+        {
+          "xyxy": [
+            144,
+            167,
+            187,
+            183
+          ],
+          "confidence": 0.93953,
+          "crop": "crops/test__us_test_004.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_005.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_005.jpg",
+      "annotated": "annotated/test__us_test_005.jpg.jpg",
+      "width": 1280,
+      "height": 720,
+      "elapsed_ms": 45.06,
+      "detections": [
+        {
+          "xyxy": [
+            457,
+            347,
+            549,
+            396
+          ],
+          "confidence": 0.92101,
+          "crop": "crops/test__us_test_005.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_006.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_006.jpg",
+      "annotated": "annotated/test__us_test_006.jpg.jpg",
+      "width": 800,
+      "height": 600,
+      "elapsed_ms": 70.91,
+      "detections": [
+        {
+          "xyxy": [
+            340,
+            284,
+            474,
+            354
+          ],
+          "confidence": 0.93286,
+          "crop": "crops/test__us_test_006.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_007.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_007.jpg",
+      "annotated": "annotated/test__us_test_007.jpg.jpg",
+      "width": 1280,
+      "height": 720,
+      "elapsed_ms": 45.06,
+      "detections": [
+        {
+          "xyxy": [
+            318,
+            518,
+            482,
+            601
+          ],
+          "confidence": 0.91736,
+          "crop": "crops/test__us_test_007.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_008.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_008.jpg",
+      "annotated": "annotated/test__us_test_008.jpg.jpg",
+      "width": 1024,
+      "height": 529,
+      "elapsed_ms": 44.09,
+      "detections": [
+        {
+          "xyxy": [
+            16,
+            12,
+            1007,
+            505
+          ],
+          "confidence": 0.98845,
+          "crop": "crops/test__us_test_008.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_009.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_009.jpg",
+      "annotated": "annotated/test__us_test_009.jpg.jpg",
+      "width": 904,
+      "height": 768,
+      "elapsed_ms": 43.37,
+      "detections": [
+        {
+          "xyxy": [
+            392,
+            527,
+            524,
+            595
+          ],
+          "confidence": 0.91482,
+          "crop": "crops/test__us_test_009.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_010.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_010.jpg",
+      "annotated": "annotated/test__us_test_010.jpg.jpg",
+      "width": 1280,
+      "height": 720,
+      "elapsed_ms": 41.51,
+      "detections": [
+        {
+          "xyxy": [
+            456,
+            315,
+            545,
+            362
+          ],
+          "confidence": 0.91787,
+          "crop": "crops/test__us_test_010.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_011.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_011.jpg",
+      "annotated": "annotated/test__us_test_011.jpg.jpg",
+      "width": 1280,
+      "height": 720,
+      "elapsed_ms": 41.05,
+      "detections": [
+        {
+          "xyxy": [
+            688,
+            246,
+            828,
+            313
+          ],
+          "confidence": 0.93175,
+          "crop": "crops/test__us_test_011.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_012.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_012.jpg",
+      "annotated": "annotated/test__us_test_012.jpg.jpg",
+      "width": 400,
+      "height": 300,
+      "elapsed_ms": 40.59,
+      "detections": [
+        {
+          "xyxy": [
+            153,
+            107,
+            247,
+            162
+          ],
+          "confidence": 0.91327,
+          "crop": "crops/test__us_test_012.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_013.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_013.jpg",
+      "annotated": "annotated/test__us_test_013.jpg.jpg",
+      "width": 1024,
+      "height": 737,
+      "elapsed_ms": 41.74,
+      "detections": [
+        {
+          "xyxy": [
+            287,
+            421,
+            680,
+            626
+          ],
+          "confidence": 0.68687,
+          "crop": "crops/test__us_test_013.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_014.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_014.jpg",
+      "annotated": "annotated/test__us_test_014.jpg.jpg",
+      "width": 1024,
+      "height": 640,
+      "elapsed_ms": 43.63,
+      "detections": [
+        {
+          "xyxy": [
+            938,
+            504,
+            1000,
+            539
+          ],
+          "confidence": 0.89001,
+          "crop": "crops/test__us_test_014.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_015.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_015.jpg",
+      "annotated": "annotated/test__us_test_015.jpg.jpg",
+      "width": 720,
+      "height": 480,
+      "elapsed_ms": 43.67,
+      "detections": [
+        {
+          "xyxy": [
+            82,
+            192,
+            160,
+            231
+          ],
+          "confidence": 0.89904,
+          "crop": "crops/test__us_test_015.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_016.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_016.jpg",
+      "annotated": "annotated/test__us_test_016.jpg.jpg",
+      "width": 500,
+      "height": 375,
+      "elapsed_ms": 42.0,
+      "detections": [
+        {
+          "xyxy": [
+            204,
+            201,
+            306,
+            260
+          ],
+          "confidence": 0.91868,
+          "crop": "crops/test__us_test_016.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_017.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_017.jpg",
+      "annotated": "annotated/test__us_test_017.jpg.jpg",
+      "width": 1280,
+      "height": 800,
+      "elapsed_ms": 42.45,
+      "detections": [
+        {
+          "xyxy": [
+            440,
+            421,
+            542,
+            475
+          ],
+          "confidence": 0.89908,
+          "crop": "crops/test__us_test_017.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_018.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_018.jpg",
+      "annotated": "annotated/test__us_test_018.jpg.jpg",
+      "width": 604,
+      "height": 454,
+      "elapsed_ms": 50.54,
+      "detections": [
+        {
+          "xyxy": [
+            240,
+            178,
+            377,
+            245
+          ],
+          "confidence": 0.92774,
+          "crop": "crops/test__us_test_018.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_019.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_019.jpg",
+      "annotated": "annotated/test__us_test_019.jpg.jpg",
+      "width": 1280,
+      "height": 720,
+      "elapsed_ms": 51.11,
+      "detections": [
+        {
+          "xyxy": [
+            54,
+            285,
+            147,
+            333
+          ],
+          "confidence": 0.90521,
+          "crop": "crops/test__us_test_019.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_020.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_020.jpg",
+      "annotated": "annotated/test__us_test_020.jpg.jpg",
+      "width": 400,
+      "height": 300,
+      "elapsed_ms": 50.61,
+      "detections": [
+        {
+          "xyxy": [
+            112,
+            198,
+            145,
+            214
+          ],
+          "confidence": 0.89662,
+          "crop": "crops/test__us_test_020.jpg__plate_01.png"
+        },
+        {
+          "xyxy": [
+            382,
+            155,
+            400,
+            167
+          ],
+          "confidence": 0.33169,
+          "crop": "crops/test__us_test_020.jpg__plate_02.png"
+        }
+      ]
+    }
+  ]
+}

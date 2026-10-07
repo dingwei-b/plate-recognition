@@ -1,0 +1,322 @@
+[
+  {
+    "name": "us_test_001.jpg",
+    "plate_index": 0,
+    "split": "test",
+    "xyxy": [
+      302,
+      295,
+      423,
+      364
+    ],
+    "text": "3421",
+    "crop": "data/ocr/crops/test/us_test_001_1.png",
+    "image_sha256": "d40519293003ba92ce4dae0952b3ec9f1ea7de371c93666443d3e31be598cc94",
+    "crop_sha256": "93662a6e637272530ab041a5eb3035e927a1d16bc9557822ab0010981e2507b8",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_test_002.jpg",
+    "plate_index": 0,
+    "split": "test",
+    "xyxy": [
+      1205,
+      843,
+      1804,
+      1180
+    ],
+    "text": "T",
+    "crop": "data/ocr/crops/test/us_test_002_1.png",
+    "image_sha256": "706f6490a12e1804a255b0b27e8cd2f9a46bf1122e778a74008cfaabf7bd27a2",
+    "crop_sha256": "240b66f4961c9dc03c8a893d1fa62524b50a6e7b02618034ea1bf4f233d0f666",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_test_003.jpg",
+    "plate_index": 0,
+    "split": "test",
+    "xyxy": [
+      402,
+      165,
+      523,
+      266
+    ],
+    "text": null,
+    "crop": "data/ocr/crops/test/us_test_003_1.png",
+    "image_sha256": "c5a5213523bae3c9b75ab504cc12158e78b0719dfb34c9b1d51d7417b8f5c3d0",
+    "crop_sha256": "ab90d411809f1d9ca5ee6c288cf35aa1e383c5ffb47fd58f242878f2ce10f483",
+    "provenance": "unverified"
+  },
+  {
+    "name": "us_test_004.jpg",
+    "plate_index": 0,
+    "split": "test",
+    "xyxy": [
+      141,
+      167,
+      187,
+      181
+    ],
+    "text": null,
+    "crop": "data/ocr/crops/test/us_test_004_1.png",
+    "image_sha256": "67862044a2d1d38df3c7758526c9cc724c88078e98e307d6e4c061c32d3633b8",
+    "crop_sha256": "0e37fb4a6349e6b8e412e6a9cc3fb23265a085ee77649b785977a566b1d27e99",
+    "provenance": "unverified"
+  },
+  {
+    "name": "us_test_005.jpg",
+    "plate_index": 0,
+    "split": "test",
+    "xyxy": [
+      457,
+      347,
+      548,
+      392
+    ],
+    "text": "5FLR236",
+    "crop": "data/ocr/crops/test/us_test_005_1.png",
+    "image_sha256": "0e2597c8444f07ef60c6367173eadfb9867e485de03572566cfc16f54aeb4f36",
+    "crop_sha256": "df6324bbd4bdeeae0732dc6dbace51a6b6f43a15c75209f516092923f9138e37",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_test_006.jpg",
+    "plate_index": 0,
+    "split": "test",
+    "xyxy": [
+      344,
+      287,
+      472,
+      354
+    ],
+    "text": "HYMAIOS",
+    "crop": "data/ocr/crops/test/us_test_006_1.png",
+    "image_sha256": "ea5c99b22e67715dcd419f19f813b5d5fc8bc64d6cde16c1c2d431e98741ee0b",
+    "crop_sha256": "534047179b1cc5138761e447ec5524b843abb70bc1b13719aaef2e131b17f19c",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_test_007.jpg",
+    "plate_index": 0,
+    "split": "test",
+    "xyxy": [
+      317,
+      521,
+      480,
+      602
+    ],
+    "text": "RZN384",
+    "crop": "data/ocr/crops/test/us_test_007_1.png",
+    "image_sha256": "40138e93ffff65896f3418db5c74b7739b20d5a34ef2038ecc47c4719181c7e1",
+    "crop_sha256": "29f59e347adeee53cb4ee9b2561896c12a7ef082453e4f98536fb14ed7a914bd",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_test_008.jpg",
+    "plate_index": 0,
+    "split": "test",
+    "xyxy": [
+      18,
+      14,
+      1012,
+      508
+    ],
+    "text": "XCJS77",
+    "crop": "data/ocr/crops/test/us_test_008_1.png",
+    "image_sha256": "00670c2d563a1797dd2151c1f1a287aca7c042a106f1282812c5358e7b521bb4",
+    "crop_sha256": "1720226a6d685af76758bf88374379a904af9550a16638572dd34a4f06c0f409",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_test_009.jpg",
+    "plate_index": 0,
+    "split": "test",
+    "xyxy": [
+      395,
+      535,
+      516,
+      595
+    ],
+    "text": "1AMW240",
+    "crop": "data/ocr/crops/test/us_test_009_1.png",
+    "image_sha256": "6144311615590b895b1851e07cb86677be23a711b83acab87ace693afc9e77e3",
+    "crop_sha256": "9079b5d391e7102101970be0b499955413fe4be3291558f1b1cf60a6385e6c5b",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_test_010.jpg",
+    "plate_index": 0,
+    "split": "test",
+    "xyxy": [
+      455,
+      316,
+      543,
+      360
+    ],
+    "text": "8S16841",
+    "crop": "data/ocr/crops/test/us_test_010_1.png",
+    "image_sha256": "1b975f381fddd31c52e32a26e25ef11319809b9e7bb10c3f4abaf85bcb02a14c",
+    "crop_sha256": "246529740781eea8289680aa98e437a3634b8039f3061d758110f01548704eea",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_test_011.jpg",
+    "plate_index": 0,
+    "split": "test",
+    "xyxy": [
+      690,
+      248,
+      825,
+      315
+    ],
+    "text": "DCK6344",
+    "crop": "data/ocr/crops/test/us_test_011_1.png",
+    "image_sha256": "df3f287c1607d76c90def076d81747a84c636c18d910c6b06ee095d6411dd9bc",
+    "crop_sha256": "010dfcd3cf8b4eb14e01926d71989cbcab63d591ef62f48342c085823d736ae4",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_test_012.jpg",
+    "plate_index": 0,
+    "split": "test",
+    "xyxy": [
+      155,
+      109,
+      242,
+      158
+    ],
+    "text": "WATTUP",
+    "crop": "data/ocr/crops/test/us_test_012_1.png",
+    "image_sha256": "22f2ab49ac8bd7622f3e14289c190ccc935a560799ddffeedd1fd980e68be09e",
+    "crop_sha256": "9697167f5066d3f1826a7698032303cd8216c62b69ba5b255900244c5a199cb5",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_test_013.jpg",
+    "plate_index": 0,
+    "split": "test",
+    "xyxy": [
+      300,
+      407,
+      669,
+      619
+    ],
+    "text": "AMPITUP",
+    "crop": "data/ocr/crops/test/us_test_013_1.png",
+    "image_sha256": "f9974b605b03c9c12a75d270ae3565273d842764897efc27e98108ef275a4a03",
+    "crop_sha256": "86a6bb438c5ac4c0cf2dc6a91099b00efa112c400a5936d6ba3fdeb391467028",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_test_014.jpg",
+    "plate_index": 0,
+    "split": "test",
+    "xyxy": [
+      940,
+      506,
+      999,
+      535
+    ],
+    "text": "WTC249",
+    "crop": "data/ocr/crops/test/us_test_014_1.png",
+    "image_sha256": "59b9476aa129e5dca869221e4b56873eb529a2311828e9ea72fe4dc713a14855",
+    "crop_sha256": "e7c61c5828669cc3eb61e2fd385cd887d3245bff4a296773b7fc1eaad3a57160",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_test_015.jpg",
+    "plate_index": 0,
+    "split": "test",
+    "xyxy": [
+      80,
+      189,
+      158,
+      228
+    ],
+    "text": "SB3X6N",
+    "crop": "data/ocr/crops/test/us_test_015_1.png",
+    "image_sha256": "ff8eb48bc837a1898fb3bcbad5c9ebd953f2d06b7d93a58e3a6bdb08e7d1510b",
+    "crop_sha256": "1f74f553b7482377a06d03d7893f5e106393335a8af0bc0bf3b75662265f6569",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_test_016.jpg",
+    "plate_index": 0,
+    "split": "test",
+    "xyxy": [
+      210,
+      207,
+      302,
+      253
+    ],
+    "text": "9185914",
+    "crop": "data/ocr/crops/test/us_test_016_1.png",
+    "image_sha256": "d0b4a613955de7af2a9c78aebe17d3209f4f8c89c83e3306c4f0661251c44601",
+    "crop_sha256": "a3909ac7355cc1a59d452ec4abb54e7a7041d8cfaf3283ce0b78475a86b62ddf",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_test_017.jpg",
+    "plate_index": 0,
+    "split": "test",
+    "xyxy": [
+      442,
+      424,
+      538,
+      472
+    ],
+    "text": "UH1N2A",
+    "crop": "data/ocr/crops/test/us_test_017_1.png",
+    "image_sha256": "2db171c36e00aa939eba9d04ba0fdcd35b7cca531e12eb1184be0f6c3b3ad6d8",
+    "crop_sha256": "93b25f84b98d48aeed402ceac0156cfc7fe8104da459f2ea061ccbb421a18061",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_test_018.jpg",
+    "plate_index": 0,
+    "split": "test",
+    "xyxy": [
+      240,
+      176,
+      375,
+      244
+    ],
+    "text": "LOLNOOB",
+    "crop": "data/ocr/crops/test/us_test_018_1.png",
+    "image_sha256": "fb95935696c9cd3038afaa8934371ed5f9df6539cf5019f6f081bbb435d74925",
+    "crop_sha256": "a095c4001e6f6ee17b9227139bf72ed9733d41c86f97854a8f2e789437f55713",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_test_019.jpg",
+    "plate_index": 0,
+    "split": "test",
+    "xyxy": [
+      52,
+      284,
+      145,
+      330
+    ],
+    "text": "AG0R6T",
+    "crop": "data/ocr/crops/test/us_test_019_1.png",
+    "image_sha256": "89605ccf46e011d7da5ca6aaf86dfc973635d3af77ec6df4ce2debcda6ba5626",
+    "crop_sha256": "e49f1cde5c307ca540ae474ce0ea627d8dea034fc041ac3425990c1530c538f8",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_test_020.jpg",
+    "plate_index": 0,
+    "split": "test",
+    "xyxy": [
+      109,
+      198,
+      146,
+      216
+    ],
+    "text": null,
+    "crop": "data/ocr/crops/test/us_test_020_1.png",
+    "image_sha256": "46645d34fbe7d592af49ea567dd953efadd24a5ee41c6ad595e20f8f7a4b6a58",
+    "crop_sha256": "1be44993e47f478bdd02cb4ee32f34a2f76525a6d9a4a4c66d374ce1cc0ff762",
+    "provenance": "unverified"
+  }
+]

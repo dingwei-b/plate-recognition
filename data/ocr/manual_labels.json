@@ -1,0 +1,908 @@
+[
+  {
+    "name": "us_train_003.jpg",
+    "text": "890H14",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_007.jpg",
+    "text": "NO5HOL",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_010.jpg",
+    "text": "LAMBO",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_014.jpg",
+    "text": "EPCFAIL",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_016.jpg",
+    "text": "MSFTIPO",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_017.jpg",
+    "text": "LNXGEEK",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_019.jpg",
+    "text": "BATMANS",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_021.jpg",
+    "text": "69PWNDU",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_022.jpg",
+    "text": "YYESS",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_023.jpg",
+    "text": "GD10PIN",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_024.jpg",
+    "text": "EXTYNCT",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_026.jpg",
+    "text": "NYC1898",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_028.jpg",
+    "text": null,
+    "status": "unverified",
+    "note": "No readable serial, incomplete crop, or ambiguous characters; excluded from OCR training/accuracy."
+  },
+  {
+    "name": "us_train_029.jpg",
+    "text": null,
+    "status": "unverified",
+    "note": "No readable serial, incomplete crop, or ambiguous characters; excluded from OCR training/accuracy."
+  },
+  {
+    "name": "us_train_033.jpg",
+    "text": "ELVISV",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_034.jpg",
+    "text": null,
+    "status": "unverified",
+    "note": "No readable serial, incomplete crop, or ambiguous characters; excluded from OCR training/accuracy."
+  },
+  {
+    "name": "us_train_036.jpg",
+    "text": null,
+    "status": "unverified",
+    "note": "No readable serial, incomplete crop, or ambiguous characters; excluded from OCR training/accuracy."
+  },
+  {
+    "name": "us_train_037.jpg",
+    "text": "YRSGNBY",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_038.jpg",
+    "text": "IMGROOT",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_039.jpg",
+    "text": "FZF5263",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_045.jpg",
+    "text": "CH4RGED",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_046.jpg",
+    "text": "PWF666",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_049.jpg",
+    "text": "NOSPYN",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_050.jpg",
+    "text": "ILIAD",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_053.jpg",
+    "text": "R8TEDM",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_054.jpg",
+    "text": "VHK1164",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_058.jpg",
+    "text": "6EEH107",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_059.jpg",
+    "text": "WWSJD",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_060.jpg",
+    "text": null,
+    "status": "unverified",
+    "note": "No readable serial, incomplete crop, or ambiguous characters; excluded from OCR training/accuracy."
+  },
+  {
+    "name": "us_train_064.jpg",
+    "text": "KILLJOY",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_065.jpg",
+    "text": "LAYER4",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_068.jpg",
+    "text": "4RTHSAK",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_070.jpg",
+    "text": "ABK7018",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_072.jpg",
+    "text": "EWE666",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_074.jpg",
+    "text": "WMY9051",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_075.jpg",
+    "text": "ZOOOMM",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_077.jpg",
+    "text": "QZQ159",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_080.jpg",
+    "text": "HTTPME",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_081.jpg",
+    "text": null,
+    "status": "unverified",
+    "note": "No readable serial, incomplete crop, or ambiguous characters; excluded from OCR training/accuracy."
+  },
+  {
+    "name": "us_train_082.jpg",
+    "text": null,
+    "status": "unverified",
+    "note": "No readable serial, incomplete crop, or ambiguous characters; excluded from OCR training/accuracy."
+  },
+  {
+    "name": "us_train_084.jpg",
+    "text": "3DE4VER",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_085.jpg",
+    "text": "MHARANI",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_088.jpg",
+    "text": "WAZHIZ",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_092.jpg",
+    "text": null,
+    "status": "unverified",
+    "note": "No readable serial, incomplete crop, or ambiguous characters; excluded from OCR training/accuracy."
+  },
+  {
+    "name": "us_train_093.jpg",
+    "text": "FWDSUK",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_094.jpg",
+    "text": "IMAMESS",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_095.jpg",
+    "text": null,
+    "status": "unverified",
+    "note": "No readable serial, incomplete crop, or ambiguous characters; excluded from OCR training/accuracy."
+  },
+  {
+    "name": "us_train_102.jpg",
+    "text": "WTFLOLZ",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_103.jpg",
+    "text": "PDK095",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_106.jpg",
+    "text": "56MPG",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_110.jpg",
+    "text": "OMGWTF",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_111.jpg",
+    "text": "EXCUSEM3",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_115.jpg",
+    "text": "DZVG49",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_116.jpg",
+    "text": "MYSPACE",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_117.jpg",
+    "text": "GGGRRR",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_120.jpg",
+    "text": "FAST",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_121.jpg",
+    "text": "CLRUNIN",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_125.jpg",
+    "text": "7JCV393",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_128.jpg",
+    "text": "WJCOOL",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_130.jpg",
+    "text": null,
+    "status": "unverified",
+    "note": "No readable serial, incomplete crop, or ambiguous characters; excluded from OCR training/accuracy."
+  },
+  {
+    "name": "us_train_132.jpg",
+    "text": "ZIMSNIZ",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_134.jpg",
+    "text": "DVD493",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_135.jpg",
+    "text": null,
+    "status": "unverified",
+    "note": "No readable serial, incomplete crop, or ambiguous characters; excluded from OCR training/accuracy."
+  },
+  {
+    "name": "us_train_137.jpg",
+    "text": "4LGOL1A",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_138.jpg",
+    "text": "EVSROCK",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_140.jpg",
+    "text": "EVO9FTW",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_142.jpg",
+    "text": "BJR216",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_143.jpg",
+    "text": "4WKH666",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_144.jpg",
+    "text": "EAB0001",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_145.jpg",
+    "text": "ICECRM",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_146.jpg",
+    "text": "3LECTRIC",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_150.jpg",
+    "text": null,
+    "status": "unverified",
+    "note": "No readable serial, incomplete crop, or ambiguous characters; excluded from OCR training/accuracy."
+  },
+  {
+    "name": "us_train_153.jpg",
+    "text": "6PYV308",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_155.jpg",
+    "text": null,
+    "status": "unverified",
+    "note": "No readable serial, incomplete crop, or ambiguous characters; excluded from OCR training/accuracy."
+  },
+  {
+    "name": "us_train_161.jpg",
+    "text": null,
+    "status": "unverified",
+    "note": "No readable serial, incomplete crop, or ambiguous characters; excluded from OCR training/accuracy."
+  },
+  {
+    "name": "us_train_162.jpg",
+    "text": "6XSU832",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_163.jpg",
+    "text": null,
+    "status": "unverified",
+    "note": "No readable serial, incomplete crop, or ambiguous characters; excluded from OCR training/accuracy."
+  },
+  {
+    "name": "us_train_164.jpg",
+    "text": "MACGEEK",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_165.jpg",
+    "text": "YOUTUBE",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_166.jpg",
+    "text": "MIDLYPH",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_167.jpg",
+    "text": "H3NTAI",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_168.jpg",
+    "text": "BMW",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_169.jpg",
+    "text": "HIBRN8R",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_173.jpg",
+    "text": "USMCZ",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_175.jpg",
+    "text": "M1SSF1T",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_176.jpg",
+    "text": "GOGR3N",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_177.jpg",
+    "text": "CHOSN1",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_179.jpg",
+    "text": "USABILT",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_180.jpg",
+    "text": "OXPAHA",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_181.jpg",
+    "text": "BYBYGAS",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_186.jpg",
+    "text": null,
+    "status": "unverified",
+    "note": "No readable serial, incomplete crop, or ambiguous characters; excluded from OCR training/accuracy."
+  },
+  {
+    "name": "us_train_187.jpg",
+    "text": null,
+    "status": "unverified",
+    "note": "No readable serial, incomplete crop, or ambiguous characters; excluded from OCR training/accuracy."
+  },
+  {
+    "name": "us_train_192.jpg",
+    "text": "CCR7502",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_193.jpg",
+    "text": "7Y27924",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_198.jpg",
+    "text": "PINKIEG",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_200.jpg",
+    "text": "VANDAMN",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_201.jpg",
+    "text": null,
+    "status": "unverified",
+    "note": "No readable serial, incomplete crop, or ambiguous characters; excluded from OCR training/accuracy."
+  },
+  {
+    "name": "us_train_202.jpg",
+    "text": "GWU2019",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_203.jpg",
+    "text": "NTHGLFT",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_210.jpg",
+    "text": "FIT2GO",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_214.jpg",
+    "text": "9214",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_215.jpg",
+    "text": "OUTSTDN",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_217.jpg",
+    "text": "SKIPGAS",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_218.jpg",
+    "text": "EPKT",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_220.jpg",
+    "text": "GS4ME",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_221.jpg",
+    "text": "HONDUH",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_223.jpg",
+    "text": "NOS4A2",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_228.jpg",
+    "text": "MARJANY",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_237.jpg",
+    "text": "SJX579",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_238.jpg",
+    "text": "BSMART2",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_239.jpg",
+    "text": "JXN646",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_240.jpg",
+    "text": "MPEACHW",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_243.jpg",
+    "text": "GOBLU1",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_244.jpg",
+    "text": "DRUNK",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_245.jpg",
+    "text": "A69985T",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_246.jpg",
+    "text": null,
+    "status": "unverified",
+    "note": "No readable serial, incomplete crop, or ambiguous characters; excluded from OCR training/accuracy."
+  },
+  {
+    "name": "us_train_250.jpg",
+    "text": null,
+    "status": "unverified",
+    "note": "No readable serial, incomplete crop, or ambiguous characters; excluded from OCR training/accuracy."
+  },
+  {
+    "name": "us_train_251.jpg",
+    "text": "VODKAA",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_253.jpg",
+    "text": "BUTCH20",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_255.jpg",
+    "text": "DFV8478",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_257.jpg",
+    "text": "RRRRUN",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_260.jpg",
+    "text": "045IGP",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_262.jpg",
+    "text": "MRSNOOPY",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_263.jpg",
+    "text": "HURT911",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_269.jpg",
+    "text": "5A4934",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_272.jpg",
+    "text": "DADS",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_273.jpg",
+    "text": "DELFI",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_277.jpg",
+    "text": "CAHIKER",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_282.jpg",
+    "text": "SWAGRWGN",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_283.jpg",
+    "text": null,
+    "status": "unverified",
+    "note": "No readable serial, incomplete crop, or ambiguous characters; excluded from OCR training/accuracy."
+  },
+  {
+    "name": "us_train_285.jpg",
+    "text": "LBYRNTH",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_286.jpg",
+    "text": "FERRARI",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_289.jpg",
+    "text": "HAMSTUR",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_290.jpg",
+    "text": "OMGICU",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_293.jpg",
+    "text": "FAST",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_294.jpg",
+    "text": "HNDAGRL",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_295.jpg",
+    "text": "NDXVI",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_296.jpg",
+    "text": "BW5F851",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_train_297.jpg",
+    "text": null,
+    "status": "unverified",
+    "note": "No readable serial, incomplete crop, or ambiguous characters; excluded from OCR training/accuracy."
+  },
+  {
+    "name": "us_train_299.jpg",
+    "text": null,
+    "status": "unverified",
+    "note": "No readable serial, incomplete crop, or ambiguous characters; excluded from OCR training/accuracy."
+  },
+  {
+    "name": "us_train_300.jpg",
+    "text": "749ADO",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_test_001.jpg",
+    "text": "3421",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_test_002.jpg",
+    "text": "T",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_test_003.jpg",
+    "text": null,
+    "status": "unverified",
+    "note": "No readable serial, incomplete crop, or ambiguous characters; excluded from OCR training/accuracy."
+  },
+  {
+    "name": "us_test_004.jpg",
+    "text": null,
+    "status": "unverified",
+    "note": "No readable serial, incomplete crop, or ambiguous characters; excluded from OCR training/accuracy."
+  },
+  {
+    "name": "us_test_006.jpg",
+    "text": "HYMAIOS",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_test_008.jpg",
+    "text": "XCJS77",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_test_012.jpg",
+    "text": "WATTUP",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_test_013.jpg",
+    "text": "AMPITUP",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_test_018.jpg",
+    "text": "LOLNOOB",
+    "status": "visually_transcribed",
+    "note": "Read from the annotated image crop; no model predictions used."
+  },
+  {
+    "name": "us_test_020.jpg",
+    "text": null,
+    "status": "unverified",
+    "note": "No readable serial, incomplete crop, or ambiguous characters; excluded from OCR training/accuracy."
+  }
+]

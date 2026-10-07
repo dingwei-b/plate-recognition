@@ -1,0 +1,18 @@
+{
+  "selection_sha256": "ab6ac8464dea3a9aa055c296f3f345156c0c59d685c88d6aaf71d3e47c18187e",
+  "image_hash_overlap": 0,
+  "crop_hash_overlap": 0,
+  "normalization": "Uppercase A-Z and 0-9; remove spaces/punctuation; no O/0 or I/1 substitutions.",
+  "counts": {
+    "train": {
+      "total": 304,
+      "labeled": 277,
+      "excluded": 27
+    },
+    "test": {
+      "total": 20,
+      "labeled": 17,
+      "excluded": 3
+    }
+  }
+}

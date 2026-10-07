@@ -1,0 +1,478 @@
+{
+  "summary": {
+    "model": "yolo-v9-t-384-pretrained.pt",
+    "provider": [
+      "PyTorch CPU"
+    ],
+    "threshold": 0.25,
+    "image_count": 20,
+    "images_with_detections": 20,
+    "plate_count": 24,
+    "mean_detection_ms": 96.47,
+    "timing": "After one warmup; preprocessing + inference + coordinate conversion; excludes file IO",
+    "coordinate_format": "xyxy in original-image pixels, x2/y2 exclusive",
+    "note": "Detection count is not accuracy; no OCR performed. See evaluation for ground-truth metrics."
+  },
+  "images": [
+    {
+      "name": "us_test_001.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_001.jpg",
+      "annotated": "annotated/test__us_test_001.jpg.jpg",
+      "width": 728,
+      "height": 546,
+      "elapsed_ms": 66.69,
+      "detections": [
+        {
+          "xyxy": [
+            309,
+            302,
+            417,
+            358
+          ],
+          "confidence": 0.91556,
+          "crop": "crops/test__us_test_001.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_002.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_002.jpg",
+      "annotated": "annotated/test__us_test_002.jpg.jpg",
+      "width": 3264,
+      "height": 2448,
+      "elapsed_ms": 69.28,
+      "detections": [
+        {
+          "xyxy": [
+            1227,
+            875,
+            1766,
+            1125
+          ],
+          "confidence": 0.87827,
+          "crop": "crops/test__us_test_002.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_003.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_003.jpg",
+      "annotated": "annotated/test__us_test_003.jpg.jpg",
+      "width": 640,
+      "height": 362,
+      "elapsed_ms": 87.38,
+      "detections": [
+        {
+          "xyxy": [
+            404,
+            167,
+            513,
+            258
+          ],
+          "confidence": 0.88653,
+          "crop": "crops/test__us_test_003.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_004.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_004.jpg",
+      "annotated": "annotated/test__us_test_004.jpg.jpg",
+      "width": 400,
+      "height": 265,
+      "elapsed_ms": 134.69,
+      "detections": [
+        {
+          "xyxy": [
+            143,
+            167,
+            187,
+            182
+          ],
+          "confidence": 0.83027,
+          "crop": "crops/test__us_test_004.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_005.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_005.jpg",
+      "annotated": "annotated/test__us_test_005.jpg.jpg",
+      "width": 1280,
+      "height": 720,
+      "elapsed_ms": 136.64,
+      "detections": [
+        {
+          "xyxy": [
+            457,
+            347,
+            551,
+            393
+          ],
+          "confidence": 0.87135,
+          "crop": "crops/test__us_test_005.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_006.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_006.jpg",
+      "annotated": "annotated/test__us_test_006.jpg.jpg",
+      "width": 800,
+      "height": 600,
+      "elapsed_ms": 115.87,
+      "detections": [
+        {
+          "xyxy": [
+            343,
+            289,
+            471,
+            353
+          ],
+          "confidence": 0.89677,
+          "crop": "crops/test__us_test_006.jpg__plate_01.png"
+        },
+        {
+          "xyxy": [
+            132,
+            79,
+            193,
+            98
+          ],
+          "confidence": 0.41467,
+          "crop": "crops/test__us_test_006.jpg__plate_02.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_007.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_007.jpg",
+      "annotated": "annotated/test__us_test_007.jpg.jpg",
+      "width": 1280,
+      "height": 720,
+      "elapsed_ms": 121.81,
+      "detections": [
+        {
+          "xyxy": [
+            316,
+            520,
+            483,
+            603
+          ],
+          "confidence": 0.85039,
+          "crop": "crops/test__us_test_007.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_008.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_008.jpg",
+      "annotated": "annotated/test__us_test_008.jpg.jpg",
+      "width": 1024,
+      "height": 529,
+      "elapsed_ms": 91.63,
+      "detections": [
+        {
+          "xyxy": [
+            0,
+            0,
+            1019,
+            529
+          ],
+          "confidence": 0.95716,
+          "crop": "crops/test__us_test_008.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_009.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_009.jpg",
+      "annotated": "annotated/test__us_test_009.jpg.jpg",
+      "width": 904,
+      "height": 768,
+      "elapsed_ms": 110.11,
+      "detections": [
+        {
+          "xyxy": [
+            392,
+            530,
+            522,
+            592
+          ],
+          "confidence": 0.9015,
+          "crop": "crops/test__us_test_009.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_010.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_010.jpg",
+      "annotated": "annotated/test__us_test_010.jpg.jpg",
+      "width": 1280,
+      "height": 720,
+      "elapsed_ms": 99.37,
+      "detections": [
+        {
+          "xyxy": [
+            455,
+            315,
+            544,
+            362
+          ],
+          "confidence": 0.86027,
+          "crop": "crops/test__us_test_010.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_011.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_011.jpg",
+      "annotated": "annotated/test__us_test_011.jpg.jpg",
+      "width": 1280,
+      "height": 720,
+      "elapsed_ms": 104.98,
+      "detections": [
+        {
+          "xyxy": [
+            688,
+            244,
+            829,
+            317
+          ],
+          "confidence": 0.89307,
+          "crop": "crops/test__us_test_011.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_012.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_012.jpg",
+      "annotated": "annotated/test__us_test_012.jpg.jpg",
+      "width": 400,
+      "height": 300,
+      "elapsed_ms": 103.44,
+      "detections": [
+        {
+          "xyxy": [
+            154,
+            110,
+            245,
+            159
+          ],
+          "confidence": 0.9071,
+          "crop": "crops/test__us_test_012.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_013.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_013.jpg",
+      "annotated": "annotated/test__us_test_013.jpg.jpg",
+      "width": 1024,
+      "height": 737,
+      "elapsed_ms": 147.38,
+      "detections": [
+        {
+          "xyxy": [
+            289,
+            425,
+            672,
+            627
+          ],
+          "confidence": 0.89315,
+          "crop": "crops/test__us_test_013.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_014.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_014.jpg",
+      "annotated": "annotated/test__us_test_014.jpg.jpg",
+      "width": 1024,
+      "height": 640,
+      "elapsed_ms": 90.07,
+      "detections": [
+        {
+          "xyxy": [
+            939,
+            503,
+            1000,
+            540
+          ],
+          "confidence": 0.86161,
+          "crop": "crops/test__us_test_014.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_015.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_015.jpg",
+      "annotated": "annotated/test__us_test_015.jpg.jpg",
+      "width": 720,
+      "height": 480,
+      "elapsed_ms": 75.64,
+      "detections": [
+        {
+          "xyxy": [
+            407,
+            208,
+            442,
+            226
+          ],
+          "confidence": 0.76579,
+          "crop": "crops/test__us_test_015.jpg__plate_01.png"
+        },
+        {
+          "xyxy": [
+            80,
+            191,
+            160,
+            237
+          ],
+          "confidence": 0.74209,
+          "crop": "crops/test__us_test_015.jpg__plate_02.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_016.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_016.jpg",
+      "annotated": "annotated/test__us_test_016.jpg.jpg",
+      "width": 500,
+      "height": 375,
+      "elapsed_ms": 71.57,
+      "detections": [
+        {
+          "xyxy": [
+            208,
+            209,
+            302,
+            255
+          ],
+          "confidence": 0.89113,
+          "crop": "crops/test__us_test_016.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_017.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_017.jpg",
+      "annotated": "annotated/test__us_test_017.jpg.jpg",
+      "width": 1280,
+      "height": 800,
+      "elapsed_ms": 78.3,
+      "detections": [
+        {
+          "xyxy": [
+            440,
+            419,
+            544,
+            477
+          ],
+          "confidence": 0.88596,
+          "crop": "crops/test__us_test_017.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_018.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_018.jpg",
+      "annotated": "annotated/test__us_test_018.jpg.jpg",
+      "width": 604,
+      "height": 454,
+      "elapsed_ms": 67.86,
+      "detections": [
+        {
+          "xyxy": [
+            242,
+            181,
+            372,
+            240
+          ],
+          "confidence": 0.89405,
+          "crop": "crops/test__us_test_018.jpg__plate_01.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_019.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_019.jpg",
+      "annotated": "annotated/test__us_test_019.jpg.jpg",
+      "width": 1280,
+      "height": 720,
+      "elapsed_ms": 73.42,
+      "detections": [
+        {
+          "xyxy": [
+            52,
+            283,
+            149,
+            335
+          ],
+          "confidence": 0.84449,
+          "crop": "crops/test__us_test_019.jpg__plate_01.png"
+        },
+        {
+          "xyxy": [
+            473,
+            54,
+            526,
+            83
+          ],
+          "confidence": 0.48809,
+          "crop": "crops/test__us_test_019.jpg__plate_02.png"
+        }
+      ]
+    },
+    {
+      "name": "us_test_020.jpg",
+      "split": "test",
+      "original": "../../data/images/test/us_test_020.jpg",
+      "annotated": "annotated/test__us_test_020.jpg.jpg",
+      "width": 400,
+      "height": 300,
+      "elapsed_ms": 83.2,
+      "detections": [
+        {
+          "xyxy": [
+            113,
+            198,
+            145,
+            214
+          ],
+          "confidence": 0.88441,
+          "crop": "crops/test__us_test_020.jpg__plate_01.png"
+        },
+        {
+          "xyxy": [
+            383,
+            154,
+            400,
+            167
+          ],
+          "confidence": 0.75612,
+          "crop": "crops/test__us_test_020.jpg__plate_02.png"
+        }
+      ]
+    }
+  ]
+}

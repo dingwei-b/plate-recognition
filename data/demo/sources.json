@@ -1,0 +1,109 @@
+{
+  "repository": "https://github.com/openalpr/benchmarks",
+  "revision": "9790ed20d475be1e940a7e2a3f492a97c2ebed9b",
+  "subset": "endtoend/us",
+  "seed": 42,
+  "purpose": "Small public smoke-test sample, not an independent accuracy benchmark",
+  "images": [
+    {
+      "name": "33fa5185-0286-4e8f-b775-46162eba39d4.jpg",
+      "git_blob_sha1": "fb50e62462349cb762b00c0d5e4486078449d6be",
+      "url": "https://raw.githubusercontent.com/openalpr/benchmarks/9790ed20d475be1e940a7e2a3f492a97c2ebed9b/endtoend/us/33fa5185-0286-4e8f-b775-46162eba39d4.jpg"
+    },
+    {
+      "name": "37170dd1-2802-4e38-b982-c5d07c64ff67.jpg",
+      "git_blob_sha1": "d3ba930d84e0fd3584dcae81084922de0e64d41b",
+      "url": "https://raw.githubusercontent.com/openalpr/benchmarks/9790ed20d475be1e940a7e2a3f492a97c2ebed9b/endtoend/us/37170dd1-2802-4e38-b982-c5d07c64ff67.jpg"
+    },
+    {
+      "name": "3850ba91-3c64-4c64-acba-0c46b61ec0da.jpg",
+      "git_blob_sha1": "467c5e659c1db5614d8c6358aabeda6d8b6f2e5f",
+      "url": "https://raw.githubusercontent.com/openalpr/benchmarks/9790ed20d475be1e940a7e2a3f492a97c2ebed9b/endtoend/us/3850ba91-3c64-4c64-acba-0c46b61ec0da.jpg"
+    },
+    {
+      "name": "car18.jpg",
+      "git_blob_sha1": "41faa5d0a911ead590165192fe293314ba7faed4",
+      "url": "https://raw.githubusercontent.com/openalpr/benchmarks/9790ed20d475be1e940a7e2a3f492a97c2ebed9b/endtoend/us/car18.jpg"
+    },
+    {
+      "name": "car19.jpg",
+      "git_blob_sha1": "fc0a740edeb1d7886880e672b39f1e46495779f8",
+      "url": "https://raw.githubusercontent.com/openalpr/benchmarks/9790ed20d475be1e940a7e2a3f492a97c2ebed9b/endtoend/us/car19.jpg"
+    },
+    {
+      "name": "car21.jpg",
+      "git_blob_sha1": "e81985917ba2250d21c776911d10c4f92469ff6e",
+      "url": "https://raw.githubusercontent.com/openalpr/benchmarks/9790ed20d475be1e940a7e2a3f492a97c2ebed9b/endtoend/us/car21.jpg"
+    },
+    {
+      "name": "car3.jpg",
+      "git_blob_sha1": "6f57da46c5f914af990e756880d21953885e871d",
+      "url": "https://raw.githubusercontent.com/openalpr/benchmarks/9790ed20d475be1e940a7e2a3f492a97c2ebed9b/endtoend/us/car3.jpg"
+    },
+    {
+      "name": "car9-2.jpg",
+      "git_blob_sha1": "9c9316415fdd6f57d613ef33103aa5c2efbe4008",
+      "url": "https://raw.githubusercontent.com/openalpr/benchmarks/9790ed20d475be1e940a7e2a3f492a97c2ebed9b/endtoend/us/car9-2.jpg"
+    },
+    {
+      "name": "wts-lg-000010.jpg",
+      "git_blob_sha1": "fa95f956f28466537194a04fef7ca4f911164974",
+      "url": "https://raw.githubusercontent.com/openalpr/benchmarks/9790ed20d475be1e940a7e2a3f492a97c2ebed9b/endtoend/us/wts-lg-000010.jpg"
+    },
+    {
+      "name": "wts-lg-000012.jpg",
+      "git_blob_sha1": "2268137f5536ad3483a9e6addb1106a9067983ae",
+      "url": "https://raw.githubusercontent.com/openalpr/benchmarks/9790ed20d475be1e940a7e2a3f492a97c2ebed9b/endtoend/us/wts-lg-000012.jpg"
+    },
+    {
+      "name": "wts-lg-000014.jpg",
+      "git_blob_sha1": "96453a4ea9b721717fdb78fdbb0cda9bdb994d1a",
+      "url": "https://raw.githubusercontent.com/openalpr/benchmarks/9790ed20d475be1e940a7e2a3f492a97c2ebed9b/endtoend/us/wts-lg-000014.jpg"
+    },
+    {
+      "name": "wts-lg-000018.jpg",
+      "git_blob_sha1": "0159da7c1b6e106aa37f948c6130aede7fa77af2",
+      "url": "https://raw.githubusercontent.com/openalpr/benchmarks/9790ed20d475be1e940a7e2a3f492a97c2ebed9b/endtoend/us/wts-lg-000018.jpg"
+    },
+    {
+      "name": "wts-lg-000027.jpg",
+      "git_blob_sha1": "383cf1c3ec546eee5f64c67f686422c3528b6a2e",
+      "url": "https://raw.githubusercontent.com/openalpr/benchmarks/9790ed20d475be1e940a7e2a3f492a97c2ebed9b/endtoend/us/wts-lg-000027.jpg"
+    },
+    {
+      "name": "wts-lg-000066.jpg",
+      "git_blob_sha1": "7daf41230cd81a396c6fd9d84d7326819a829d2c",
+      "url": "https://raw.githubusercontent.com/openalpr/benchmarks/9790ed20d475be1e940a7e2a3f492a97c2ebed9b/endtoend/us/wts-lg-000066.jpg"
+    },
+    {
+      "name": "wts-lg-000100.jpg",
+      "git_blob_sha1": "4c9cb08ba92f618d42a1e5233f8affa5088914b5",
+      "url": "https://raw.githubusercontent.com/openalpr/benchmarks/9790ed20d475be1e940a7e2a3f492a97c2ebed9b/endtoend/us/wts-lg-000100.jpg"
+    },
+    {
+      "name": "wts-lg-000123.jpg",
+      "git_blob_sha1": "9a08b1ab8801e9866fe7ba2be71336bd45ab41c4",
+      "url": "https://raw.githubusercontent.com/openalpr/benchmarks/9790ed20d475be1e940a7e2a3f492a97c2ebed9b/endtoend/us/wts-lg-000123.jpg"
+    },
+    {
+      "name": "wts-lg-000135.jpg",
+      "git_blob_sha1": "39a2565f30a44af83583b7120b04c2784e543693",
+      "url": "https://raw.githubusercontent.com/openalpr/benchmarks/9790ed20d475be1e940a7e2a3f492a97c2ebed9b/endtoend/us/wts-lg-000135.jpg"
+    },
+    {
+      "name": "wts-lg-000145.jpg",
+      "git_blob_sha1": "4e1d3058f731df9e28f6622d58517cd326bab458",
+      "url": "https://raw.githubusercontent.com/openalpr/benchmarks/9790ed20d475be1e940a7e2a3f492a97c2ebed9b/endtoend/us/wts-lg-000145.jpg"
+    },
+    {
+      "name": "wts-lg-000161.jpg",
+      "git_blob_sha1": "be3c0ea0c7f1286411195a50479a9a73f5a5f7d7",
+      "url": "https://raw.githubusercontent.com/openalpr/benchmarks/9790ed20d475be1e940a7e2a3f492a97c2ebed9b/endtoend/us/wts-lg-000161.jpg"
+    },
+    {
+      "name": "wts-lg-000162.jpg",
+      "git_blob_sha1": "e1ad13ef5eb215e5057d172a31d94a59c35adc3f",
+      "url": "https://raw.githubusercontent.com/openalpr/benchmarks/9790ed20d475be1e940a7e2a3f492a97c2ebed9b/endtoend/us/wts-lg-000162.jpg"
+    }
+  ]
+}

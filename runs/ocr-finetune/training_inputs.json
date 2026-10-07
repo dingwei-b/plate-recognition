@@ -1,0 +1,4434 @@
+[
+  {
+    "name": "us_train_001.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      651,
+      234,
+      734,
+      275
+    ],
+    "text": "5FEE732",
+    "crop": "data/ocr/crops/train/us_train_001_1.png",
+    "image_sha256": "7b3324d6fdf86bb34695bb5bcaa5f5b4c4b3247511f74bdc57d7d6d43501b234",
+    "crop_sha256": "8e8d5a01f11b6aa537b7f56d4cb917ab735991b11b5bc449edc51da9865b60f8",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_002.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      258,
+      239,
+      321,
+      270
+    ],
+    "text": "8951283",
+    "crop": "data/ocr/crops/train/us_train_002_1.png",
+    "image_sha256": "23f21279bf634f5df242502c688a7780b9bc24b1fd49758439545edafac2c17e",
+    "crop_sha256": "c7c2544bc90c5c8770bc17f518c20eaf4c999cdbb42cd05157655ae85f7d3537",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_003.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      86,
+      80,
+      2032,
+      1030
+    ],
+    "text": "890H14",
+    "crop": "data/ocr/crops/train/us_train_003_1.png",
+    "image_sha256": "0281eac10032b12d30f960e493a54a67544fe24a08e85c3c575f071109e82fb7",
+    "crop_sha256": "1dab2f2048806c919166ca00e33ba9338c3aa72ce59a153ffb920352ff4a8670",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_004.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      891,
+      73,
+      951,
+      103
+    ],
+    "text": "08E6CK",
+    "crop": "data/ocr/crops/train/us_train_004_1.png",
+    "image_sha256": "62db0589ea3dd41cc3a00c84ed902eff8332370c8c4cf1c1025529f42564147c",
+    "crop_sha256": "e9f372d39e61cad0ebe4722a2e7efb56b1571aa6811b059eade5e711a0c0f422",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_005.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      243,
+      356,
+      358,
+      413
+    ],
+    "text": "627WWI",
+    "crop": "data/ocr/crops/train/us_train_005_1.png",
+    "image_sha256": "82bb991250ed5105c694700d53412a04c3984fa8c01737892d90f5f1f6e5a1b0",
+    "crop_sha256": "e8299e96ac469252b6b47e04b72affb6fce92be19fde7b3f387cc9056b207019",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_006.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      315,
+      328,
+      407,
+      374
+    ],
+    "text": "CG2H2U",
+    "crop": "data/ocr/crops/train/us_train_006_1.png",
+    "image_sha256": "88b9661bce601fb247e8ad2c5436dd57407f31a9ab054ff8ad2645805b6593d2",
+    "crop_sha256": "108833e504e1e8a767ac198392af6be6f626e5ccdf2c1aa4701e66f9333f49c3",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_007.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      1198,
+      1013,
+      1937,
+      1486
+    ],
+    "text": "NO5HOL",
+    "crop": "data/ocr/crops/train/us_train_007_1.png",
+    "image_sha256": "a6677e05096ea34ae58814118d3718f57c9c7e1822feb54a26294c064eaa9d1f",
+    "crop_sha256": "d280413fe9097588d45a5251476b5c0addfd317380e1d4c443b483804e771c41",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_008.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      305,
+      232,
+      417,
+      288
+    ],
+    "text": "EUS664",
+    "crop": "data/ocr/crops/train/us_train_008_1.png",
+    "image_sha256": "5762758d4f3774345d9ce367b820e8e0dc535b5530e2fea0f2d77ba992a20343",
+    "crop_sha256": "09d6d478bc5b07fdadbe3ea3d9b3dc90666745a4fe84f643d04689d8ad1d3658",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_009.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      594,
+      294,
+      679,
+      336
+    ],
+    "text": "7EAV033",
+    "crop": "data/ocr/crops/train/us_train_009_1.png",
+    "image_sha256": "87679deda691e01cc8f39d3cbc039773e6835dd78adc4c5c86b410e2a970c13d",
+    "crop_sha256": "6f8fdb9cf94b6e3084e8709ac6088aa5a304015227f7579afbb6f0b067d707d1",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_010.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      165,
+      147,
+      232,
+      183
+    ],
+    "text": "LAMBO",
+    "crop": "data/ocr/crops/train/us_train_010_1.png",
+    "image_sha256": "6062651246bc25d56654a1bfcd1341d4d59e0c505dda79f54d79736cd3661577",
+    "crop_sha256": "271e002d63f74ba419be257186279d4ba8a50ad5c1f83ddc88c544050cda3b89",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_011.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      629,
+      278,
+      719,
+      323
+    ],
+    "text": "6WAW786",
+    "crop": "data/ocr/crops/train/us_train_011_1.png",
+    "image_sha256": "26a36a314d643e97e77906a09fbc34112fb021bb1d7e57a8dfccde31b714ea1f",
+    "crop_sha256": "2b84495ee5bd351b4bc9d3c9446ae7bde83faa6527412e2d45d49381dbbb021e",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_012.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      355,
+      427,
+      504,
+      501
+    ],
+    "text": "SK2W6K",
+    "crop": "data/ocr/crops/train/us_train_012_1.png",
+    "image_sha256": "a6f70e4c36f3853d46ca70d29eb31fc53b5212f25008b626f7ae5296dd695d00",
+    "crop_sha256": "a64864314647ac3ea8d170c6069f37317f6346a0359c2bfc3bf894e5a1c4c7ef",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_013.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      252,
+      517,
+      347,
+      564
+    ],
+    "text": "SH0R7X",
+    "crop": "data/ocr/crops/train/us_train_013_1.png",
+    "image_sha256": "a4e2aa0d1dfe6db2825b35761d9f0fbe7e635b8b62d2297cffd123c83924878e",
+    "crop_sha256": "d242a60628f19bf5651a5e3409f4c1eb6dce73b655a922103ccc8f763e6236c1",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_014.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      278,
+      359,
+      417,
+      441
+    ],
+    "text": "EPCFAIL",
+    "crop": "data/ocr/crops/train/us_train_014_1.png",
+    "image_sha256": "d7619e7b6985a43a6b0a0f03ec08cf3ce0c958053841a3b3c781ed4edcde3695",
+    "crop_sha256": "ed7e558a16e178002f13e3440a952698d0570d4e2b8310b215c6b5ac058b3ebe",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_015.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      785,
+      131,
+      865,
+      171
+    ],
+    "text": "7AHN739",
+    "crop": "data/ocr/crops/train/us_train_015_1.png",
+    "image_sha256": "6e20381763900111982207467a8f5f5bb1a846c8f07857166cd85c0e7f202ced",
+    "crop_sha256": "879d586ff2c3eb88161277cc9b694edfac6faba8bfef40583ed2053aca24d971",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_016.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      712,
+      1075,
+      1470,
+      1465
+    ],
+    "text": "MSFTIPO",
+    "crop": "data/ocr/crops/train/us_train_016_1.png",
+    "image_sha256": "3758686b08a49fcd536d055f88fa31d9bd4fa73f778465c75adb6ec74c371861",
+    "crop_sha256": "937938f99c41efa951a95637470463046207185fddf0bfd3423f14e546415f10",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_017.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      174,
+      201,
+      244,
+      248
+    ],
+    "text": "LNXGEEK",
+    "crop": "data/ocr/crops/train/us_train_017_1.png",
+    "image_sha256": "9aefb21649ae27a4cf5820abab67298a7199e1c7596f9cfca57944faeb257c58",
+    "crop_sha256": "ed6e1bb1c319581e458c5c2cddbf80b9e52ba4b270b16dab04909064597b12bc",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_018.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      783,
+      201,
+      860,
+      239
+    ],
+    "text": "4EEU387",
+    "crop": "data/ocr/crops/train/us_train_018_1.png",
+    "image_sha256": "809c5b5aacc4671614f9c07e2adeeeb34864fd9f71587272ab8c56c55536272a",
+    "crop_sha256": "bff32fb831d383bd8aafcdd0eacb7ae4b87097b75d173a73520dc5add262fe40",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_019.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      1062,
+      1940,
+      1456,
+      2235
+    ],
+    "text": "BATMANS",
+    "crop": "data/ocr/crops/train/us_train_019_1.png",
+    "image_sha256": "fde7da3b43479ef9350c5de8ebd75716794627f4bd595df09bf4091b542100a9",
+    "crop_sha256": "f0b38f280324b97405f79f39dd6207c77f56037c3a674eb0da6febfe58c94102",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_020.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      337,
+      536,
+      397,
+      566
+    ],
+    "text": "WSG979",
+    "crop": "data/ocr/crops/train/us_train_020_1.png",
+    "image_sha256": "f7681483f395814f5cfa1cf378a26a735fdd33dc61db19c9c58b8c00d2ab278b",
+    "crop_sha256": "1546b22796ceeac0b7022f7c574311cc99eff7c2c3159e7c596698017716d167",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_021.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      273,
+      23,
+      467,
+      124
+    ],
+    "text": "69PWNDU",
+    "crop": "data/ocr/crops/train/us_train_021_1.png",
+    "image_sha256": "829dc4d365be513011bdd77a16db7def680ab628484a4af3d94c3bf784d9b71e",
+    "crop_sha256": "d2b3d9bdb00febd86c21b2727ca88987a2e9b125d2d4ab6f9b0350e07fb60395",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_022.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      112,
+      75,
+      178,
+      114
+    ],
+    "text": "YYESS",
+    "crop": "data/ocr/crops/train/us_train_022_1.png",
+    "image_sha256": "ebd6072419c2a7701b2608a176013fd5bd514503d839e85e3247e5768e8030d3",
+    "crop_sha256": "1cb3c8c246f3a2ad2f8d9d1ce3d420e19a1a0c4e5c0d8b6aae34a31565f37f72",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_023.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      99,
+      393,
+      350,
+      528
+    ],
+    "text": "GD10PIN",
+    "crop": "data/ocr/crops/train/us_train_023_1.png",
+    "image_sha256": "120dd7227defb885e2f5f6d43fd11159af1adcf54b5365ecb071516be6be0cb4",
+    "crop_sha256": "1617db44d08a7ac7cfd104800853d37302875ff1805e81996fcaea2954efcfa8",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_024.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      2362,
+      1195,
+      2926,
+      1495
+    ],
+    "text": "EXTYNCT",
+    "crop": "data/ocr/crops/train/us_train_024_1.png",
+    "image_sha256": "087cb9effdb1b6b06e78e88a7d1cd9733db81bac882eabdd56e83749d8618f98",
+    "crop_sha256": "7b0aa6cd02741f5cb6ada3ced2c0c1c6e135f859a433a6b41f83bf899671ba07",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_025.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      1180,
+      8,
+      1275,
+      55
+    ],
+    "text": "FD7U4U",
+    "crop": "data/ocr/crops/train/us_train_025_1.png",
+    "image_sha256": "b290591dacfeea4e68513c6e6e6607cd6ce29d3c09078b10116dd692e3668fc4",
+    "crop_sha256": "9e5b1a97532baee587b0be3514f7d93463e7e8014949c0da8740241c7c988aa4",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_026.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      126,
+      62,
+      225,
+      149
+    ],
+    "text": "NYC1898",
+    "crop": "data/ocr/crops/train/us_train_026_1.png",
+    "image_sha256": "c5cc2bb234343ea56997818765a688873efd63145ec27b7c7a3b7da2d0713900",
+    "crop_sha256": "538825c4bdaf4c557d5f0b9ab221cb3b642e75003af7c2a69ec2fd23b8e27dd6",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_027.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      573,
+      300,
+      657,
+      342
+    ],
+    "text": "5NWV468",
+    "crop": "data/ocr/crops/train/us_train_027_1.png",
+    "image_sha256": "cbc21ff7e1e97125dd92a33977733fb16f1c0b90f53f5023c6a5f586242598b8",
+    "crop_sha256": "6351d3a3351333bd87f9bb9dec1b86fe431ef9532662a5455a13ba9c4aba8cc1",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_030.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      731,
+      90,
+      834,
+      141
+    ],
+    "text": "CDK575",
+    "crop": "data/ocr/crops/train/us_train_030_1.png",
+    "image_sha256": "40949bffa18227c2320240a505389961f20c2ddb3763b24930b78f041cc088f5",
+    "crop_sha256": "6cf0ab8a921a4cb1bbf21e70a108827d6cad704a6b1413b17baa76c4736673c6",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_031.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      604,
+      124,
+      668,
+      156
+    ],
+    "text": "MJ3R1V",
+    "crop": "data/ocr/crops/train/us_train_031_1.png",
+    "image_sha256": "4392b9dbea47c390e6b72b51dcbfb79cc94c6a5c1445c55493903c9c4f46fc77",
+    "crop_sha256": "f48f5e2c7a982d0309d53d6109eec546f229c3091059d578e4d815acbb9f893a",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_032.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      268,
+      408,
+      378,
+      463
+    ],
+    "text": "AC0M7V",
+    "crop": "data/ocr/crops/train/us_train_032_1.png",
+    "image_sha256": "e1e0e6081b9f1c545a0f8339f827c7bdfe3b386bd4b70201f8de99d9ef6ffe58",
+    "crop_sha256": "41a9f0b39a150880d521f205843f13afb7e97290c601136865e5af9ccaabc4f0",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_033.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      188,
+      247,
+      237,
+      279
+    ],
+    "text": "ELVISV",
+    "crop": "data/ocr/crops/train/us_train_033_1.png",
+    "image_sha256": "155b1fb9067a57557c3203e4c3005acfdaa7f74c7811b91269d1217fcfdcfff6",
+    "crop_sha256": "708ae25871e39296fa38512b5620294cbd7751c06fcdd58c9e6f5f78cae5eb27",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_035.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      526,
+      97,
+      605,
+      136
+    ],
+    "text": "5RIN962",
+    "crop": "data/ocr/crops/train/us_train_035_1.png",
+    "image_sha256": "d9c4e8635f2a299627369ce7116ad5ae0fd0d00c88905f98f57e152b5b6d31d4",
+    "crop_sha256": "f501c9183fdf10aae47b4e61c247aca0cd7715b3d6387dbd53474bc5c9e642b3",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_037.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      14,
+      108,
+      143,
+      165
+    ],
+    "text": "YRSGNBY",
+    "crop": "data/ocr/crops/train/us_train_037_1.png",
+    "image_sha256": "419aa75653decef78c090eb56318e8b0740627a5889393a72f6f192582583a1d",
+    "crop_sha256": "dc0ad57be95e39f68e3125a75939cc0ca463e6aee4186f1621c85b1d6d50958e",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_038.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      203,
+      102,
+      279,
+      174
+    ],
+    "text": "IMGROOT",
+    "crop": "data/ocr/crops/train/us_train_038_1.png",
+    "image_sha256": "77d758fd4b3018154f9bb372fd7bf66f6b74e2c507c5fd137757eb2c3f8596fc",
+    "crop_sha256": "1a92afb5c1e7d2a597dcd85b3bca57791a2f27e7ddf6fc6db80aeecfb2ae6c57",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_039.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      752,
+      695,
+      3131,
+      2000
+    ],
+    "text": "FZF5263",
+    "crop": "data/ocr/crops/train/us_train_039_1.png",
+    "image_sha256": "f1eebdfa54ee445ff83c54bd1c3a6194b5d2220f6cf51520e0bb556ebc32d3eb",
+    "crop_sha256": "e184578343bac9ad313fc0a9d89e396b6140cfeb62380b82d17b56f714235cd4",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_040.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      669,
+      225,
+      755,
+      268
+    ],
+    "text": "DK0H7Z",
+    "crop": "data/ocr/crops/train/us_train_040_1.png",
+    "image_sha256": "35f3674f85bbadd1d4100f7ea1b1c1dc7b51bc98735315e69cc3e7abd963282e",
+    "crop_sha256": "71534859db519e7bb4a964d41708ebd4feeaf4589639bb58bcd35565d020f0a4",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_041.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      428,
+      184,
+      511,
+      225
+    ],
+    "text": "1365847",
+    "crop": "data/ocr/crops/train/us_train_041_1.png",
+    "image_sha256": "c2b6fcfd823c3955e4d8b378d5de34362c5ccffb5c63170ad877019d252e08e0",
+    "crop_sha256": "a7179e53c8447d50f7fbac0400d8b40940d71413f2788ac6427ade4bfc93e6eb",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_042.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      844,
+      395,
+      989,
+      467
+    ],
+    "text": "BTZ7148",
+    "crop": "data/ocr/crops/train/us_train_042_1.png",
+    "image_sha256": "8055e6625d20ead1bf449b07fc8fb29db476f90280a47306719ade48a4c4989b",
+    "crop_sha256": "7134df0b236bdf0d7ba6deabede780869a29789f57a6982dbc46c5aead30464a",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_043.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      285,
+      124,
+      366,
+      164
+    ],
+    "text": "AKS4329",
+    "crop": "data/ocr/crops/train/us_train_043_1.png",
+    "image_sha256": "f3348abdb4db7c7fd16aca8d98edb810d09c6a2ef3b533f9bfb1b7a5a5f86d58",
+    "crop_sha256": "701bd6193c5a63ae839d736f72c8767a829ed1e5cd6144463c3931093ee5a4f5",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_044.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      255,
+      216,
+      550,
+      363
+    ],
+    "text": "378DXR",
+    "crop": "data/ocr/crops/train/us_train_044_1.png",
+    "image_sha256": "66d7b0b6e0e237d867c8f8bf5d90762374f6c6d64d5c340d120cc2cfbaf54e37",
+    "crop_sha256": "4afe7d6f6db6916833ad323429e520d2e2e0a90e4a10bfd14addeb555514c21c",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_045.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      154,
+      131,
+      215,
+      177
+    ],
+    "text": "CH4RGED",
+    "crop": "data/ocr/crops/train/us_train_045_1.png",
+    "image_sha256": "0afffcb7912d99693290b303f640c51bb4bad5c0ba5dafd3b75caaf16522544c",
+    "crop_sha256": "81d9d27f75820be3352c40c4be6f2444ed1ed79048b0a0c04248e36a6b28bbb1",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_046.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      238,
+      220,
+      289,
+      261
+    ],
+    "text": "PWF666",
+    "crop": "data/ocr/crops/train/us_train_046_1.png",
+    "image_sha256": "88fd8e1047203805917faa1afe6661f9a9fd09a1724fa65f2f4e36c5e1ccb6e9",
+    "crop_sha256": "f973359bfca7fa4f6a51a1f5f8388b01beeef0530d57f05936ba591fb0b16bd4",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_047.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      544,
+      376,
+      636,
+      422
+    ],
+    "text": "5EZP631",
+    "crop": "data/ocr/crops/train/us_train_047_1.png",
+    "image_sha256": "5b151f4716355f27574791350cff6e41dd62ee85cf7f864acee9c1391aa80944",
+    "crop_sha256": "38933c522aa71f3f9393262f3022672b46ba533ba1e91906b1138279dc278e63",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_048.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      566,
+      452,
+      625,
+      481
+    ],
+    "text": "N359973",
+    "crop": "data/ocr/crops/train/us_train_048_1.png",
+    "image_sha256": "a78aca0623548d9473ebb070850915d8b31f3e0f011be178cdc95329f1d11745",
+    "crop_sha256": "900aa1a8363b328c2f46d3a6116d894f4f79592da563d51153140f1833610812",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_049.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      44,
+      42,
+      198,
+      116
+    ],
+    "text": "NOSPYN",
+    "crop": "data/ocr/crops/train/us_train_049_1.png",
+    "image_sha256": "fecc533504fe34af39d4ca6921ec252f3e76793b1fa68ab429d176999aa5a854",
+    "crop_sha256": "d5d7cb2e856fa713fdc92250f9e5c4c0eacdb089f1f7b44993c6465ea93af44a",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_050.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      212,
+      147,
+      321,
+      204
+    ],
+    "text": "ILIAD",
+    "crop": "data/ocr/crops/train/us_train_050_1.png",
+    "image_sha256": "f84a81827c850eb85abac5ac251400582ae99f32d6c05e18f097d1a2cbea1389",
+    "crop_sha256": "052f5241ce81285f92d6bb0c905f5eac9e1e439ae14f00deea33b9326e3c7a1b",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_051.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      756,
+      505,
+      854,
+      554
+    ],
+    "text": "PJ2X1V",
+    "crop": "data/ocr/crops/train/us_train_051_1.png",
+    "image_sha256": "5f6c7d14800407cbed505044f3a02accb5fe25cf9cfc40279acf1d61f1f80806",
+    "crop_sha256": "3e21afa2e53a26d76e09cb7091ad4caf1006916218e6a8b6b66835dac49c2672",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_052.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      80,
+      811,
+      259,
+      900
+    ],
+    "text": "K179658",
+    "crop": "data/ocr/crops/train/us_train_052_1.png",
+    "image_sha256": "adc814e098350e89f54a04e792862f6b5086fa5b91064bca75e2c9498690d69b",
+    "crop_sha256": "beb7f1c47f2443479ae93923fa5b8558bc3a254c74f4ae744f20901c3200fb10",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_053.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      259,
+      187,
+      343,
+      228
+    ],
+    "text": "R8TEDM",
+    "crop": "data/ocr/crops/train/us_train_053_1.png",
+    "image_sha256": "c40fde154ea753e91206c5cd6b7a274c1810e45d016a6784038e5a712c31ab05",
+    "crop_sha256": "a1dc04f0678ddbc706d475f1056454541b8564c503b758890ee5278f67ab7510",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_054.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      223,
+      210,
+      326,
+      259
+    ],
+    "text": "VHK1164",
+    "crop": "data/ocr/crops/train/us_train_054_1.png",
+    "image_sha256": "031828e580eb6f897b9fbaac9905a92554142c10d8cfba5d6bd696cbac30cd6d",
+    "crop_sha256": "ac400886d6769704b5596e79f8ca88f574e3d70be04526a972faa01f07d15678",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_055.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      488,
+      593,
+      562,
+      630
+    ],
+    "text": "FE5R2D",
+    "crop": "data/ocr/crops/train/us_train_055_1.png",
+    "image_sha256": "42a5c59b29e1f79577c9916a6897204d5aa7ecd7af73836e6970bc00ae1f57c8",
+    "crop_sha256": "8d6109c538b22296d7efc0cdd86b724f30c4e3325d9796fac63561784b31c053",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_056.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      96,
+      500,
+      233,
+      568
+    ],
+    "text": "ASV9218",
+    "crop": "data/ocr/crops/train/us_train_056_1.png",
+    "image_sha256": "6b85521b6a5e115af5e0a137d3cf8fb3fd3dd735034213bf3c990a8a215f698d",
+    "crop_sha256": "c9bcc316d0498c94d7ef2d697aec9d02855a131959b5636885f4432cbac16455",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_057.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      270,
+      291,
+      337,
+      324
+    ],
+    "text": "HB8X9J",
+    "crop": "data/ocr/crops/train/us_train_057_1.png",
+    "image_sha256": "eb51ef8bf1a205672ce2f3f702e4b5adc45bcd193def3b64a0ca72e73551998d",
+    "crop_sha256": "8a0977269b08656a4876cf688b43fcb40c2b7bdcca88bb76bb5d6697bcbf5c81",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_058.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      293,
+      214,
+      378,
+      264
+    ],
+    "text": "6EEH107",
+    "crop": "data/ocr/crops/train/us_train_058_1.png",
+    "image_sha256": "c309bd3e9693657844d920fbb7620d7f8dc218b9141c779e7f9bbe73bf4ba71f",
+    "crop_sha256": "54c81531530297530dd07de17c8a867a2f2e299503aebaf21f577d740a6b8c9e",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_059.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      240,
+      273,
+      436,
+      381
+    ],
+    "text": "WWSJD",
+    "crop": "data/ocr/crops/train/us_train_059_1.png",
+    "image_sha256": "cbfe37f55e28a80aa49c77c687d545678c25613984a6d75a3909814d6f5609a3",
+    "crop_sha256": "588d6c9f405b9c0408c7433a852ce971d4e086989b5c8eb2f8dcff6be33c6801",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_061.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      642,
+      461,
+      829,
+      554
+    ],
+    "text": "ASC7399",
+    "crop": "data/ocr/crops/train/us_train_061_1.png",
+    "image_sha256": "f454bade188db59a98e4fd3d6bfc79fc96eb87afb87ee5cffd0b58c140ae1df2",
+    "crop_sha256": "4e920ffff92e6ec6748ccb5d7da22774c9268082796c235506e6f923d1f3f371",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_062.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      326,
+      128,
+      383,
+      156
+    ],
+    "text": "HK0E7C",
+    "crop": "data/ocr/crops/train/us_train_062_1.png",
+    "image_sha256": "d0d1b032dfb67eb1ff685222758cec0af9947259174adb2df24aa62605478a3a",
+    "crop_sha256": "fa2df1a80346b68ebe7c1de0c96e57ddf4df158415d4a96502c4afd20a154cde",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_063.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      713,
+      498,
+      811,
+      547
+    ],
+    "text": "D315771",
+    "crop": "data/ocr/crops/train/us_train_063_1.png",
+    "image_sha256": "0e36a0a9b3b9d48a912f61670b421027a83963fe5d5f7ef41a58d3016bdf128f",
+    "crop_sha256": "72ce97ac9758e2a31b99b7c22f49c1f42d926129659e5e228550fd01a2ccb795",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_064.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      1667,
+      1215,
+      2641,
+      1745
+    ],
+    "text": "KILLJOY",
+    "crop": "data/ocr/crops/train/us_train_064_1.png",
+    "image_sha256": "81432234591fcf6d05c0aa5e8b66ebf89706db886549ec28e7f87d2ca5f16519",
+    "crop_sha256": "a7402c33a82334309cdfdf72c5d2dcd7bf09ef2fb0c83b902533b0de6aaf2fdf",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_065.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      284,
+      189,
+      384,
+      242
+    ],
+    "text": "LAYER4",
+    "crop": "data/ocr/crops/train/us_train_065_1.png",
+    "image_sha256": "fa0b4279edd459553e4a8405677ae0df0fb7e30439f480fe2bdf5bbc2b641885",
+    "crop_sha256": "9bf7a1da602e0526d8a7a4ba6ed057d1198c10bdece44174adf28cc8130f4ed9",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_066.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      569,
+      318,
+      632,
+      349
+    ],
+    "text": "CCLVN3",
+    "crop": "data/ocr/crops/train/us_train_066_1.png",
+    "image_sha256": "bbc09742e7c3aeda7ab22524790ec04e199a215a7a15095e98bdc22e3db45d63",
+    "crop_sha256": "a10b723b4586a16088e86558011d622000eaa77d635d10dbc390445555363654",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_067.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      627,
+      496,
+      737,
+      551
+    ],
+    "text": "WXY184",
+    "crop": "data/ocr/crops/train/us_train_067_1.png",
+    "image_sha256": "23b6ae6ab382527dbb99cd7b5c274e671cbe57b71f2472da2d00373ce61026aa",
+    "crop_sha256": "9cd3739c1736c86b334d895164a5c364e92e5584b9ec8ff9da737d95fb4ebd11",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_068.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      465,
+      510,
+      888,
+      741
+    ],
+    "text": "4RTHSAK",
+    "crop": "data/ocr/crops/train/us_train_068_1.png",
+    "image_sha256": "11e0a9f6635d9d0fa08513d496acb8aaddf35dda588209a9e158bd5ab1718f40",
+    "crop_sha256": "ccf9381191d1deda2b642022d0ba3813e9aaf029834b4ab0fb72438750a88103",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_069.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      703,
+      10,
+      776,
+      46
+    ],
+    "text": "2MFZ746",
+    "crop": "data/ocr/crops/train/us_train_069_1.png",
+    "image_sha256": "9afebe9b822afef82ecea21bdd7eef82fa81367ef3d356e7d2a17bc79b0d67a0",
+    "crop_sha256": "fa59589cc4938aecb2f629a950a67321e0ea6b9588033cefafb69d5864e9dafb",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_070.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      1302,
+      1180,
+      3136,
+      2180
+    ],
+    "text": "ABK7018",
+    "crop": "data/ocr/crops/train/us_train_070_1.png",
+    "image_sha256": "91b55fac708d0cf5ba8da13abd00e75e2d25b290c709020a2cb5ed643359d8e9",
+    "crop_sha256": "4b2cd55880ad4a84689ce1ce48370a4163484f18706368ac16e25ea5cf71b729",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_071.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      975,
+      408,
+      1118,
+      479
+    ],
+    "text": "CRK4732",
+    "crop": "data/ocr/crops/train/us_train_071_1.png",
+    "image_sha256": "003423425c328593787b59f95f3c6b0c546875eb1e409206a0440b3a0f115a22",
+    "crop_sha256": "370bf8e1a27926abaa802c665db0768e15ab7c229916de1d1321afc7ab20ab8c",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_072.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      1282,
+      2280,
+      1941,
+      2650
+    ],
+    "text": "EWE666",
+    "crop": "data/ocr/crops/train/us_train_072_1.png",
+    "image_sha256": "33136555ea02fda9ed1815e932bf89ec73dcc87f1488535cccc11f27b834c013",
+    "crop_sha256": "72cee83a1326453e3327593c33cdcf5c916a7707a1091f28642840b1d92c5bfe",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_073.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      386,
+      319,
+      475,
+      363
+    ],
+    "text": "3127K",
+    "crop": "data/ocr/crops/train/us_train_073_1.png",
+    "image_sha256": "cad95632d9e6dc1652fa7e86bb48880400d1da363cace83f44a7ea27076df46b",
+    "crop_sha256": "fe3e4e20b8e8036534777ea0dd44428382fb735ef06e3665b55e1c55b0351280",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_074.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      169,
+      117,
+      251,
+      162
+    ],
+    "text": "WMY9051",
+    "crop": "data/ocr/crops/train/us_train_074_1.png",
+    "image_sha256": "0f28a82552887f0b0ac01e92026a60403a1a8e1b75cd3c3fcbdc6677b677208b",
+    "crop_sha256": "a8dde00e363605592d59407478d160302374935d727f4b9261563fb25ec47d75",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_075.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      29,
+      33,
+      247,
+      135
+    ],
+    "text": "ZOOOMM",
+    "crop": "data/ocr/crops/train/us_train_075_1.png",
+    "image_sha256": "1af3b653a9f117d2371e7b2e287eae5cf4435cdc4f8cacaa084e9087b7dd78e4",
+    "crop_sha256": "9af8e57f64b27634e6a5416dada111e7012277ca0ebcf515099e0764103c5d48",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_076.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      260,
+      248,
+      347,
+      291
+    ],
+    "text": "59CADI",
+    "crop": "data/ocr/crops/train/us_train_076_1.png",
+    "image_sha256": "004703d563acbeadc44781a5287911edfb09a82eba047e8a923fe4f575c66c78",
+    "crop_sha256": "a530c31c4a7cb16d07934853794891680ace84b231bf11b8db0f0864a4eaad6b",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_077.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      307,
+      160,
+      933,
+      533
+    ],
+    "text": "QZQ159",
+    "crop": "data/ocr/crops/train/us_train_077_1.png",
+    "image_sha256": "a46715fd3c865ea78308a807c7fabd416c2cb81a4dbc38cf6417898af7a0143b",
+    "crop_sha256": "7f6a16d31177ae0e6c9a0951fa9e52560e0fc7d4060c1f0272bcafbdfdcb1434",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_078.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      666,
+      125,
+      724,
+      154
+    ],
+    "text": "R820503",
+    "crop": "data/ocr/crops/train/us_train_078_1.png",
+    "image_sha256": "0b890fb1b737e5ef879f4763a8418f5b03b0b9a5989d684d59d68359bc43fb3c",
+    "crop_sha256": "8475bfc7e646ab04992c7c9a06970915708d9ab45b2a01c789c88658bc6ec5f0",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_079.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      385,
+      195,
+      493,
+      249
+    ],
+    "text": "YBW23",
+    "crop": "data/ocr/crops/train/us_train_079_1.png",
+    "image_sha256": "632cecdce554dc0875978453c9388dde95375757b1049cf1e8cad4b5a7e0886a",
+    "crop_sha256": "b6a5994302395f3b2c814e16d2a2082cf8a7785a7f891b4395fa87b9135e3c18",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_080.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      158,
+      158,
+      242,
+      215
+    ],
+    "text": "HTTPME",
+    "crop": "data/ocr/crops/train/us_train_080_1.png",
+    "image_sha256": "d25984beeecc979c603161279396eeb226591c506e1d5770675c8d67d372067e",
+    "crop_sha256": "cade115b899697c234c153ee11a6df00e739133b4d630b7a44b2dd9acc2a29ec",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_083.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      1047,
+      316,
+      1108,
+      346
+    ],
+    "text": "HK5R9C",
+    "crop": "data/ocr/crops/train/us_train_083_1.png",
+    "image_sha256": "11faf43cd09b150771719a75287ee85fbec96d3308e9ba5b9a8a43cf61aa97b4",
+    "crop_sha256": "9ae651291081f991f1782137f9e639dd39922db0cec37b01893528e42a494507",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_084.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      332,
+      304,
+      482,
+      387
+    ],
+    "text": "3DE4VER",
+    "crop": "data/ocr/crops/train/us_train_084_1.png",
+    "image_sha256": "e88a87ea03f996da4579e8278909373b68919ad82798592380fe71bfc6f98d47",
+    "crop_sha256": "48cd639f51558c1b1f15bba846152bfce9ddbf1858eec99040763db0c7f37d92",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_085.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      523,
+      704,
+      839,
+      902
+    ],
+    "text": "MHARANI",
+    "crop": "data/ocr/crops/train/us_train_085_1.png",
+    "image_sha256": "da1fd39ab8c8199bf263e102b3fbb4806f5d766e9ebc1951389aae357651afb7",
+    "crop_sha256": "fe26879646982eca5648071ed91d5005a1f0c5b2071cb90bcca4e4b1e71ffe48",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_086.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      65,
+      54,
+      221,
+      132
+    ],
+    "text": "520MRK",
+    "crop": "data/ocr/crops/train/us_train_086_1.png",
+    "image_sha256": "00b899d35c645c1d3d6932b70cbe6f6d5c0798b644fc295bbf8a5edac3241768",
+    "crop_sha256": "f2a049a11cd0a6babaaad429f546e8afde918de136e8f8b5e8b0237ded4a634d",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_087.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      697,
+      275,
+      780,
+      316
+    ],
+    "text": "6MMD595",
+    "crop": "data/ocr/crops/train/us_train_087_1.png",
+    "image_sha256": "d375f48af5dbcc8f19c0f9b702582b8625c828cea11c3fcce588722dd2360483",
+    "crop_sha256": "20a93d81beaebbba7f5ee12a1db751d02489b95285c46965bab916e611be155c",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_088.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      248,
+      178,
+      422,
+      273
+    ],
+    "text": "WAZHIZ",
+    "crop": "data/ocr/crops/train/us_train_088_1.png",
+    "image_sha256": "7a668272d8372719b163ddf465b9e2b7b371e8d1000e837b5b74dee8194dfe16",
+    "crop_sha256": "8d85da5a5ad3b2d6d41e96ceb2273d969af5c24e1e58830ad693b35d4606c036",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_089.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      803,
+      100,
+      876,
+      136
+    ],
+    "text": "1268205",
+    "crop": "data/ocr/crops/train/us_train_089_1.png",
+    "image_sha256": "503eded8519260fe5675d62b3160968aa8844f322c1b1c3bddee5ba78abae86a",
+    "crop_sha256": "6f3d4c7f69ad3fffa76fb7f9fb00b4dd06872879505f03c69a9910fbf0af70d2",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_090.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      887,
+      205,
+      1021,
+      272
+    ],
+    "text": "SG8L7E",
+    "crop": "data/ocr/crops/train/us_train_090_1.png",
+    "image_sha256": "f609e39b60847e8edd84717dfd495e7a3e97e9d8662e50808bf94ff1e6697931",
+    "crop_sha256": "d6e613cdb2558112f296d9fa0df25fdb9311e800e4a8c4141cfc608cd8b0edd8",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_091.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      474,
+      451,
+      569,
+      498
+    ],
+    "text": "7AWV401",
+    "crop": "data/ocr/crops/train/us_train_091_1.png",
+    "image_sha256": "acf3c673f796b35d39746d1ba5c67f62caba317e7914e91c1b4d70fb64889549",
+    "crop_sha256": "2ea5f98a2bf80389becf0a5a8907cfff9490626879f60ef7433be8b22e31295a",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_093.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      412,
+      269,
+      555,
+      347
+    ],
+    "text": "FWDSUK",
+    "crop": "data/ocr/crops/train/us_train_093_1.png",
+    "image_sha256": "acaa5b7f4f14cda1edfa877907db3b70f22bac47d8761b77c6e16a08584dd6b3",
+    "crop_sha256": "91a01ad19ace3067a8e3b630cd51a0102962dc6a5aff8902e5ca5dc3ea354cc3",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_094.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      58,
+      66,
+      110,
+      99
+    ],
+    "text": "IMAMESS",
+    "crop": "data/ocr/crops/train/us_train_094_1.png",
+    "image_sha256": "1355f68a15081f35d5dd0a865b8ea1e5957d3c7f5f40b3c904e4228741fe9418",
+    "crop_sha256": "8a1fc975b6be5e05f0740785304024e8e64fe425364be5e15155ea26536b5d92",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_096.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      790,
+      319,
+      928,
+      388
+    ],
+    "text": "CWM2998",
+    "crop": "data/ocr/crops/train/us_train_096_1.png",
+    "image_sha256": "9aab161e9ac93d18d4aff191dab436d30519c3c6b62e351b86d0a1fe4f6ac7b9",
+    "crop_sha256": "2df4d9fb6b735a26e317abe852261f7b15a914b00e20e12d024e6c11fd35b834",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_097.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      442,
+      281,
+      533,
+      326
+    ],
+    "text": "5BDE732",
+    "crop": "data/ocr/crops/train/us_train_097_1.png",
+    "image_sha256": "040925ee5e928202effdc071d997c4811e7158455ac118da9abf4f810424a703",
+    "crop_sha256": "e1df0accbb56318f62d7abaf4ad2a4b990ce158c1c579e0d9e3a4f5860450cf4",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_098.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      485,
+      370,
+      540,
+      397
+    ],
+    "text": "CH0P8Y",
+    "crop": "data/ocr/crops/train/us_train_098_1.png",
+    "image_sha256": "f9e334dada5ccf07a1c2d14c2a657ecc330bf514f849c8c5f350f38a7af176f0",
+    "crop_sha256": "d270dc3795f11a0cf4faa15f0ec857b5528400e8daab60ea757f20f41eaf96ed",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_099.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      662,
+      520,
+      744,
+      561
+    ],
+    "text": "GT679A",
+    "crop": "data/ocr/crops/train/us_train_099_1.png",
+    "image_sha256": "9a3c75a253591a8ae601d995c5ce057ad16bb79164158abe4c448c7e95473e10",
+    "crop_sha256": "ee88aa6b4ddce5d8eafc8d42445799443e589ac41935551630c3ff3a81692734",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_100.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      717,
+      163,
+      797,
+      203
+    ],
+    "text": "6UNP953",
+    "crop": "data/ocr/crops/train/us_train_100_1.png",
+    "image_sha256": "aa50e65503f216619f085ce6604ad96c8ea5884f11350d8619aa7491dbacfff4",
+    "crop_sha256": "2e4569c9bedb0680d1ed32cc58c3e7d781a922c88c7b47d247c32ef85c86dc92",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_101.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      859,
+      8,
+      942,
+      49
+    ],
+    "text": "7CID930",
+    "crop": "data/ocr/crops/train/us_train_101_1.png",
+    "image_sha256": "1664089603fe9e0af5cd3bb7062743983801545ca73524baf96190f100a2055e",
+    "crop_sha256": "6b3e3d5513a54e78feb041279573b0a8b08bc1f694273bd99ea00015f6bf46b6",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_102.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      653,
+      780,
+      973,
+      968
+    ],
+    "text": "WTFLOLZ",
+    "crop": "data/ocr/crops/train/us_train_102_1.png",
+    "image_sha256": "26db2f707ec41716dac8ddc705fddabc3b84d32ee4d970c7daaa11bc6d96fc10",
+    "crop_sha256": "66c717306e743bfffaad8403b96a71f1c5658ee00fbaad4cb236865d2a8948f9",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_103.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      479,
+      189,
+      653,
+      278
+    ],
+    "text": "PDK095",
+    "crop": "data/ocr/crops/train/us_train_103_1.png",
+    "image_sha256": "131cfa9ebb03da573351364ccf52cf48d93fc9428f8be5c13d1e42fd3d61fa01",
+    "crop_sha256": "d8f41782f4f145a14aa3da50664f385f26aa5d127cf7dd4534f9ecf52442b5d0",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_104.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      758,
+      457,
+      896,
+      526
+    ],
+    "text": "CDL4461",
+    "crop": "data/ocr/crops/train/us_train_104_1.png",
+    "image_sha256": "ed82796d80985f17028a2a0f93697c120b3cbdd9b3fbda4c32cd2c93a7473785",
+    "crop_sha256": "dbfca2f8ac6a4db947827de7dbebde5d51733a18990e1b3fd4d8dfc1213c18a5",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_105.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      448,
+      273,
+      509,
+      303
+    ],
+    "text": "KC4Z3X",
+    "crop": "data/ocr/crops/train/us_train_105_1.png",
+    "image_sha256": "c142d6a397e369f06336c430bb29be4c57c8acc02610acca6afcf1e98c228571",
+    "crop_sha256": "d64fbdcc75f9c32c1954bf1d83f5bb921dc0442c543334db6475859005f47f6f",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_106.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      541,
+      503,
+      791,
+      647
+    ],
+    "text": "56MPG",
+    "crop": "data/ocr/crops/train/us_train_106_1.png",
+    "image_sha256": "c1ec63c3d24a2f8810c85aec1acd15ebf1d46fd8adc43703c6c3ed8938776775",
+    "crop_sha256": "f81a5917eb9897d80dbd81ae2f768141f459bbedbd6b1135e330a36efc5e4c04",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_107.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      478,
+      336,
+      549,
+      371
+    ],
+    "text": "FB5X8T",
+    "crop": "data/ocr/crops/train/us_train_107_1.png",
+    "image_sha256": "cffdd4b8010c5d7d26fc003b08216c2576bb1f0433eeaa5816c7391ab02f90f3",
+    "crop_sha256": "c21e40abf3c4786c5bedb8f56091ed83c9df06db5c26c327df441e84d229bff8",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_108.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      709,
+      193,
+      761,
+      219
+    ],
+    "text": "CEMENT0",
+    "crop": "data/ocr/crops/train/us_train_108_1.png",
+    "image_sha256": "7d63b7cd52b1833eb730b61ea715c0bc74fe2c7dcb85c49af00addbefd65b046",
+    "crop_sha256": "cd95a2b434e757f7aa7a2ba9f97f1fc27d3f58ec32d42f02574784c77e1bf5ac",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_109.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      215,
+      479,
+      289,
+      516
+    ],
+    "text": "78188",
+    "crop": "data/ocr/crops/train/us_train_109_1.png",
+    "image_sha256": "3dbc6467ff29f270fcece6b56b441588e14338c93212918a2598af7bc14206f4",
+    "crop_sha256": "6d0ad6c931781e73a6bec8bef7b6dbe5bda670cf4f236372b801941d5277c562",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_110.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      124,
+      97,
+      302,
+      200
+    ],
+    "text": "OMGWTF",
+    "crop": "data/ocr/crops/train/us_train_110_1.png",
+    "image_sha256": "566c31b088e2823935ab2aa46fa26452736920083d78f855e5009c322f786093",
+    "crop_sha256": "0cbb3be966a0cb711e4f360d1d417c87eb455f48ed2caedec121bbbaa703685d",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_111.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      182,
+      313,
+      249,
+      345
+    ],
+    "text": "EXCUSEM3",
+    "crop": "data/ocr/crops/train/us_train_111_1.png",
+    "image_sha256": "51ae39aa405124dca81845ece42471c828af66a77d1b21e77c87655b3c883893",
+    "crop_sha256": "27d59ae42b2bbeddbcb0b486f2719964c89564102683880ff2ae53b2a329ac28",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_112.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      645,
+      93,
+      762,
+      151
+    ],
+    "text": "P602849",
+    "crop": "data/ocr/crops/train/us_train_112_1.png",
+    "image_sha256": "4f4e6e68f60cd9d9e007f33143f02552d12257157091fc591bc47118bd67ded7",
+    "crop_sha256": "06294070609de7db6625b5a3302ee7bd1d0ae9ddc4a82eb69c7c6f036e92d08a",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_113.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      505,
+      403,
+      641,
+      471
+    ],
+    "text": "7FR971",
+    "crop": "data/ocr/crops/train/us_train_113_1.png",
+    "image_sha256": "f3a1759e254de5a3041d8cc1833bf84c535b5a35330a836a4d0a6eb675b42240",
+    "crop_sha256": "66f9f3917fd8a4166fd06575ae56ac7fcb7bea25c09cdb5759aa5dcbc6e76797",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_114.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      621,
+      313,
+      684,
+      344
+    ],
+    "text": "TTP488",
+    "crop": "data/ocr/crops/train/us_train_114_1.png",
+    "image_sha256": "082a63ac89b3b730a0134eed4d437d9fbb837c02d69f4c938e2c101923df6a7f",
+    "crop_sha256": "27a2ceceed05adcc1e7a7c4f7ba794240ce9daa09bedfde3fc004436d606a97c",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_115.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      115,
+      69,
+      214,
+      119
+    ],
+    "text": "DZVG49",
+    "crop": "data/ocr/crops/train/us_train_115_1.png",
+    "image_sha256": "e0d918870a9d24264752c9582bf028fb63f2c247f2e1057e652d139d95edf089",
+    "crop_sha256": "5c95507182fc9aceb945e2b35bef15c1c94aac32d7da2c3da827daf773cc017b",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_116.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      196,
+      64,
+      311,
+      123
+    ],
+    "text": "MYSPACE",
+    "crop": "data/ocr/crops/train/us_train_116_1.png",
+    "image_sha256": "04a606056bb26d5a01b26596f08a2bddef1ce34fd73960240f97d1761bb729e5",
+    "crop_sha256": "cf4684d45e50de78becb38a89bfcd64fe488220e9db70b21e33a5ad66876ff1a",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_117.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      207,
+      212,
+      373,
+      330
+    ],
+    "text": "GGGRRR",
+    "crop": "data/ocr/crops/train/us_train_117_1.png",
+    "image_sha256": "54a96270396d690c60ae1f2a7e41e5e28f0123277f5a049df200c17ca68b3565",
+    "crop_sha256": "8c3de55b89a4b00940834f894152daece20693a5bd154d6b408ff0b97da62ca1",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_118.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      841,
+      666,
+      1068,
+      779
+    ],
+    "text": "NEILDMND",
+    "crop": "data/ocr/crops/train/us_train_118_1.png",
+    "image_sha256": "d95aa7cd5a1edcbe5f27847e628913fcd22e26cee1e5223268b327ef560a460b",
+    "crop_sha256": "792f12e65f9c62a7b1a214119b53c0a020331250e4054518e5f0554d9de65192",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_119.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      606,
+      417,
+      723,
+      475
+    ],
+    "text": "PH5M9Y",
+    "crop": "data/ocr/crops/train/us_train_119_1.png",
+    "image_sha256": "1db3a30e6b9fe7841a5c2a3912aa139571fc6427903ef0b6fe4c00911e73ac40",
+    "crop_sha256": "b3c6b47ce820fc76973b05cb0ea83775463624725386dfd3840d79ca0a15a67b",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_120.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      138,
+      92,
+      206,
+      130
+    ],
+    "text": "FAST",
+    "crop": "data/ocr/crops/train/us_train_120_1.png",
+    "image_sha256": "b9c46e845b3482117e910cfe5ce77461708d5e0dabc78e300d31dc6ae304c803",
+    "crop_sha256": "6ad8524b03f3a0a3d085f8fb29b949478ac86bda0f35ece4ea0afe70e2ae79de",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_121.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      209,
+      274,
+      342,
+      362
+    ],
+    "text": "CLRUNIN",
+    "crop": "data/ocr/crops/train/us_train_121_1.png",
+    "image_sha256": "167a5e5fcee3961d4235a76fd85778d8e42fe9397fb35690fb688db10c67420e",
+    "crop_sha256": "76f479c8a8082c2f3eb596fc1341cbb92e6e34df90d4d75e53c2ccab492f2953",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_122.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      273,
+      318,
+      352,
+      357
+    ],
+    "text": "HF4Y3B",
+    "crop": "data/ocr/crops/train/us_train_122_1.png",
+    "image_sha256": "a1148f2a9ab3c6b3d24a6b239d7c1360fdefd5bbe2236e1ba883511e3d8bc2d0",
+    "crop_sha256": "9d7d6013cd9d4712b175aaac59bf3cef3234ca1c9d27a3c2f260a86807df9557",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_123.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      145,
+      326,
+      213,
+      360
+    ],
+    "text": "FZRULZ",
+    "crop": "data/ocr/crops/train/us_train_123_1.png",
+    "image_sha256": "adf45440b87ee86c1ce9bcab704433eba23542c9ba60d678513dff5b55aff72a",
+    "crop_sha256": "a9643027645f761a4b3997e8da036187ae6ca35fea1730fbadb5ae96b38abba0",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_124.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      687,
+      239,
+      769,
+      280
+    ],
+    "text": "00256M1",
+    "crop": "data/ocr/crops/train/us_train_124_1.png",
+    "image_sha256": "6f6c24de16ccbee102b4bec7456006f0002dcaf22b9e6ed91f9774b60f135983",
+    "crop_sha256": "16185b7cd10bcf00f0dc90fc146979c0f71e7c27cdbbfd6075846790e44ba999",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_125.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      147,
+      820,
+      746,
+      1064
+    ],
+    "text": "7JCV393",
+    "crop": "data/ocr/crops/train/us_train_125_1.png",
+    "image_sha256": "5abcce6921b9a81b7813426311c13f1fd77d234d988d5fde727266037df2a3a1",
+    "crop_sha256": "d762f5382107226660271231056391e210e6a1dc5e1200659c7cc0ece6355e5e",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_126.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      288,
+      334,
+      351,
+      365
+    ],
+    "text": "YF2L6G",
+    "crop": "data/ocr/crops/train/us_train_126_1.png",
+    "image_sha256": "f39426f856b9a7a0b4ba4479ffef05cc94513a3ecfef9e5a881b744f0c5c1d18",
+    "crop_sha256": "eb5195b321746c1fe262c27b6ebfa5e9079342f55e12e71e1fe5f0838e968215",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_127.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      545,
+      243,
+      612,
+      276
+    ],
+    "text": "FNY881",
+    "crop": "data/ocr/crops/train/us_train_127_1.png",
+    "image_sha256": "c8e86eed5fa1d6d6f1d16faf2040c17b9df4be2f3930b468a27ac571cad0bd09",
+    "crop_sha256": "46880d5ba625516617e800f61bd47d9485d3ed2d13bc4007da8b6575fef628cf",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_128.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      261,
+      301,
+      356,
+      350
+    ],
+    "text": "WJCOOL",
+    "crop": "data/ocr/crops/train/us_train_128_1.png",
+    "image_sha256": "82d5714ecf818e4889ae6e69686853055cae784f9870b1d85eeb78e65e81dbfe",
+    "crop_sha256": "bfd7806ecfb508d2479ac464e25737898a57e6c895ef1e319020ab5bd6859cdf",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_129.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      495,
+      309,
+      584,
+      353
+    ],
+    "text": "6WHS906",
+    "crop": "data/ocr/crops/train/us_train_129_1.png",
+    "image_sha256": "ab7e89d35030ee4e338b0b482164a4e03bbcd59984e89c2981269fd478440fb1",
+    "crop_sha256": "e8c5f9ed1b0384f892d8815099d0f5fb98089fe10dda57edead7f08210954396",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_131.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      672,
+      433,
+      808,
+      501
+    ],
+    "text": "DH7X317",
+    "crop": "data/ocr/crops/train/us_train_131_1.png",
+    "image_sha256": "a863be636db91a93d3e378405327bcab3dc910c5306b020a2ba790254edfa514",
+    "crop_sha256": "f8ce01a10e5a909fd600cd874921ec72e19f79904c7da5ee3e6865fc48898890",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_132.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      131,
+      352,
+      197,
+      417
+    ],
+    "text": "ZIMSNIZ",
+    "crop": "data/ocr/crops/train/us_train_132_1.png",
+    "image_sha256": "0d4a30b951dbd6771eebdd5307c4cdd80531aab7150be050a6de948e3a27f7f3",
+    "crop_sha256": "c67206a7224f190267be4d022aadff15e247411659708efed726c23bbc745ffb",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_133.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      463,
+      220,
+      550,
+      263
+    ],
+    "text": "UJ5E1A",
+    "crop": "data/ocr/crops/train/us_train_133_1.png",
+    "image_sha256": "034a392bb8c73264e9f55c9197f0545b53e72ea03c4b5a27d36d904403587f92",
+    "crop_sha256": "a99ec1c8c82ae5f23ce057d3bde7012a7b86604765aadb7bce04078ddf51ddc1",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_134.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      8,
+      110,
+      1536,
+      956
+    ],
+    "text": "DVD493",
+    "crop": "data/ocr/crops/train/us_train_134_1.png",
+    "image_sha256": "0ef6c177afd7a4cc11519ae7f42bb0493e3203946639c59d3291b404e995ca1d",
+    "crop_sha256": "c2d87f67554f49ca3c23154bdda45d5e3030f09be3d90344eb99f9ba3fd6abed",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_136.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      761,
+      347,
+      902,
+      417
+    ],
+    "text": "CN2X798",
+    "crop": "data/ocr/crops/train/us_train_136_1.png",
+    "image_sha256": "97963c2dbf8319639c5d9708726bc313c9ef471e2dd6def887dc47bdd3178435",
+    "crop_sha256": "6ddf8e2a0bf28c3340521def01dff40db26543ad92c4a13521f4de462641d668",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_137.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      102,
+      98,
+      301,
+      202
+    ],
+    "text": "4LGOL1A",
+    "crop": "data/ocr/crops/train/us_train_137_1.png",
+    "image_sha256": "b947be07a84db88e7f867ab7032edfd487a26bec6126c3aa8aea9c6094660541",
+    "crop_sha256": "fba2ba7201b6f6741ea59d219b108fc490e8413bf1f89169668dff54db086fc7",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_138.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      232,
+      95,
+      381,
+      172
+    ],
+    "text": "EVSROCK",
+    "crop": "data/ocr/crops/train/us_train_138_1.png",
+    "image_sha256": "0afea7af0067128aa5b267c54468e5193e6bd331a0d21b1633c9760f4518df72",
+    "crop_sha256": "7789c5df12883293d98f3f7625d2651b1d8c07810bf8ae28bdae2e3e841b5f72",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_139.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      337,
+      548,
+      411,
+      585
+    ],
+    "text": "AJK7551",
+    "crop": "data/ocr/crops/train/us_train_139_1.png",
+    "image_sha256": "c4365bdefe46d79253a607e602a0269958bbd9109ba83670e53d35388be9ae92",
+    "crop_sha256": "230ad06f8ad3aa24f21c9876450a87c6530f0daaa626a3c7968a4bb2b8c2899b",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_140.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      71,
+      66,
+      307,
+      184
+    ],
+    "text": "EVO9FTW",
+    "crop": "data/ocr/crops/train/us_train_140_1.png",
+    "image_sha256": "f4e3dfa1bdd31f9ea399f96117bceb083dee669018039e8887dafa1b3c11584e",
+    "crop_sha256": "a259fa8d9fd2d76febaf53b952f47ca90cc4775d94a269f597c28a111e4d5c0d",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_141.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      243,
+      170,
+      321,
+      209
+    ],
+    "text": "J868321",
+    "crop": "data/ocr/crops/train/us_train_141_1.png",
+    "image_sha256": "e9d525fb6ef71fb8493a5935a532a1f2f32f6e57807f87d500aa5c625c666e7a",
+    "crop_sha256": "75b1ff802f7a5ec41025e465b63332fa53edb7da7b7aea56b08638f334ee2c09",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_142.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      494,
+      367,
+      618,
+      420
+    ],
+    "text": "BJR216",
+    "crop": "data/ocr/crops/train/us_train_142_1.png",
+    "image_sha256": "812c296bdae1a4f56698e1c99ce8a7ac2f5bd4e08c3acb3cba0c169597907bb4",
+    "crop_sha256": "aca08b5335b3e2085a03b00272f020bfd78f8c65757062596993470e0f6707d6",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_143.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      283,
+      255,
+      410,
+      330
+    ],
+    "text": "4WKH666",
+    "crop": "data/ocr/crops/train/us_train_143_1.png",
+    "image_sha256": "9a988342b09ca74c429c0878173aa22157c77d66612e456f9b0bf7aa4c85e692",
+    "crop_sha256": "10b53109dc100338a9800f55499c467233a7437bc21877b63389451fe69a7899",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_144.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      151,
+      121,
+      251,
+      206
+    ],
+    "text": "EAB0001",
+    "crop": "data/ocr/crops/train/us_train_144_1.png",
+    "image_sha256": "f2694a1d3f273b523054b1870674f1c79c21477e299ccc7a65728564b28f0ad2",
+    "crop_sha256": "000ff209d0c9bc889e8022f7b0733a556c433fe50bb6ec1067d8e85a7249b881",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_145.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      62,
+      113,
+      926,
+      537
+    ],
+    "text": "ICECRM",
+    "crop": "data/ocr/crops/train/us_train_145_1.png",
+    "image_sha256": "bf2bb8bcfa2bc4606d8874b406b6066237b501ddf73bedd68160c33dc93f8766",
+    "crop_sha256": "a3761ff8746188ce6040de3bdfc0cc0f5f5a6a8b00f2dc8372e5dd7f19e72987",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_146.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      298,
+      143,
+      429,
+      286
+    ],
+    "text": "3LECTRIC",
+    "crop": "data/ocr/crops/train/us_train_146_1.png",
+    "image_sha256": "597556b1e3a3a8d544e23312eb5d17999f7ae80da46dd85d478e5e9f3324abee",
+    "crop_sha256": "1f7e1c9ae09a6213c5332b0d86d85da1c56320451362076adc8c9339d6e3487d",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_147.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      914,
+      314,
+      1034,
+      374
+    ],
+    "text": "AG6V1W",
+    "crop": "data/ocr/crops/train/us_train_147_1.png",
+    "image_sha256": "88c537d50f4dfe5cf7c23160b607de6cd677e9e66c0cceac379df9f82f823ad5",
+    "crop_sha256": "e9491775b651ac5158f8e2b58363eeaaf59d2007fbf0509fe259b2792bf1e50b",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_148.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      337,
+      576,
+      491,
+      653
+    ],
+    "text": "5UVR090",
+    "crop": "data/ocr/crops/train/us_train_148_1.png",
+    "image_sha256": "6e30712d606eb6a3a550a9fa654be40658983ac441b5fc42be2c88bf02f9fdff",
+    "crop_sha256": "88c123d356a1e16dbe218b8b8643432a1d99d8e523504fed6c08a03428dc7d97",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_149.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      546,
+      363,
+      629,
+      404
+    ],
+    "text": "8P62983",
+    "crop": "data/ocr/crops/train/us_train_149_1.png",
+    "image_sha256": "abfee9e78bb08ad8dff5fe2b91e32d9fa6989d34debf94140d20654cbe3cf30b",
+    "crop_sha256": "6650655df7a998c565524c78a8de210870f6c4c389a731d0d0ae00cbc2526fb2",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_151.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      617,
+      553,
+      707,
+      598
+    ],
+    "text": "R589789",
+    "crop": "data/ocr/crops/train/us_train_151_1.png",
+    "image_sha256": "1923080b19ff962e94c487bbe7c139951ed0a768fb292e859d831e6909f63b31",
+    "crop_sha256": "3b8a5b674ff7e31fdd6d34cbcdc167f53374125590af73f000020cba48fdf8b5",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_152.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      935,
+      362,
+      1034,
+      411
+    ],
+    "text": "YG9X2G",
+    "crop": "data/ocr/crops/train/us_train_152_1.png",
+    "image_sha256": "257d81fd4728316bae45fac0d3f0130e87ba546ccb5946bb0e91d14a3441578b",
+    "crop_sha256": "f6df07f28572b1a31062f47cf798abe2881155dbfb9b699407e9d8a7badcfa57",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_153.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      0,
+      13,
+      100,
+      79
+    ],
+    "text": "6PYV308",
+    "crop": "data/ocr/crops/train/us_train_153_1.png",
+    "image_sha256": "17b0abbaf541514868f335e91a9cc05f1fe1ab39b351f3d5e76aba94a457ee87",
+    "crop_sha256": "47e99fbd09f52b2dcccece2a49ac3273cb46a57ea0ab0599d30f629fd252f513",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_154.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      1010,
+      337,
+      1104,
+      384
+    ],
+    "text": "5VDA555",
+    "crop": "data/ocr/crops/train/us_train_154_1.png",
+    "image_sha256": "12b19eeaf38e0f5b2174fcc41d323cec49af183874c88a3cccab7e1138f93e7d",
+    "crop_sha256": "505ace19cdcc8787b2352f3691e0d51931dc97d886dbbc0be89bd7e6a1023fd4",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_156.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      359,
+      182,
+      444,
+      224
+    ],
+    "text": "UJ3V0J",
+    "crop": "data/ocr/crops/train/us_train_156_1.png",
+    "image_sha256": "c4908e0ada04712529b63659c173c8594511a825928d724baed5c973e7781133",
+    "crop_sha256": "01f9ee46ce64dba36acfadadc401bbe6db32832b247fde1d0e09818c4b15574d",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_157.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      795,
+      291,
+      924,
+      355
+    ],
+    "text": "CYZ5139",
+    "crop": "data/ocr/crops/train/us_train_157_1.png",
+    "image_sha256": "c93f432e6c44db03b78611181ba65bdb8f9701fc3941c2891cfeff6ef0d98074",
+    "crop_sha256": "ebeb766d7e608fb015e978ba12229fd891bfed6cfbd811eb914f94ea32337f83",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_158.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      682,
+      433,
+      772,
+      478
+    ],
+    "text": "FB8R4T",
+    "crop": "data/ocr/crops/train/us_train_158_1.png",
+    "image_sha256": "ea44812815eda1b406f83aedc32bef02609d7eb0ff45787369b8e793c777d4e3",
+    "crop_sha256": "59f5c922f61c5f5e679e1f788a2dc14f2fcd5ea8115a47b79a2fc1677090a396",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_159.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      383,
+      568,
+      599,
+      676
+    ],
+    "text": "HL0KTY1",
+    "crop": "data/ocr/crops/train/us_train_159_1.png",
+    "image_sha256": "5990776f5faffba834071b19e109b4155add22d5a0629783717a006e0919334a",
+    "crop_sha256": "40c2c036c45566c9eb2885862e9618120416fef0b62a1d58e1c65979f5a8a975",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_160.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      422,
+      430,
+      521,
+      479
+    ],
+    "text": "6ZWF846",
+    "crop": "data/ocr/crops/train/us_train_160_1.png",
+    "image_sha256": "9d3b42d6f145584017ed21a4d735499b5a3dd8f3ed207aa359f5dbd83a7f6739",
+    "crop_sha256": "a433353a989ea582579ba3a02245f064e13a82e5e9062ed0c83288fd41073ea8",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_162.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      85,
+      62,
+      222,
+      124
+    ],
+    "text": "6XSU832",
+    "crop": "data/ocr/crops/train/us_train_162_1.png",
+    "image_sha256": "d21d9f6eaa1e7db71413703de2d9633a57731e21b8256de5ce4b9879435168a7",
+    "crop_sha256": "1355762758b4dfc00aa047168ecf8335e281685d64738778f6b8ec3283b2a9bb",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_164.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      252,
+      203,
+      432,
+      314
+    ],
+    "text": "MACGEEK",
+    "crop": "data/ocr/crops/train/us_train_164_1.png",
+    "image_sha256": "f7e09c6a60471e4bab67ff7be5772f3fb3a2c628e01292e6d061dd03fbf6a4a0",
+    "crop_sha256": "13dd17770b240a79c99d9c0945a50f066993810613491e9eedec195be956b9ef",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_165.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      510,
+      202,
+      764,
+      371
+    ],
+    "text": "YOUTUBE",
+    "crop": "data/ocr/crops/train/us_train_165_1.png",
+    "image_sha256": "c9f69d7cdb1664528a0d801a3bce30a49dfbe453316a572a1724a4d4bd9fbf02",
+    "crop_sha256": "6981d13ae03c59e6d9a5c1be3b2b74bacf94ad163a7fbf6e90b0bc3428bd45bc",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_166.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      200,
+      190,
+      287,
+      229
+    ],
+    "text": "MIDLYPH",
+    "crop": "data/ocr/crops/train/us_train_166_1.png",
+    "image_sha256": "ea357acfcc0bb1ed0d5ccd0a698e06749466428f8c6449d045c4aeacdaa10575",
+    "crop_sha256": "db8a7879499fbf3715afc342ceec9a373ba02ce1c8ef92fc5b9c4118ea9c9ada",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_167.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      266,
+      120,
+      375,
+      180
+    ],
+    "text": "H3NTAI",
+    "crop": "data/ocr/crops/train/us_train_167_1.png",
+    "image_sha256": "025ab8c0621739951c2bbc8a88df04243fd61326d8d094562954ed7d1a5c3993",
+    "crop_sha256": "2eb97594114eca6f18123d18c26f457052c16d310a3dfde3c168963ac349353d",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_168.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      161,
+      207,
+      234,
+      243
+    ],
+    "text": "BMW",
+    "crop": "data/ocr/crops/train/us_train_168_1.png",
+    "image_sha256": "38e4e2cb25e19951d33b611efa2c5b30854c57e4d6d9cd072dc3b4531eda5445",
+    "crop_sha256": "933db5e13a7ba8b73a22959364dce15279de55035ec3c4c814949a01c0dc7a9a",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_169.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      439,
+      414,
+      587,
+      489
+    ],
+    "text": "HIBRN8R",
+    "crop": "data/ocr/crops/train/us_train_169_1.png",
+    "image_sha256": "37f290027763a6ac417533d8eec2e3ff33adc25d53acb6f845e84d8c1e8f3aef",
+    "crop_sha256": "2a42eb8513c3a96b6a909011e2fdd13082d7c447f5684b532e99b599c1ca0cfb",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_170.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      827,
+      208,
+      908,
+      248
+    ],
+    "text": "853FL",
+    "crop": "data/ocr/crops/train/us_train_170_1.png",
+    "image_sha256": "7708ec01add8b5e9e96143010a88a97e41ef28a8f69294e84aa70dc0ee8eed09",
+    "crop_sha256": "499fb6e8469c5cf59c3f3f33ef9a44af9aa95c68cd95a1a00dd8cf5abfaef84d",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_171.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      307,
+      155,
+      380,
+      191
+    ],
+    "text": "DK2Z5S",
+    "crop": "data/ocr/crops/train/us_train_171_1.png",
+    "image_sha256": "5ef5feff71e559b9d76b104baa325ebd3f8bf112f72f708b297b7db7cdc7f2d6",
+    "crop_sha256": "70888a12b082597d2c25dcd9e4e019df9f67ca70adb78f32d59ccfe060bd06be",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_172.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      379,
+      429,
+      478,
+      478
+    ],
+    "text": "6RYJ486",
+    "crop": "data/ocr/crops/train/us_train_172_1.png",
+    "image_sha256": "392a3844132fa7a9e418b4758cac1d24f4df52b59079d06eb1d1a8cd5c813b00",
+    "crop_sha256": "712510d274fcea65dfcc59b0a4687508a68a1069acf6543d281a0ff4b77dc69a",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_173.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      1045,
+      816,
+      1437,
+      1032
+    ],
+    "text": "USMCZ",
+    "crop": "data/ocr/crops/train/us_train_173_1.png",
+    "image_sha256": "3c515c4dd0e1d80fa98e2396127f7243af70882f185ad8865e58a72680b6235a",
+    "crop_sha256": "602fca0e97314cc604cbe8012ba6a5a75d03642af8937905dbbdc5ef83182ee1",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_174.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      880,
+      151,
+      971,
+      196
+    ],
+    "text": "AU41257",
+    "crop": "data/ocr/crops/train/us_train_174_1.png",
+    "image_sha256": "7fb3c6f81922eb347c65bf4e8adc0f8166514e9febe342f3ef7487b9bbe3272e",
+    "crop_sha256": "99b3eaf10b1c1875acdc6f3044ab08248d92dac2861217ac4bba03f7b98185ac",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_175.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      139,
+      196,
+      425,
+      361
+    ],
+    "text": "M1SSF1T",
+    "crop": "data/ocr/crops/train/us_train_175_1.png",
+    "image_sha256": "2a2a6bfb16513b42aa83930f8cace84cbeaaa94002506c3cd484be2307566c4c",
+    "crop_sha256": "3debe89c6b0eb2ae3fe96fe53f9464a664a5868374e47bfc6096aad14e20ef7d",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_176.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      1261,
+      1153,
+      1824,
+      1486
+    ],
+    "text": "GOGR3N",
+    "crop": "data/ocr/crops/train/us_train_176_1.png",
+    "image_sha256": "ef3ddcc26b0b257a06d2ca589c8d8ae17a89e191ffcc8ec9bc9d4f9042923fe5",
+    "crop_sha256": "9a7bb70347ffded38f36c1576d902fa427493ecc47b1e952f302453aa3560a4a",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_177.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      245,
+      239,
+      438,
+      345
+    ],
+    "text": "CHOSN1",
+    "crop": "data/ocr/crops/train/us_train_177_1.png",
+    "image_sha256": "2ed952c2692957aebec44c096138806d98c61812b332ee5c1a274be98d1e3271",
+    "crop_sha256": "d83f8a0400526740e86b15baab61ba068f98785d93bc4251ca04c4b6c2d12944",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_178.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      630,
+      634,
+      712,
+      675
+    ],
+    "text": "N2427E",
+    "crop": "data/ocr/crops/train/us_train_178_1.png",
+    "image_sha256": "fdcecced20b44b6f243965783df710cb35ebb3fd96e8cd976a70b866fc734d25",
+    "crop_sha256": "8a515a54ae4fcfdf6832c011a5ce19bfbf9991b120fa910f86750d9c52ac148e",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_179.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      862,
+      780,
+      2265,
+      1425
+    ],
+    "text": "USABILT",
+    "crop": "data/ocr/crops/train/us_train_179_1.png",
+    "image_sha256": "d9ae7ef06b946cbf4da59972e747d697506c9012dad6e3f3593cdb28397aa4fa",
+    "crop_sha256": "25aef8f6d3c6d165e39e892c652798a9129aff48ba93b8911d68596a4a1db4a4",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_180.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      355,
+      218,
+      486,
+      296
+    ],
+    "text": "OXPAHA",
+    "crop": "data/ocr/crops/train/us_train_180_1.png",
+    "image_sha256": "3a7dd71e71344cb8f710ade5924565088d6fb145702d10b611bdf4dba8298b46",
+    "crop_sha256": "2aefd0a2d480c48fbb7b9711390aa1cda9ac3cc65bec254086634559be700157",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_181.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      184,
+      345,
+      455,
+      498
+    ],
+    "text": "BYBYGAS",
+    "crop": "data/ocr/crops/train/us_train_181_1.png",
+    "image_sha256": "dabe398df799a93d7cfd0645ef2644b63633c7c88a2c37eee50fd970732b0960",
+    "crop_sha256": "2c35717078e822c6096965ed935f63ef4eb3142087cdcd8e9aa977da66052fff",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_182.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      842,
+      282,
+      983,
+      352
+    ],
+    "text": "CGT2069",
+    "crop": "data/ocr/crops/train/us_train_182_1.png",
+    "image_sha256": "eba187dbf0f1b3ccb03bfa59d6435f38f1a732e6f924a74ad5b1b179274918c3",
+    "crop_sha256": "365557e53e99405d18697dc33628d12b743b107260d358976c1ca38bf53fe920",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_183.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      435,
+      416,
+      533,
+      465
+    ],
+    "text": "5AEA911",
+    "crop": "data/ocr/crops/train/us_train_183_1.png",
+    "image_sha256": "5800579139063030337078df7a3a7375f5f35e2c36b8623aa02a59d0e645e0d9",
+    "crop_sha256": "31b623666009694eac5dfe84b89a7f11edf6f5edef8c91242d1d6735a3d304ce",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_184.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      350,
+      360,
+      437,
+      403
+    ],
+    "text": "002HHM",
+    "crop": "data/ocr/crops/train/us_train_184_1.png",
+    "image_sha256": "be0c2fe2248c7b4d330714284c857309982268a0d4a36e65f440df55854a0ab4",
+    "crop_sha256": "3e127428d45b986cbe7d5c82e1680a116dca3af49e349f1d68f92038a276bd62",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_185.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      478,
+      411,
+      549,
+      446
+    ],
+    "text": "FK2X2Z",
+    "crop": "data/ocr/crops/train/us_train_185_1.png",
+    "image_sha256": "1d62a4474be747766fc9c4bbc9ac38907031b4e52873c497f6bdeacc28c5d432",
+    "crop_sha256": "01f0f784734c49c2ab0675b314dfe658a8fce503f60cfee891dc0fce55be1d02",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_188.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      935,
+      181,
+      1011,
+      219
+    ],
+    "text": "FK4W3L",
+    "crop": "data/ocr/crops/train/us_train_188_1.png",
+    "image_sha256": "4c223cc8273c33d7029a38c733e73a1130b0531c8ccb8cfb08dc8ace88730a6d",
+    "crop_sha256": "495abf429ce97a1988c58725bdc9ebe959f130289d4de86a4bc146c4ede0bb9d",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_189.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      611,
+      238,
+      695,
+      280
+    ],
+    "text": "5L0D951",
+    "crop": "data/ocr/crops/train/us_train_189_1.png",
+    "image_sha256": "fc3c34dcac0e557fbce3d4d3cde834ca9fcbb2803c1ee96ba6d0a697d2422ff6",
+    "crop_sha256": "4ed93fb7e41fbb4aa5b90de1e449f2d2710cb5bd9a3f3baae54c2dc37846878c",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_190.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      653,
+      437,
+      748,
+      484
+    ],
+    "text": "FE9N6K",
+    "crop": "data/ocr/crops/train/us_train_190_1.png",
+    "image_sha256": "9b94e083683e68da0a6db73c1b6d83e930598db940605681e255175ed0604778",
+    "crop_sha256": "4502d9848fc66fa7e43ce42ed6e5eab204aaabba1510ba85eeefa61eab1e44c7",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_191.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      638,
+      162,
+      715,
+      200
+    ],
+    "text": "SL7J8R",
+    "crop": "data/ocr/crops/train/us_train_191_1.png",
+    "image_sha256": "5e337fedfb8adedda030108dd2f21f6a16473241af7a3edf55cdc91e05679dba",
+    "crop_sha256": "4e6b091bb0bfeec8623d76558afda763aed4ce0e0141d51faef1434ba76b4bda",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_192.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      239,
+      104,
+      396,
+      194
+    ],
+    "text": "CCR7502",
+    "crop": "data/ocr/crops/train/us_train_192_1.png",
+    "image_sha256": "5535006b9c4b44f6d454267a1637fb8bd660b48ac71a7e0dc890a841dff6f7d8",
+    "crop_sha256": "a599f4ee673007a950087adb848dbf7e7d084b8d169cb72272ea18383eddb2f9",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_193.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      182,
+      296,
+      235,
+      330
+    ],
+    "text": "7Y27924",
+    "crop": "data/ocr/crops/train/us_train_193_1.png",
+    "image_sha256": "ecb5d801b1433f8a18ecf8f63329cb94f9cf536d3d23b0c30fb33caa6d7f6b9a",
+    "crop_sha256": "96761252ec1e5385c1efa05af6725d121a5840e5c24fb122a69db429069a206f",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_194.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      253,
+      412,
+      334,
+      452
+    ],
+    "text": "FA8M7S",
+    "crop": "data/ocr/crops/train/us_train_194_1.png",
+    "image_sha256": "cf675da16671866320c8142f07f9c18993f1141cc4c744e227e2e8af05ec45a3",
+    "crop_sha256": "0b1ab4ae4b2a9f182f4ece2325fb09bd14028f0254635df25a2c8e11d7ecb7d1",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_195.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      629,
+      341,
+      711,
+      382
+    ],
+    "text": "PK2V6M",
+    "crop": "data/ocr/crops/train/us_train_195_1.png",
+    "image_sha256": "c1db7dfebc41db79d5a42b1787e4794d1f27d66dd6ed33fb9c0445d8edc64d46",
+    "crop_sha256": "0d5476d274a3fea10b22d95ab43ebd73c8d89877ea46f08c74621b1b2f7709e0",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_196.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      322,
+      296,
+      394,
+      332
+    ],
+    "text": "3MVV252",
+    "crop": "data/ocr/crops/train/us_train_196_1.png",
+    "image_sha256": "6d72aedc4c3336e6ec7f5c47c40bfdb49240fc51811544716628e56d284e28a7",
+    "crop_sha256": "3f2e5f14321b48aa8f676f818f520323a1a9ff4cec1716969c71769ddefcd84f",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_197.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      620,
+      272,
+      705,
+      314
+    ],
+    "text": "6PGM335",
+    "crop": "data/ocr/crops/train/us_train_197_1.png",
+    "image_sha256": "051a441d7c1b9f3cb2a10aa2089f237d9d00e024cb0019dff4385468dcb79866",
+    "crop_sha256": "dceaf30d0852c5cce65ba9e933f75a24e05269ae80b2c2a2075dbe22426a6aaf",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_198.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      423,
+      465,
+      603,
+      552
+    ],
+    "text": "PINKIEG",
+    "crop": "data/ocr/crops/train/us_train_198_1.png",
+    "image_sha256": "6bc87bf3fecd250cf2b393f0f1e91abea34cd4cb847786f12671eed526c5499a",
+    "crop_sha256": "f89ca25eea13fa6e64560028a916ab0ff109d57ab2047159d841b4f93912ad94",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_199.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      653,
+      637,
+      750,
+      685
+    ],
+    "text": "SGTE5",
+    "crop": "data/ocr/crops/train/us_train_199_1.png",
+    "image_sha256": "4487e18febd690607e6dad8baaf65951d57f153d8f5de27b7ecdbe72a61acd61",
+    "crop_sha256": "5d1e72891946f6793e96ff29a3c243897122bf5270106bf751311f7d1b1b503c",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_200.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      2417,
+      1080,
+      3406,
+      1650
+    ],
+    "text": "VANDAMN",
+    "crop": "data/ocr/crops/train/us_train_200_1.png",
+    "image_sha256": "565959367de8c3dd5f13807675c23e9d31de84f707195eecf39c496d55501f08",
+    "crop_sha256": "7585f4c931af9df1a592fbc00e5421f827fb17bcc7965fe48c17a34ec037ecf4",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_202.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      153,
+      150,
+      898,
+      516
+    ],
+    "text": "GWU2019",
+    "crop": "data/ocr/crops/train/us_train_202_1.png",
+    "image_sha256": "9084a71f439a92963b08c6eab9adf0ef58f39f7e7c4a5cd4033dda157f142da0",
+    "crop_sha256": "d7f927174df502d34d5bfb352b363349c158bd358f78e1447b35d760350b2340",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_203.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      192,
+      193,
+      307,
+      255
+    ],
+    "text": "NTHGLFT",
+    "crop": "data/ocr/crops/train/us_train_203_1.png",
+    "image_sha256": "0791ca077b225ca23a38d2ab0f71c81330aac6c7162a29e9e90e5212acd0d933",
+    "crop_sha256": "c0813936db82edd6cc8287a927fb78fe6183ee8e06c3cee9d91d46eebb3bd435",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_204.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      658,
+      494,
+      735,
+      532
+    ],
+    "text": "DL9E1U",
+    "crop": "data/ocr/crops/train/us_train_204_1.png",
+    "image_sha256": "fcefbaca7915bbc0c004ba5f2881747b1a0815ea65ea9be8f5b08da9e084ab33",
+    "crop_sha256": "7ec0ee32c524e11ad3692cf07bf9c4124c29a26464a2dbf7e9d0109a554a4515",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_205.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      495,
+      424,
+      639,
+      496
+    ],
+    "text": "RZN384",
+    "crop": "data/ocr/crops/train/us_train_205_1.png",
+    "image_sha256": "dd80bcb5dfb71c346ec4dd6e3c338041f65f3c1d048b63718a1dde5bee72be09",
+    "crop_sha256": "de2a2aa13dc9d2a2a8f116542a85faaae9a4b9913a13a2f807a348cf95689ba3",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_206.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      209,
+      626,
+      295,
+      669
+    ],
+    "text": "1049338",
+    "crop": "data/ocr/crops/train/us_train_206_1.png",
+    "image_sha256": "6533af1f948b2ede6be4e9e9b23f69267bf1f193f689e50b27a3751751c441e5",
+    "crop_sha256": "fa9c59502c13cd196dc89cf7d596773164b55aee674077e7024d2f5d574aecdd",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_207.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      327,
+      284,
+      410,
+      325
+    ],
+    "text": "UG9L8U",
+    "crop": "data/ocr/crops/train/us_train_207_1.png",
+    "image_sha256": "bd4f290219a7e3b8c6ab789c55bfeb15b44e817a98d9f402fb2648aab7d10881",
+    "crop_sha256": "6003b58e6cfbd38c7af3fc876ac8a7e2e5da8219ddd5934301c652d47017e0fa",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_208.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      25,
+      174,
+      93,
+      208
+    ],
+    "text": "L781601",
+    "crop": "data/ocr/crops/train/us_train_208_1.png",
+    "image_sha256": "26e01e81737350707ccb5bc2747e879ebca89b0c7eea7009bae7d3b747c89048",
+    "crop_sha256": "54e3556f01b441c5bdc4e5c8d9a2fe700496c28ed8c3c6f63ca9409a883f57de",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_209.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      205,
+      316,
+      268,
+      347
+    ],
+    "text": "VLX039",
+    "crop": "data/ocr/crops/train/us_train_209_1.png",
+    "image_sha256": "9dd4107d5baf1c1f8c5c538cad10c208aebebb1d62723b18a759d056b6e7c142",
+    "crop_sha256": "0f259aca2406916c1740304a0d56f31633083a531c452efee0b7ac75892fa1fb",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_210.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      223,
+      283,
+      646,
+      636
+    ],
+    "text": "FIT2GO",
+    "crop": "data/ocr/crops/train/us_train_210_1.png",
+    "image_sha256": "a5971140d06ec02437d6fec8dfe619a994f3e1e0bf97e9d84264f45a7cf71cc5",
+    "crop_sha256": "60d6667208f281e1c633820a8ad83d07d05e793c67d975c792eaed4b6a67c19e",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_211.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      393,
+      270,
+      504,
+      325
+    ],
+    "text": "YD6L3C",
+    "crop": "data/ocr/crops/train/us_train_211_1.png",
+    "image_sha256": "558f3155a2ecf4a9500164b08b64c07bb403b0070afe6f6245e83bd52bfa0b4f",
+    "crop_sha256": "6b8dbf449d667fb918bfd085a097dd69f54480d340444fb2247d196f73b36637",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_212.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      246,
+      305,
+      341,
+      352
+    ],
+    "text": "1366026",
+    "crop": "data/ocr/crops/train/us_train_212_1.png",
+    "image_sha256": "074274dc2e6108bd916d3221e70dbe228d85024809a6e7a481b4dbdc389b6f01",
+    "crop_sha256": "4688f14bc50d8c0f51f1ea15376d91f4c8d88228a415be9f95be7d3d9aa932a1",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_213.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      1059,
+      378,
+      1154,
+      425
+    ],
+    "text": "SH0R7X",
+    "crop": "data/ocr/crops/train/us_train_213_1.png",
+    "image_sha256": "7a34c2d7070adadb9474a4673dc00946e955386dbcce7e942d750108223ea546",
+    "crop_sha256": "bfc665ce6deaaebd49fa449d99c5c466274ace1b58bbdd809538093db085f13b",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_214.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      142,
+      171,
+      212,
+      210
+    ],
+    "text": "9214",
+    "crop": "data/ocr/crops/train/us_train_214_1.png",
+    "image_sha256": "93ed90ad14d343610ef5e1802f0cee88f5619d2c5ecabb06af7eb4e83ee0b01d",
+    "crop_sha256": "bfc4026f9cd779a6b97e4712d143fc92ffabbb20d032641f4ce27ed3805cfc41",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_215.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      145,
+      228,
+      268,
+      307
+    ],
+    "text": "OUTSTDN",
+    "crop": "data/ocr/crops/train/us_train_215_1.png",
+    "image_sha256": "3d1e0927e276725113e1ce598672a785c9177780a6167cdc6ba71972a2f65726",
+    "crop_sha256": "3db5a79d06cec756e2195de40ba5d0f3cb0199aecb5df7cbfc10f766ecbc92e1",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_216.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      880,
+      92,
+      956,
+      130
+    ],
+    "text": "6MMD595",
+    "crop": "data/ocr/crops/train/us_train_216_1.png",
+    "image_sha256": "d6f84464fcb6874da078ad0f78251fe288b68973a543712f291e9d08340a5d3e",
+    "crop_sha256": "2f6b6d5a8265ca13d11422032e7bf0e8c879d83e329b94896e3e87c9c8e72a99",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_217.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      109,
+      185,
+      161,
+      208
+    ],
+    "text": "SKIPGAS",
+    "crop": "data/ocr/crops/train/us_train_217_1.png",
+    "image_sha256": "167f0b3d5c2c452c44d5a03d10b183be0ab053b827227256e40b5ed9e523552d",
+    "crop_sha256": "0e8e10205f04f8aec1ae7dcae78ac19c779dab70eb7ba6aaa949f5b2ffab85de",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_218.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      1001,
+      820,
+      2044,
+      1373
+    ],
+    "text": "EPKT",
+    "crop": "data/ocr/crops/train/us_train_218_1.png",
+    "image_sha256": "a96255f9ef88938d743707464ecbbfb3aa533d1d11f1164435e051f2c75cc33e",
+    "crop_sha256": "6aac04eac2fada18db29dab0428df2e9e54ad285d622d5fa2b69b70ca2745e54",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_219.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      638,
+      293,
+      724,
+      336
+    ],
+    "text": "6XIU641",
+    "crop": "data/ocr/crops/train/us_train_219_1.png",
+    "image_sha256": "9424a2444d2a48e8b6a36ad86ae39b0af5534f86081dc90b1d82abd4defeda5c",
+    "crop_sha256": "c63de52bedbafe60ed927126945e703a5458a7670ffa3fb5cfed216a22379a94",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_220.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      192,
+      237,
+      253,
+      277
+    ],
+    "text": "GS4ME",
+    "crop": "data/ocr/crops/train/us_train_220_1.png",
+    "image_sha256": "5e5b64e3f8c4e01fc47cc6a174301c46fa161da05e51efbcdff2dde0ea66d935",
+    "crop_sha256": "c37f88ce4be95ac98e4381fcd5d0d15d7b12c4faefd199820f65156d487a80db",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_221.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      256,
+      234,
+      389,
+      309
+    ],
+    "text": "HONDUH",
+    "crop": "data/ocr/crops/train/us_train_221_1.png",
+    "image_sha256": "b6e135a310ab46bf3ed992f0bd379973f3ec561f1ceb4df61f64b3d66f6e802a",
+    "crop_sha256": "0da6093706ef237840f1901b5dcc94827b2baf9a720ad5f066427293994ed5c1",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_222.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      212,
+      192,
+      326,
+      249
+    ],
+    "text": "MF2Y8X",
+    "crop": "data/ocr/crops/train/us_train_222_1.png",
+    "image_sha256": "a160ed3223f68ccfc29fc92f0191ab037c5f15800c9d952a0604088586f5a035",
+    "crop_sha256": "3f9aac0d66ba5eb5889a369ba57c2936bca499fe6fe707891ceedd5f9d5b7fe8",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_223.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      364,
+      332,
+      955,
+      652
+    ],
+    "text": "NOS4A2",
+    "crop": "data/ocr/crops/train/us_train_223_1.png",
+    "image_sha256": "b32befae0ee3e8a97f10bb8505395d3671b84d8f3c293126bb40a069cde08cf2",
+    "crop_sha256": "de977e13c6f3bc4820e7676ad3f2c438bf01dd477b3649151abf4109a7ad3a91",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_224.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      546,
+      323,
+      740,
+      420
+    ],
+    "text": "10DTM",
+    "crop": "data/ocr/crops/train/us_train_224_1.png",
+    "image_sha256": "096b50bff0211984cf3632c6f078fa6c03956c4b7fe2f41b53202ab33eac7fc7",
+    "crop_sha256": "521b945a546b5701a7aedc96fea3620ab58ad1465ff45151ad6cfe35a8ff6f28",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_225.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      261,
+      291,
+      512,
+      416
+    ],
+    "text": "CC2881",
+    "crop": "data/ocr/crops/train/us_train_225_1.png",
+    "image_sha256": "1a748a6e1d29596122a2441b13b2d62a160d880851fdc8bc3531a282c10c424a",
+    "crop_sha256": "a76edfcfd7e291987a7bd638fd2ee1c34d0788cd7b888637aa014625339797c0",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_226.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      654,
+      270,
+      735,
+      310
+    ],
+    "text": "4KBZ265",
+    "crop": "data/ocr/crops/train/us_train_226_1.png",
+    "image_sha256": "fde622d07ca0a9a3c66a5d9609f0b12ae29781998bb58fea772b466fb04811ea",
+    "crop_sha256": "6ae35540a8de2866b4c726a3e87e857fff00dbff48358b293deaab1cfd3c5195",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_227.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      310,
+      273,
+      639,
+      437
+    ],
+    "text": "EAZ6913",
+    "crop": "data/ocr/crops/train/us_train_227_1.png",
+    "image_sha256": "78bafea80fc0c3533272c6ca5016a707695b7677d86c22b684705526ec784419",
+    "crop_sha256": "1921cdc4bca07014744ce2ce10154f0708dcfd8ce247ffdd2d9be1e33222df23",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_228.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      161,
+      124,
+      248,
+      170
+    ],
+    "text": "MARJANY",
+    "crop": "data/ocr/crops/train/us_train_228_1.png",
+    "image_sha256": "13002326f3f3af86ea7ed9291b20736d862e219dd4cf3a974a22305b8ec9ef95",
+    "crop_sha256": "ae68d94690eeba38364bbf1787b41309bec949774217cdd2e6fd8457a6c986a5",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_229.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      610,
+      340,
+      700,
+      385
+    ],
+    "text": "47366J1",
+    "crop": "data/ocr/crops/train/us_train_229_1.png",
+    "image_sha256": "5a423a523d169bc4ce8b198e4b65fe72c57de44e721ce6608cbde4a6dbfa72c8",
+    "crop_sha256": "9f6159cb81dcd5f916e6ac858e556bfecc70ecc8dacbf33ef9d2f5bf1ae712ba",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_230.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      561,
+      584,
+      628,
+      617
+    ],
+    "text": "HB6L0Z",
+    "crop": "data/ocr/crops/train/us_train_230_1.png",
+    "image_sha256": "cce76551a6bbbde27fff8815b6c7a7b35076c573cbb1288a7d44916cb8280bd5",
+    "crop_sha256": "ec721a98ea9828739a814c04a5e66105f3f764c72659cfff6c0ca0b86c09c067",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_231.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      99,
+      336,
+      181,
+      377
+    ],
+    "text": "DG3C8P",
+    "crop": "data/ocr/crops/train/us_train_231_1.png",
+    "image_sha256": "d5b733a5065752001d92a5a3deef64d8a485c4339b76b4f0662722412d2915d9",
+    "crop_sha256": "36514aa4adc0115e8c5abb0492ce6687e065f681b675984893608061bce005de",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_232.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      237,
+      238,
+      317,
+      278
+    ],
+    "text": "CJ1P5G",
+    "crop": "data/ocr/crops/train/us_train_232_1.png",
+    "image_sha256": "2f38e95e2840328dc1bc3f6507372dfebd255f31818d78d1a780e186e0746274",
+    "crop_sha256": "8ab02381437fb74a3609a2402c239b94371e665cdd2d8e6dff00f3429213c1b3",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_233.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      512,
+      362,
+      619,
+      415
+    ],
+    "text": "5ZUC921",
+    "crop": "data/ocr/crops/train/us_train_233_1.png",
+    "image_sha256": "dc13670a444afbb2f5ad6b94a58bf882bcfc8929d0385956ba6f43b31375d28a",
+    "crop_sha256": "b079207686e1e7a7632e184afb0a9c7a5f6a6b524e2e00fc4101d70f890c2970",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_234.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      624,
+      367,
+      710,
+      410
+    ],
+    "text": "8D79882",
+    "crop": "data/ocr/crops/train/us_train_234_1.png",
+    "image_sha256": "c9444f599d51910f5143fa369400d0cd429ba2c879bd3bf454554a46b61a30f5",
+    "crop_sha256": "2c3352fb8ca1ba7acb6081b2581952a5751e2bc1f7519e9dcbef8ded05a9be3f",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_235.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      443,
+      321,
+      493,
+      346
+    ],
+    "text": "YF2U68",
+    "crop": "data/ocr/crops/train/us_train_235_1.png",
+    "image_sha256": "370cb302387fb80bf9a63ba8959579fa6b625f12422a52d1ad583ced74a62af3",
+    "crop_sha256": "26606ee27b5aa57d6351174bdf07f994d3e889db84d9864f50e899777fb747bb",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_236.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      507,
+      422,
+      608,
+      472
+    ],
+    "text": "75061H1",
+    "crop": "data/ocr/crops/train/us_train_236_1.png",
+    "image_sha256": "b3779c73a265b7d8dc1a285fd94e3116104d33c6898a5aa31902cd3638a325df",
+    "crop_sha256": "12efa60bc716ea341596fde6ec82720579558cab3723477008d9846b5d3c7f27",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_237.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      206,
+      184,
+      657,
+      399
+    ],
+    "text": "SJX579",
+    "crop": "data/ocr/crops/train/us_train_237_1.png",
+    "image_sha256": "baba3c71d495ea9ebf5e80c2f6ab3e40283a98dd6ec59b91aa992644c23b0447",
+    "crop_sha256": "682ff7f61f2012d0ed351bf73e5960bcc2e972573af81946f960b94195c3629b",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_238.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      240,
+      215,
+      363,
+      274
+    ],
+    "text": "BSMART2",
+    "crop": "data/ocr/crops/train/us_train_238_1.png",
+    "image_sha256": "16d75889bf07c692a47413fe7fd37751a72bc32ef69cd53b1f84a6aa7468b33e",
+    "crop_sha256": "62658de910463a3d98f82138770ebee745d0532ce08eb21cc97a417620fe1afb",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_239.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      17,
+      16,
+      272,
+      145
+    ],
+    "text": "JXN646",
+    "crop": "data/ocr/crops/train/us_train_239_1.png",
+    "image_sha256": "30c1196ebebff899de4f89423639fe49f005ac873f5e65a575eb9c90fd654ef0",
+    "crop_sha256": "53213ea6aed21945a98580b0667b94094f23825ece6d8b7c81e5a5ac9b073046",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_240.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      150,
+      112,
+      305,
+      179
+    ],
+    "text": "MPEACHW",
+    "crop": "data/ocr/crops/train/us_train_240_1.png",
+    "image_sha256": "5d35e2e5d30fa7650bb646d86e5ff97adc5ade3906b88ce287429a30979c4dd1",
+    "crop_sha256": "8fe3f3dce0a91159924fef9c628801ed959d2e0a413a8a27fb15fb9b2a4e9c34",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_241.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      730,
+      332,
+      870,
+      402
+    ],
+    "text": "CYZ5139",
+    "crop": "data/ocr/crops/train/us_train_241_1.png",
+    "image_sha256": "d0d7e9742eb6a515fdc93a568ffeaa3fcf7ab24dd4e8f58dc7aa508800d30c09",
+    "crop_sha256": "1fbd45696c9f8653b70e065be5ac4ddd31b6a051b52b25692011af10bdc77e37",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_242.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      625,
+      497,
+      736,
+      552
+    ],
+    "text": "ANW2529",
+    "crop": "data/ocr/crops/train/us_train_242_1.png",
+    "image_sha256": "20d629d6a5557f7c6a76e92c1c60e5ca3091be2211ae8a78218bf5bf9d26d42d",
+    "crop_sha256": "5af8b67537269afaeddf218e3bbc041663fd93fb0876f6e8a4ea6406827347bf",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_243.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      232,
+      230,
+      747,
+      526
+    ],
+    "text": "GOBLU1",
+    "crop": "data/ocr/crops/train/us_train_243_1.png",
+    "image_sha256": "928b319df612153afe785825202a0e2a0f2601850c96a7ca717c10ba05a1f161",
+    "crop_sha256": "04a4bcb5a793cb3c98f7604859ded7ef5bf087986b3476faa3d507e563273592",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_244.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      268,
+      205,
+      308,
+      227
+    ],
+    "text": "DRUNK",
+    "crop": "data/ocr/crops/train/us_train_244_1.png",
+    "image_sha256": "0cd5459dc675c610aadd9e3e4fab754e90fa18e7ea4f02ab6927d0d3a00af5f7",
+    "crop_sha256": "c100978bb7c4e3f0ec14729ba7feaaca422f87ef46455891c6c9f5e76b8304ad",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_245.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      9,
+      196,
+      102,
+      260
+    ],
+    "text": "A69985T",
+    "crop": "data/ocr/crops/train/us_train_245_1.png",
+    "image_sha256": "815865e2e9bb2741cf66cf79a02dad6ede162084999f19d3cdcc7868fbe16b47",
+    "crop_sha256": "3947c2da4d4b1909d4a27292e79f55a397fcd3ebd84c20211c004093564289aa",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_247.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      703,
+      250,
+      782,
+      289
+    ],
+    "text": "5TQY867",
+    "crop": "data/ocr/crops/train/us_train_247_1.png",
+    "image_sha256": "eb2e389d27261c1a95b8547d343642f46aff633d0d092c6998e042ff21af37e4",
+    "crop_sha256": "ecca8cbc09c0ebd37aef3c915c19cf5492cb8d51cadeed2082476a7f38b302fa",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_248.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      219,
+      191,
+      310,
+      236
+    ],
+    "text": "MH6V4L",
+    "crop": "data/ocr/crops/train/us_train_248_1.png",
+    "image_sha256": "9267a3f2db4c392170d1632a1fe60f3f2eac6f96df922c52855032ac4dc9e2a7",
+    "crop_sha256": "cc608db48731351246fdb36b26038cc6473fd26bffd685fafa91a7e37a476cd9",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_249.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      260,
+      436,
+      357,
+      484
+    ],
+    "text": "5TGN556",
+    "crop": "data/ocr/crops/train/us_train_249_1.png",
+    "image_sha256": "ad21226cc1e9da4a376c0d3fcf1cabae8de78bc1a0f4e5d052c4b677d435a542",
+    "crop_sha256": "bd53ebff65803180927541d1495d5d62fd31a7f07408b4ced64e923987e59e2c",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_251.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      261,
+      149,
+      363,
+      207
+    ],
+    "text": "VODKAA",
+    "crop": "data/ocr/crops/train/us_train_251_1.png",
+    "image_sha256": "bd0e16d548a16f6972de08ef45cf1eff364eb4e934a180d3554949f9ce5308de",
+    "crop_sha256": "e9c23e0c9c562c4d20e1c8a482f1f9416f7afd385d333d898513cab69ff95b1d",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_252.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      156,
+      224,
+      241,
+      266
+    ],
+    "text": "CJUJ79",
+    "crop": "data/ocr/crops/train/us_train_252_1.png",
+    "image_sha256": "639c620bf2b99f469328014d2464044681423d03e6a4bdd6c61d2da42863aec5",
+    "crop_sha256": "1d10686783f38580bf6b389ef0a684ddc9769dd1df4ef99969d7a722ac32e246",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_253.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      122,
+      293,
+      309,
+      391
+    ],
+    "text": "BUTCH20",
+    "crop": "data/ocr/crops/train/us_train_253_1.png",
+    "image_sha256": "c2c1febaec6a4da8fb97bffd5504aa7895b918c57f43bad97b43171f24dafc9b",
+    "crop_sha256": "d4ecc306ba51baa34f63ff534494e38898cb8b9a9220fcb8a2de58337c15740a",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_254.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      344,
+      210,
+      637,
+      356
+    ],
+    "text": "5VCF203",
+    "crop": "data/ocr/crops/train/us_train_254_1.png",
+    "image_sha256": "7786d9284d8be0731426138d3bcacdfbe3a9ca06c1fc293ffcda84d6db59088e",
+    "crop_sha256": "df4dfc59db829aeb97fb3aeffc915500e75e8ba9bb6022ed60b1be183f94a285",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_255.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      208,
+      138,
+      370,
+      216
+    ],
+    "text": "DFV8478",
+    "crop": "data/ocr/crops/train/us_train_255_1.png",
+    "image_sha256": "a72a89d9bb64bd110d0c500e802dd66abf64e14abd3d27e04ce9cae1ef4e1eb8",
+    "crop_sha256": "80ab9af156f42cf29a6b35e7a2c1338b25a082a2e71594ae018ad2e6f60f2081",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_256.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      225,
+      337,
+      305,
+      377
+    ],
+    "text": "21A1BX",
+    "crop": "data/ocr/crops/train/us_train_256_1.png",
+    "image_sha256": "9ee6a20878ab71344c2a9cc42ef3dc602610cc0c051b5db048aa7817a53ae884",
+    "crop_sha256": "8f3957fce23cb85aceac6c3dd7754681e5e7efb2ac647eecc2224956549b2c8b",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_257.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      354,
+      364,
+      538,
+      474
+    ],
+    "text": "RRRRUN",
+    "crop": "data/ocr/crops/train/us_train_257_1.png",
+    "image_sha256": "963418bb0cecf4ee97b917dd7e2adfa5bf25252e37f0ffe0838ae851e20e69a6",
+    "crop_sha256": "35ee1653899b1146f7ad791d88161e49ae0f0b89c65e3b6f90408b3e43b2ef59",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_258.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      800,
+      401,
+      895,
+      448
+    ],
+    "text": "6LKR481",
+    "crop": "data/ocr/crops/train/us_train_258_1.png",
+    "image_sha256": "ae2e5f33f71259c732bbc12709703b3a7d5554de6df0d9ea863cc76b7265a47f",
+    "crop_sha256": "d80001944770fcbb532f28c4c2670533d55c3dd46cff0ab285dabe7d50422e64",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_259.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      659,
+      322,
+      799,
+      392
+    ],
+    "text": "CWW2245",
+    "crop": "data/ocr/crops/train/us_train_259_1.png",
+    "image_sha256": "fb8f70be49e0b0d88b2d44205e42286d195e79f2881ef31b5e25f5c469b5b3cd",
+    "crop_sha256": "bdd110df2e0ea00a238f471bea647282835d32c6ce941afb1db21a97e7091789",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_260.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      412,
+      132,
+      609,
+      231
+    ],
+    "text": "045IGP",
+    "crop": "data/ocr/crops/train/us_train_260_1.png",
+    "image_sha256": "5cdfc2c3ac85023bc71a0e377ff2f8f55184c2301635e02ffe10bbef276d981b",
+    "crop_sha256": "06f57d1453492aa11f4b563286a05b5f700b297914221e31e77e1d8812209ec3",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_261.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      602,
+      247,
+      688,
+      290
+    ],
+    "text": "6MWF778",
+    "crop": "data/ocr/crops/train/us_train_261_1.png",
+    "image_sha256": "65848f2f57bbbc15bc888dd47d347aa856c59cccf505b4b8beaee2f72fe28781",
+    "crop_sha256": "3249e465fb6a8b4d24fab69efcd2c9bc5a3522ebb57f6628660b4e4ce2ac927f",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_262.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      568,
+      455,
+      1338,
+      1017
+    ],
+    "text": "MRSNOOPY",
+    "crop": "data/ocr/crops/train/us_train_262_1.png",
+    "image_sha256": "fe5b5afa181d3d8ebbf81a64afaeac67a56abcc6c533043c8d24858dcf64b2ca",
+    "crop_sha256": "ac017a83a393235e02c2e8316b1e432abc40b8edae2356b55fe1ce2c4d6f581a",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_263.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      258,
+      28,
+      427,
+      100
+    ],
+    "text": "HURT911",
+    "crop": "data/ocr/crops/train/us_train_263_1.png",
+    "image_sha256": "91e21c1b31ef4aec1a3348fe0762ca5b73b99133495ec2ccdcda99cd6a3f5f55",
+    "crop_sha256": "5058c238fd66072eae68c415b717e9a81caa0b4b9155a6599209ee18a9c43e87",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_264.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      482,
+      303,
+      587,
+      355
+    ],
+    "text": "59E21P1",
+    "crop": "data/ocr/crops/train/us_train_264_1.png",
+    "image_sha256": "f1207ea1b0c523bf3aa071deee7a5f76a8582f9a5a371bb1466bc1ce71f0fec2",
+    "crop_sha256": "1ab35436909ac9dc907e8ad99a45bbf1f8952c44b8f4bbfde9082f0853f6bcc3",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_265.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      532,
+      507,
+      612,
+      547
+    ],
+    "text": "5DJ0529",
+    "crop": "data/ocr/crops/train/us_train_265_1.png",
+    "image_sha256": "deaa8559707d0e78b0b8465fb5f9b295035342cbeb2761e3dd3719b926af6099",
+    "crop_sha256": "60617943d8d150cbe25074221ede9b81abb7c9ca68c4f32af900b189d7e5059d",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_266.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      469,
+      351,
+      583,
+      408
+    ],
+    "text": "AG4V3U",
+    "crop": "data/ocr/crops/train/us_train_266_1.png",
+    "image_sha256": "a9fa10803494777e149e0c0eaaa5ded39714a04565f6a6d758ba8511a346b613",
+    "crop_sha256": "694f76dee033991a90e9fb08144af6b1405fafea89b156e0cf39f01f57092803",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_267.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      473,
+      425,
+      605,
+      491
+    ],
+    "text": "AYX8803",
+    "crop": "data/ocr/crops/train/us_train_267_1.png",
+    "image_sha256": "0201b0af0085c281fb32a1622aeac29c1f4eee49d49ae7b21f78055cf86a5ae5",
+    "crop_sha256": "6ce36fede221bb52f8fbf1e0af916df2a85a37244bd3b843abad272a2b30dd25",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_268.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      692,
+      470,
+      948,
+      598
+    ],
+    "text": "EMR7094",
+    "crop": "data/ocr/crops/train/us_train_268_1.png",
+    "image_sha256": "3f707f59262b6bb10893ca6a94d1b94ca0b371cca61e9e37c6323c450efe80dd",
+    "crop_sha256": "22773532666f9ae2710005fadec65838e530a7a0a5f3b37a6c571a44b464a4cc",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_269.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      11,
+      12,
+      629,
+      313
+    ],
+    "text": "5A4934",
+    "crop": "data/ocr/crops/train/us_train_269_1.png",
+    "image_sha256": "f953bb0a5879c219ce658da6a74f53939a376b20fcaa0dd3f505767872d19792",
+    "crop_sha256": "5147f4ddb0b0aae85b1b332ed176ae559854093b24a19b83bd5c9beab444db53",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_270.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      348,
+      207,
+      436,
+      251
+    ],
+    "text": "WD2R9B",
+    "crop": "data/ocr/crops/train/us_train_270_1.png",
+    "image_sha256": "db2b9844476fbea8c568f3a2151ffdd8b0dac5b451c3d09c0251e7c0dd3eaa95",
+    "crop_sha256": "d03fab14efc7e202049902899d036c5fab333e356264e649a7059db1d5783ce0",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_271.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      573,
+      238,
+      629,
+      266
+    ],
+    "text": "CLT0108",
+    "crop": "data/ocr/crops/train/us_train_271_1.png",
+    "image_sha256": "041d9238f0f6063908f7abffdcd1d033043fa01cc775d52ea365af26b40a394e",
+    "crop_sha256": "fab7ed56d1bf3c08dedcd9c8754f76f749099a785b9ba1371aa346f102b06b37",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_272.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      2111,
+      1497,
+      2837,
+      1917
+    ],
+    "text": "DADS",
+    "crop": "data/ocr/crops/train/us_train_272_1.png",
+    "image_sha256": "ca795a5f6bf86da9a0b95c891781a18e4d55f5ea05e7be8ed0501af5ed10d2fa",
+    "crop_sha256": "485e8e259c5e1f2344c2925a30ee3a6163c189bb7b1588471dd1ed62aed43d3d",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_273.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      409,
+      454,
+      603,
+      556
+    ],
+    "text": "DELFI",
+    "crop": "data/ocr/crops/train/us_train_273_1.png",
+    "image_sha256": "f223aeb11ab37222ce3ef35f1968a2967923c9ece94fa3637121fc01867284c0",
+    "crop_sha256": "8ffaada0e26502a9f41d1684c86e7ee1bc71b8602c0cf3244641d902c22120f5",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_274.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      778,
+      1,
+      849,
+      36
+    ],
+    "text": "6NZT067",
+    "crop": "data/ocr/crops/train/us_train_274_1.png",
+    "image_sha256": "8fe8c2d39cdd9cb50ca51b543f236218b8cc1075afb04d06b919e685552b92c1",
+    "crop_sha256": "94aa596c791541d240fdf1b75c506e85319739dc208a05f2c023140d207ee00a",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_275.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      874,
+      349,
+      991,
+      407
+    ],
+    "text": "DD4C591",
+    "crop": "data/ocr/crops/train/us_train_275_1.png",
+    "image_sha256": "c1c526f98ffb84bcd0f0e587827a7ac45f382bdc74677d5f92f340c5914c12ca",
+    "crop_sha256": "b92edd6f7855b5e26403bf02d117d8d74fcb42058457a038eb03e6811bf37666",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_276.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      674,
+      204,
+      757,
+      245
+    ],
+    "text": "6RJN062",
+    "crop": "data/ocr/crops/train/us_train_276_1.png",
+    "image_sha256": "0dd449472273fb4b3cea6b0ce08c4ce3585510f2cb922f0f81b9b6a67fdda62e",
+    "crop_sha256": "8e3e00353729144cf7488b267cdceb254e67e626851f817d13bc298c0b098eae",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_277.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      515,
+      273,
+      798,
+      420
+    ],
+    "text": "CAHIKER",
+    "crop": "data/ocr/crops/train/us_train_277_1.png",
+    "image_sha256": "bf39b528034e235ca14c0206a7716dc68640ea1febd569fb5ddeabe9f356b049",
+    "crop_sha256": "385ed970874fe41450b051c9e05dccda937e1d4b1e823f88bd9f4aafb914d69c",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_278.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      473,
+      164,
+      549,
+      202
+    ],
+    "text": "BFN8484",
+    "crop": "data/ocr/crops/train/us_train_278_1.png",
+    "image_sha256": "258ced507591e89d7e3a9b635ecdea793dce553a6e9d56ba64c7dcd3e3d60053",
+    "crop_sha256": "b07669c423b5fd896d186edbbad949853cb3c6b5f611b3b5556255f906763738",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_279.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      296,
+      539,
+      395,
+      588
+    ],
+    "text": "TRZ951",
+    "crop": "data/ocr/crops/train/us_train_279_1.png",
+    "image_sha256": "0c955c6faf876deb4fe4de92a82e3e7e3356a4d0aae32b235a861f68a36b4b2b",
+    "crop_sha256": "1d5c818fa6ca37e4b0219302716857d2e1f6f688221216ade26a0f6c23133843",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_280.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      136,
+      431,
+      230,
+      478
+    ],
+    "text": "WXW835",
+    "crop": "data/ocr/crops/train/us_train_280_1.png",
+    "image_sha256": "957832282f0580cafc061982b7b8c089ec6f2958d3e4f11cf1f7b944c21953b6",
+    "crop_sha256": "0c7907c91adf23b003cc89ec55740c07412706ffaa3afd3946c1118d5336c1f1",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_281.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      411,
+      493,
+      502,
+      538
+    ],
+    "text": "AVP2403",
+    "crop": "data/ocr/crops/train/us_train_281_1.png",
+    "image_sha256": "15c07485bbfb0e32d8475023c18f2be3db8e397c156cfaa1eb95c483fac2e433",
+    "crop_sha256": "6223297d82fec145fc46f8e85cbf25a8b8afe569bcbd19d2829a59209cd63c1b",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_282.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      240,
+      241,
+      359,
+      309
+    ],
+    "text": "SWAGRWGN",
+    "crop": "data/ocr/crops/train/us_train_282_1.png",
+    "image_sha256": "a1739c75387f6a31d136c6a74520ce5edf21c7e6f28373462e7ce0a8b2bcd6b8",
+    "crop_sha256": "59d9a33af3e4562c62e906c995dbc95e20fda4ba59ac50288ddda88a7910b4a9",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_284.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      788,
+      124,
+      848,
+      154
+    ],
+    "text": "UH1F0F",
+    "crop": "data/ocr/crops/train/us_train_284_1.png",
+    "image_sha256": "8f5aa200d80d7c67ec44b13695083fb53309e9c8c0ae4bde2e67527e7a76bf6b",
+    "crop_sha256": "e952e18703c95f117358fe9b5d28302103dda244fdf7e338e1f21cc07111d7b8",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_285.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      37,
+      69,
+      974,
+      555
+    ],
+    "text": "LBYRNTH",
+    "crop": "data/ocr/crops/train/us_train_285_1.png",
+    "image_sha256": "a28b31d15b365c0c73fbd43de05436584142d61db7cf3d82807604eb3475ba57",
+    "crop_sha256": "cd9ddc85c7a7da86663bd7f56dce673cab0774a293b951e7ccf9b1eec1450a20",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_286.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      411,
+      327,
+      608,
+      424
+    ],
+    "text": "FERRARI",
+    "crop": "data/ocr/crops/train/us_train_286_1.png",
+    "image_sha256": "f458da45e937fdb6ed9d7d8678020d71b1c77f6b495aa336f960287ef1083311",
+    "crop_sha256": "14de23fc19dc9406c4c4738fe22582dc9df1536031b074d4896031d2a4529104",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_287.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      811,
+      143,
+      890,
+      182
+    ],
+    "text": "5NCP692",
+    "crop": "data/ocr/crops/train/us_train_287_1.png",
+    "image_sha256": "6907c1f4dd7d6d9762407d60d455ac6ee0306dde9cfa647e6c609018f7e40375",
+    "crop_sha256": "c8d636e11afb88e80387e0ad93c3227ed151b4cf7728e8e6a796497f1dcc43e0",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_288.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      477,
+      422,
+      611,
+      489
+    ],
+    "text": "CWM3083",
+    "crop": "data/ocr/crops/train/us_train_288_1.png",
+    "image_sha256": "bd619c88c3e6d731e600c5f117a66f5be8a23fb17f9d8dbafa690fcfd94f4ed7",
+    "crop_sha256": "a8d836cb74e79cab567351947d1939d62225046f756f1ae65d24af73e3ff06bc",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_289.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      120,
+      197,
+      221,
+      248
+    ],
+    "text": "HAMSTUR",
+    "crop": "data/ocr/crops/train/us_train_289_1.png",
+    "image_sha256": "1c104d4b18dc1474b8aa861f05f6f6b18b5a3edd82761d58858bed9642885ae1",
+    "crop_sha256": "103da89fc23c59768430b2e3a1cde156accd7dca192c6298adf8b1361d881653",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_290.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      234,
+      273,
+      371,
+      350
+    ],
+    "text": "OMGICU",
+    "crop": "data/ocr/crops/train/us_train_290_1.png",
+    "image_sha256": "c975f19dab5ce9dc692479836f6bac4d9d1081ca3de45a9b34e0a5cb534fb9f3",
+    "crop_sha256": "a3b405c94f1fcf18cb5bfcf63a84022fe8a847bdccc157f439a3e4b0c7f7eacd",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_291.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      551,
+      289,
+      623,
+      325
+    ],
+    "text": "BGB3282",
+    "crop": "data/ocr/crops/train/us_train_291_1.png",
+    "image_sha256": "9c3499f71fc043884bc741c0283fbb8527503fe43ec0973d54d246861140035f",
+    "crop_sha256": "31de7eaaa478176a6c2cdf8ba9642789417178555a5aaea02e20bd6c37fa9ca1",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_292.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      636,
+      188,
+      715,
+      227
+    ],
+    "text": "6LSU216",
+    "crop": "data/ocr/crops/train/us_train_292_1.png",
+    "image_sha256": "9c15a953d77c9a88d3c6731cc20eb5bb9aa0490205c21c45132bd9bdeb0d07ac",
+    "crop_sha256": "c1f8a60676f2f346e51608ce9ec849479a28b89036ffe545d2729909f404246a",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_293.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      381,
+      292,
+      627,
+      412
+    ],
+    "text": "FAST",
+    "crop": "data/ocr/crops/train/us_train_293_1.png",
+    "image_sha256": "48736a1070c059d104f51042b5844d5430c86f5e585430b71f4815fced0c67ce",
+    "crop_sha256": "df4fd0889b24f9e2fe15ae3ad4d24f650afbd8fad2f17a4ce60818a88a827ef7",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_294.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      414,
+      354,
+      588,
+      464
+    ],
+    "text": "HNDAGRL",
+    "crop": "data/ocr/crops/train/us_train_294_1.png",
+    "image_sha256": "f586a419875fdeb9c35eb3e77c9016d5d377d413517e550c4879818fd2869b6a",
+    "crop_sha256": "7ceb6580621e2b9c70f156373b29856289b8941d3875a7ad748f65a502d03178",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_295.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      17,
+      12,
+      624,
+      336
+    ],
+    "text": "NDXVI",
+    "crop": "data/ocr/crops/train/us_train_295_1.png",
+    "image_sha256": "d673150222d7fc4411455d4ddcbcdeaab5e112155bbeb3f01b170b6bc336bf46",
+    "crop_sha256": "24e1877e5bf2d98cec6e6384cb27c1a0cc2ba057dc3a2f1e17f8b7bbb78de2e5",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_296.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      884,
+      431,
+      1416,
+      737
+    ],
+    "text": "BW5F851",
+    "crop": "data/ocr/crops/train/us_train_296_1.png",
+    "image_sha256": "e7f8690aff0566ab830fe82a69426c4969d38ccf7aa5585348365c2cc5e2c33b",
+    "crop_sha256": "e1141d64891028c2ca4b162fef55449a403089cd0777f1cdf47b5e30300219e1",
+    "provenance": "visually_transcribed"
+  },
+  {
+    "name": "us_train_298.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      372,
+      178,
+      508,
+      246
+    ],
+    "text": "R107555",
+    "crop": "data/ocr/crops/train/us_train_298_1.png",
+    "image_sha256": "f985720287e8a497a5db37b6e8278cac00d4ab1387cf5353a503d9956174bd08",
+    "crop_sha256": "64ac7a649bdebe39e0eb79906c9cd66e87959ce5b069d0a4d803ea29170784c8",
+    "provenance": "OpenALPR upstream text annotation (pinned revision in data/selection.json)"
+  },
+  {
+    "name": "us_train_300.jpg",
+    "plate_index": 0,
+    "split": "train",
+    "xyxy": [
+      48,
+      56,
+      200,
+      133
+    ],
+    "text": "749ADO",
+    "crop": "data/ocr/crops/train/us_train_300_1.png",
+    "image_sha256": "622ada2b5bc3da61bd50d6be3072f78d644a036d86f342da465e8856137bd4fe",
+    "crop_sha256": "680744aeda15a7042910333ce79bb8c7d36c378a1397c183d1be1d3222b13a9e",
+    "provenance": "visually_transcribed"
+  }
+]

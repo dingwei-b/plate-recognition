@@ -1,0 +1,9 @@
+{
+  "url": "https://github.com/ankandrew/open-image-models/releases/download/assets/yolo-v9-t-384-license-plates.pt",
+  "sha256": "4d525da3ebe44fb6e6bfe8b05ca717b777db3feb2b44b472250f8b32f4754fdb",
+  "implementation": {
+    "repo": "https://github.com/ankandrew/yolov9",
+    "revision": "2bac800489567ad3f078cbdc161f51904c15c255"
+  },
+  "local_dependency_install": "python -m pip install --target vendor/python ipython==8.37.0"
+}

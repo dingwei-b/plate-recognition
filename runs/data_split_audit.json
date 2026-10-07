@@ -1,0 +1,108 @@
+{
+  "train_images": 300,
+  "test_images": 20,
+  "manifest_image_mismatches": [],
+  "file_duplicate_pairs": [],
+  "decoded_pixel_duplicate_pairs": [],
+  "nearest_perceptual_pairs": [
+    {
+      "test": "us_test_005.jpg",
+      "train": "us_train_091.jpg",
+      "test_source": "openalpr_us:wts-lg-000170.jpg",
+      "train_source": "openalpr_us:wts-lg-000167.jpg",
+      "phash_distance": 12
+    },
+    {
+      "test": "us_test_005.jpg",
+      "train": "us_train_249.jpg",
+      "test_source": "openalpr_us:wts-lg-000170.jpg",
+      "train_source": "openalpr_us:wts-lg-000142.jpg",
+      "phash_distance": 12
+    },
+    {
+      "test": "us_test_005.jpg",
+      "train": "us_train_073.jpg",
+      "test_source": "openalpr_us:wts-lg-000170.jpg",
+      "train_source": "openalpr_us:wts-lg-000143.jpg",
+      "phash_distance": 14
+    },
+    {
+      "test": "us_test_005.jpg",
+      "train": "us_train_129.jpg",
+      "test_source": "openalpr_us:wts-lg-000170.jpg",
+      "train_source": "openalpr_us:wts-lg-000150.jpg",
+      "phash_distance": 14
+    },
+    {
+      "test": "us_test_011.jpg",
+      "train": "us_train_259.jpg",
+      "test_source": "openalpr_us:wts-lg-000171.jpg",
+      "train_source": "openalpr_us:wts-lg-000137.jpg",
+      "phash_distance": 16
+    },
+    {
+      "test": "us_test_001.jpg",
+      "train": "us_train_093.jpg",
+      "test_source": "roboflow_rxg4e:valid/valid/pic_560_jpg.rf.db10eaf878b1adb1d54326a49a2e1251.jpg",
+      "train_source": "roboflow_rxg4e:train/train/pic_252_jpg.rf.1cf1298c8aa45215fd1ffb59bfad8310.jpg",
+      "phash_distance": 18
+    },
+    {
+      "test": "us_test_001.jpg",
+      "train": "us_train_220.jpg",
+      "test_source": "roboflow_rxg4e:valid/valid/pic_560_jpg.rf.db10eaf878b1adb1d54326a49a2e1251.jpg",
+      "train_source": "roboflow_rxg4e:test/test/GS4HE_jpg.rf.8e12dc059a6d3cc2ec67b9ccb199f6f8.jpg",
+      "phash_distance": 18
+    },
+    {
+      "test": "us_test_003.jpg",
+      "train": "us_train_141.jpg",
+      "test_source": "roboflow_rxg4e:train/train/pic_500_jpg.rf.4c4cd4d469664a03c0935c1b16895a5e.jpg",
+      "train_source": "openalpr_us:wts-lg-000199.jpg",
+      "phash_distance": 18
+    },
+    {
+      "test": "us_test_006.jpg",
+      "train": "us_train_017.jpg",
+      "test_source": "roboflow_rxg4e:train/train/pic_432_jpg.rf.45020472115dfab09976f1d4e9a08334.jpg",
+      "train_source": "roboflow_rxg4e:train/train/LNXGEEK_jpg.rf.23f9715ad97109e977e826a289114c58.jpg",
+      "phash_distance": 18
+    },
+    {
+      "test": "us_test_006.jpg",
+      "train": "us_train_255.jpg",
+      "test_source": "roboflow_rxg4e:train/train/pic_432_jpg.rf.45020472115dfab09976f1d4e9a08334.jpg",
+      "train_source": "roboflow_rxg4e:train/train/pic_101_jpg.rf.fa8583ddd6e1d8b5abf76c90763eb95f.jpg",
+      "phash_distance": 18
+    },
+    {
+      "test": "us_test_010.jpg",
+      "train": "us_train_297.jpg",
+      "test_source": "openalpr_us:wts-lg-000160.jpg",
+      "train_source": "roboflow_rxg4e:train/train/pic_212_jpg.rf.331b9394de5b88c48c68c990a497c431.jpg",
+      "phash_distance": 18
+    },
+    {
+      "test": "us_test_011.jpg",
+      "train": "us_train_096.jpg",
+      "test_source": "openalpr_us:wts-lg-000171.jpg",
+      "train_source": "openalpr_us:wts-lg-000158.jpg",
+      "phash_distance": 18
+    }
+  ],
+  "note": "Perceptual similarity is candidate screening, not a guarantee of vehicle-level independence. Pretraining overlap unknown.",
+  "training_code_review": {
+    "gradient_inputs": "data/images/train and data/labels/train only",
+    "test_used_for_checkpoint_selection": false,
+    "checkpoint_rule": "fixed final epoch 20",
+    "selection_manifest_usage": "SHA256 provenance only; manifest test labels not used by loss"
+  },
+  "visual_spot_check": {
+    "test": "us_test_005.jpg",
+    "train": [
+      "us_train_091.jpg",
+      "us_train_249.jpg"
+    ],
+    "finding": "Different vehicles, shared camera location and background. Scene-level independence is not guaranteed."
+  }
+}

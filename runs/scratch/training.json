@@ -1,0 +1,23 @@
+{
+  "epochs": 20,
+  "batch": 8,
+  "lr": 0.0001,
+  "device": "mps",
+  "scratch": true,
+  "seed": 42,
+  "image_size": 384,
+  "train_images": 300,
+  "optimizer": "AdamW",
+  "augmentation": "none (letterbox only)",
+  "selection_sha256": "ab6ac8464dea3a9aa055c296f3f345156c0c59d685c88d6aaf71d3e47c18187e",
+  "initialization": "random",
+  "initial_weights_sha256": "4863911e56def116dd81fc621a80962a5c1a4ac36b52d48d6800c59314126270",
+  "architecture_sha256": "1045d11183068a20bde5bed73c2f4ab3e014c143279214e0e912a09115daa16c",
+  "checkpoint_selection": "last fixed epoch; no validation/test access",
+  "completed_epochs": 20,
+  "optimizer_steps": 760,
+  "training_image_visits": 6000,
+  "changed_parameter_tensors": 672,
+  "seconds": 337.23,
+  "final_weights_sha256": "42d2b28298880796b0a5d5a74d4a99e927e39f2482bad4e788ce175a843f104c"
+}

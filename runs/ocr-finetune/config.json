@@ -1,0 +1,20 @@
+{
+  "epochs": 20,
+  "batch": 16,
+  "lr": 1e-05,
+  "device": "mps",
+  "seed": 42,
+  "train_crops": 277,
+  "parameters": 6018143,
+  "optimizer": "AdamW",
+  "weight_decay": 0.0,
+  "loss": "PARSeq permutation cross-entropy (6 permutations)",
+  "input_size": [
+    32,
+    128
+  ],
+  "augmentation": "none; bicubic resize and normalization only",
+  "train_manifest_sha256": "6513ad363a8c3a9cddf1581eec2d056ce95dc632e46b535761f7d31ea98804e7",
+  "initial_weights_sha256": "e7a21b543c98e67414a584c93b1dbb71c26e9463ae4aaa391d54e833660a4711",
+  "checkpoint_selection": "last fixed epoch; no validation or test access"
+}

@@ -1,0 +1,422 @@
+{
+  "test_images": 20,
+  "train_images": 300,
+  "epochs": 20,
+  "checkpoint_selection": "last fixed epoch, no test-based checkpoint selection",
+  "thresholds": {
+    "precision_recall_confidence": 0.25,
+    "precision_recall_iou": 0.5,
+    "ap_min_confidence": 0.001,
+    "nms_iou": 0.45
+  },
+  "note": "Small workflow test; pretraining overlap and similar images across splits are possible.",
+  "scratch_initialization": "random, architecture only; no pretrained weights loaded",
+  "baseline": {
+    "model": "yolo-v9-t-384-pretrained.pt",
+    "images": 20,
+    "ground_truth_boxes": 20,
+    "predicted_boxes": 24,
+    "true_positives": 20,
+    "false_positives": 4,
+    "false_negatives": 0,
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "map50": 0.9904545454545456,
+    "map50_95": 0.6804146939829104,
+    "per_image": [
+      {
+        "image": "us_test_001.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_002.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_003.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_004.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_005.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_006.jpg",
+        "ground_truth": 1,
+        "predictions": 2,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_007.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_008.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_009.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_010.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_011.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_012.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_013.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_014.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_015.jpg",
+        "ground_truth": 1,
+        "predictions": 2,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_016.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_017.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_018.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_019.jpg",
+        "ground_truth": 1,
+        "predictions": 2,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_020.jpg",
+        "ground_truth": 1,
+        "predictions": 2,
+        "true_positives": 1
+      }
+    ],
+    "sha256": "4d525da3ebe44fb6e6bfe8b05ca717b777db3feb2b44b472250f8b32f4754fdb"
+  },
+  "finetuned": {
+    "model": "yolo-v9-t-384-finetuned.pt",
+    "images": 20,
+    "ground_truth_boxes": 20,
+    "predicted_boxes": 21,
+    "true_positives": 20,
+    "false_positives": 1,
+    "false_negatives": 0,
+    "precision": 0.9523809523809523,
+    "recall": 1.0,
+    "map50": 0.995,
+    "map50_95": 0.7221574224386724,
+    "per_image": [
+      {
+        "image": "us_test_001.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_002.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_003.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_004.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_005.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_006.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_007.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_008.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_009.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_010.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_011.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_012.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_013.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_014.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_015.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_016.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_017.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_018.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_019.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_020.jpg",
+        "ground_truth": 1,
+        "predictions": 2,
+        "true_positives": 1
+      }
+    ],
+    "sha256": "b61a19a3e8409c4820a3a82f5609e130563a9caa64f568e69addbecb7759bb36"
+  },
+  "scratch": {
+    "model": "yolo-v9-t-384-scratch.pt",
+    "images": 20,
+    "ground_truth_boxes": 20,
+    "predicted_boxes": 6,
+    "true_positives": 5,
+    "false_positives": 1,
+    "false_negatives": 15,
+    "precision": 0.8333333333333334,
+    "recall": 0.25,
+    "map50": 0.3910722227296117,
+    "map50_95": 0.11376383004583765,
+    "per_image": [
+      {
+        "image": "us_test_001.jpg",
+        "ground_truth": 1,
+        "predictions": 0,
+        "true_positives": 0
+      },
+      {
+        "image": "us_test_002.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 0
+      },
+      {
+        "image": "us_test_003.jpg",
+        "ground_truth": 1,
+        "predictions": 0,
+        "true_positives": 0
+      },
+      {
+        "image": "us_test_004.jpg",
+        "ground_truth": 1,
+        "predictions": 0,
+        "true_positives": 0
+      },
+      {
+        "image": "us_test_005.jpg",
+        "ground_truth": 1,
+        "predictions": 0,
+        "true_positives": 0
+      },
+      {
+        "image": "us_test_006.jpg",
+        "ground_truth": 1,
+        "predictions": 0,
+        "true_positives": 0
+      },
+      {
+        "image": "us_test_007.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_008.jpg",
+        "ground_truth": 1,
+        "predictions": 0,
+        "true_positives": 0
+      },
+      {
+        "image": "us_test_009.jpg",
+        "ground_truth": 1,
+        "predictions": 0,
+        "true_positives": 0
+      },
+      {
+        "image": "us_test_010.jpg",
+        "ground_truth": 1,
+        "predictions": 0,
+        "true_positives": 0
+      },
+      {
+        "image": "us_test_011.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_012.jpg",
+        "ground_truth": 1,
+        "predictions": 0,
+        "true_positives": 0
+      },
+      {
+        "image": "us_test_013.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_014.jpg",
+        "ground_truth": 1,
+        "predictions": 0,
+        "true_positives": 0
+      },
+      {
+        "image": "us_test_015.jpg",
+        "ground_truth": 1,
+        "predictions": 0,
+        "true_positives": 0
+      },
+      {
+        "image": "us_test_016.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_017.jpg",
+        "ground_truth": 1,
+        "predictions": 0,
+        "true_positives": 0
+      },
+      {
+        "image": "us_test_018.jpg",
+        "ground_truth": 1,
+        "predictions": 1,
+        "true_positives": 1
+      },
+      {
+        "image": "us_test_019.jpg",
+        "ground_truth": 1,
+        "predictions": 0,
+        "true_positives": 0
+      },
+      {
+        "image": "us_test_020.jpg",
+        "ground_truth": 1,
+        "predictions": 0,
+        "true_positives": 0
+      }
+    ],
+    "sha256": "42d2b28298880796b0a5d5a74d4a99e927e39f2482bad4e788ce175a843f104c"
+  }
+}

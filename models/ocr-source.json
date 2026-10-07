@@ -1,0 +1,20 @@
+{
+  "repository": "https://github.com/baudm/parseq",
+  "revision": "1902db043c029a7e03a3818c616c06600af574be",
+  "weights_url": "https://github.com/baudm/parseq/releases/download/v1.0.0/parseq_tiny-e7a21b54.pt",
+  "sha256": "e7a21b543c98e67414a584c93b1dbb71c26e9463ae4aaa391d54e833660a4711",
+  "parameters": 6018143,
+  "input_size": [
+    32,
+    128
+  ],
+  "dependencies": {
+    "torch": "2.7.1",
+    "torchvision": "0.22.1",
+    "Pillow": "11.3.0",
+    "PyYAML": "6.0.2"
+  },
+  "timm": "0.9.16 (vendor/python)",
+  "training_runtime": "Plain PyTorch; original PARSeq permutation loss adapted in ocr_loss.py",
+  "python": "3.10.18"
+}

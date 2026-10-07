@@ -1,0 +1,47 @@
+# Python environments and installed packages
+.venv/
+venv/
+env/
+/vendor/python/
+*.egg-info/
+build/
+dist/
+
+# Python and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+._*
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Private configuration
+.env
+.env.*
+!.env.example
+/.aws/
+/.codex/
+/.agents/
+
+# Temporary files and distribution archives
+*.log
+*.tmp
+*.zip
+*.tar.gz
+/tmp/
+
+# Keep data/, models/, results/, runs/, and upstream model source code versioned.
