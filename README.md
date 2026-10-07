@@ -17,7 +17,9 @@ The required YOLOv9 and PARSeq source code is included in `vendor/yolov9` and `v
 
 ## View results
 
-Open [results/index.html](results/index.html) in a browser. The saved results work without installing dependencies or running a model. Keep the `data` and `results` folders together in the project directory so image links work.
+**On GitHub:** open the [results report](results/README.md) for metrics, test images, and OCR comparisons. Expand each image to see its results.
+
+**After downloading the project:** open [results/index.html](results/index.html) in a browser for the paginated view. The saved results work without installing dependencies or running a model. Keep the `data` and `results` folders together in the project directory so image links work.
 
 Alternatively, serve the project directory:
 
@@ -43,7 +45,9 @@ To update only the OCR predictions and metrics:
 python evaluate_ocr.py
 ```
 
-Both commands update `results/index.html` and `results/detections.json`. Inference runs on the CPU. After changing detector weights, run `python evaluate.py --include-scratch` before rebuilding the comparison.
+Both commands update `results/index.html`, `results/README.md`, and `results/detections.json`. Inference runs on the CPU. After changing detector weights, run `python evaluate.py --include-scratch` before rebuilding the comparison.
+
+To rebuild only the Markdown report from saved predictions, run `python export_results.py`. This uses the Python standard library and does not run any models.
 
 ## Train
 

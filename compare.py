@@ -39,6 +39,8 @@ def main():
         enrich(run)
     (output / "detections.json").write_text(json.dumps(run, indent=2) + "\n")
     gallery(records, output, summary)
+    from export_results import write_report
+    write_report(run, output)
     print(f"Three-model comparison: {output / 'index.html'}")
 
 

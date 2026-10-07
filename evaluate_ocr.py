@@ -98,6 +98,8 @@ def main():
     run = enrich(json.loads(path.read_text()))
     path.write_text(json.dumps(run, indent=2) + '\n')
     gallery(run['images'], path.parent, run['summary'])
+    from export_results import write_report
+    write_report(run, path.parent)
     print(path.parent / 'index.html')
 
 
