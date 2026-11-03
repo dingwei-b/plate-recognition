@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DDOT License Plate Annotation</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header>
+    <div>
+      <h1>DDOT License Plate Annotation</h1>
+      <div class="model-meta">
+        <span id="modelName" class="muted"></span>
+        <span class="meta-divider">·</span>
+        <span id="counts" class="counts">Loading…</span>
+      </div>
+    </div>
+    <nav>
+      <a class="nav-link active" href="/">Annotate</a>
+      <a class="nav-link" href="/browse">Browse</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="prompt-panel">
+      <div class="section-title">
+        <h2>LLM prompt</h2>
+        <div class="actions">
+          <button id="savePrompt">Save prompt</button>
+          <button id="batchLabel" class="primary">Label all unlabeled</button>
+        </div>
+      </div>
+      <textarea id="prompt" rows="7" spellcheck="false"></textarea>
+      <div id="batchStatus" class="status-line"></div>
+    </section>
+
+    <section class="toolbar">
+      <a id="backBrowse" class="button-link back-link" href="/browse" hidden>← Back to Browse</a>
+      <select id="filter" aria-label="Filter annotations">
+        <option value="all">All images</option>
+        <option value="unlabeled">No LLM result</option>
+        <option value="unreviewed">Not confirmed</option>
+        <option value="confirmed">Confirmed</option>
+      </select>
+      <input id="search" type="search" placeholder="Search file, state, or plate">
+      <button id="previous">Previous</button>
+      <span id="position" class="position">0 / 0</span>
+      <button id="next">Next</button>
+      <a class="button-link" href="/api/export/jsonl">Export JSONL</a>
+      <a class="button-link" href="/api/export/csv">Export CSV</a>
+    </section>
+
+    <section id="workspace" class="workspace" hidden>
+      <div class="image-panel">
+        <img id="plateImage" alt="License plate crop">
+        <div id="imageMeta" class="image-meta"></div>
+      </div>
+
+      <div class="result-grid">
+        <article class="result-column">
+          <div class="column-title">
+            <h2>LLM result</h2>
+            <button id="runLlm">Run LLM</button>
+          </div>
+          <dl>
+            <dt>State</dt><dd id="llmState">Not labeled</dd>
+            <dt>Plate</dt><dd id="llmPlate">Not labeled</dd>
+          </dl>
+          <div id="llmTime" class="muted"></div>
+          <button id="copyLlm">Copy to human fields</button>
+        </article>
+
+        <article class="result-column human-column">
+          <div class="column-title">
+            <h2>Human annotation</h2>
+            <span id="humanStatus" class="status-badge">Pending</span>
+          </div>
+          <label for="humanState">State</label>
+          <input id="humanState" autocomplete="off" placeholder="State name or UNKNOWN">
+          <label for="humanPlate">Plate</label>
+          <input id="humanPlate" autocomplete="off" placeholder="Plate number or UNKNOWN">
+          <button id="saveNext" class="primary">Save and next</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="emptyState" class="empty-state" hidden>No images match this filter.</section>
+    <div id="message" class="message" role="status"></div>
+  </main>
+
+  <dialog id="batchDialog" class="confirm-dialog">
+    <h2>Label all unlabeled images?</h2>
+    <p>Every image without an LLM result will be sent to GLM-5.3-flash. This will use API credits.</p>
+    <div class="dialog-actions">
+      <button id="cancelBatch" type="button">Cancel</button>
+      <button id="confirmBatch" type="button" class="primary">Start labeling</button>
+    </div>
+  </dialog>
+  <script src="/static/app.js"></script>
+</body>
+</html>

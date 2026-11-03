@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.py[cod]
+.requirements-*
+data/images/
+data/manifest.json
+results/*
+!results/.gitkeep

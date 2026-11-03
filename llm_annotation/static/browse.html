@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Browse Annotations · DDOT</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Browse Annotations</h1>
+      <span class="muted">Compact review of images and results</span>
+    </div>
+    <div class="header-right">
+      <nav>
+        <a class="nav-link" href="/">Annotate</a>
+        <a class="nav-link active" href="/browse">Browse</a>
+      </nav>
+      <div id="counts" class="counts">Loading…</div>
+    </div>
+  </header>
+
+  <main class="browse-main">
+    <section class="toolbar browse-toolbar">
+      <select id="filter" aria-label="Filter annotations">
+        <option value="all">All images</option>
+        <option value="unlabeled">No LLM result</option>
+        <option value="unreviewed">Not confirmed</option>
+        <option value="confirmed">Confirmed</option>
+        <option value="match">LLM correct</option>
+        <option value="disagreement">LLM incorrect</option>
+        <option value="unknown">Contains UNKNOWN</option>
+      </select>
+      <input id="search" type="search" placeholder="Search file, state, or plate">
+      <label class="muted" for="pageSize">Per page</label>
+      <select id="pageSize" aria-label="Items per page">
+        <option value="24">24</option>
+        <option value="48">48</option>
+        <option value="96">96</option>
+      </select>
+      <span id="summary" class="result-summary"></span>
+    </section>
+
+    <section id="gallery" class="gallery" aria-live="polite"></section>
+    <section id="emptyState" class="empty-state" hidden>No images match this filter.</section>
+    <nav class="pagination" aria-label="Pagination">
+      <button id="previous">Previous</button>
+      <div id="pageNumbers" class="page-numbers"></div>
+      <button id="next">Next</button>
+    </nav>
+    <div id="message" class="message" role="status"></div>
+  </main>
+  <script src="/static/browse.js"></script>
+</body>
+</html>
